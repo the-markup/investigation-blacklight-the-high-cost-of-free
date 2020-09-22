@@ -1,0 +1,26 @@
+{
+  "browser_cookies": [
+    {
+      "name": "Session-Id",
+      "value": "XtWepyLUH4Z4JuL0JOUsLAAAAPA",
+      "domain": "protonmail.com",
+      "path": "/",
+      "expires": "2020-08-31T00:34:54.561Z",
+      "size": 37,
+      "httpOnly": true,
+      "secure": true,
+      "session": false
+    },
+    {
+      "name": "Version",
+      "value": "default",
+      "domain": "protonmail.com",
+      "path": "/",
+      "expires": "2020-08-31T00:34:54.561Z",
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false
+    }
+  ]
+}

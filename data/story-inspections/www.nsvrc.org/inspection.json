@@ -1,0 +1,2900 @@
+{
+  "title": "vulnerable-groups-sites",
+  "uri_ins": "https://www.nsvrc.org/",
+  "uri_dest": "https://www.nsvrc.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.nsvrc.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.138-99.102.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.157.5",
+    "version": {
+      "npm": "0.0.6",
+      "commit": null
+    },
+    "node_version": "v12.14.1"
+  },
+  "start_time": "2020-02-21T16:41:11.780Z",
+  "end_time": "2020-02-21T16:41:28.134Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.nsvrc.org/",
+    "https://www.nsvrc.org/raliance",
+    "https://www.nsvrc.org/blogs",
+    "https://www.nsvrc.org/how-to-help"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.nsvrc.org"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "use.typekit.net",
+        "s7.addthis.com",
+        "www.google-analytics.com",
+        "z.moatads.com",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "p.typekit.net",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net",
+        "tags.bluekai.com",
+        "dpm.demdex.net",
+        "match.adsrvr.org",
+        "sync.mathtag.com",
+        "secure.adnxs.com",
+        "cm.g.doubleclick.net",
+        "pm.w55c.net",
+        "su.addthis.com",
+        "x.dlx.addthis.com",
+        "epiv.cardlytics.com",
+        "pixel-sync.sitescout.com",
+        "cms.analytics.yahoo.com",
+        "psi.tubemogul.com",
+        "d.turn.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.1627696579.1582303273",
+        "domain": "nsvrc.org",
+        "path": "/",
+        "expires": 1645375284,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:41:24.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344884,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:24.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvc",
+        "value": "4%7C8",
+        "domain": "www.nsvrc.org",
+        "path": "/",
+        "expires": 1616344884,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-21T16:41:24.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uvc",
+        "value": "4%7C8",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344884,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:24.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wfivefivec",
+        "value": "Fcr4eF7v1J5bmA5",
+        "domain": "w55c.net",
+        "path": "/",
+        "expires": 1616344876.822842,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:16.822Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuidc",
+        "value": "sO852jadceePsAkuFaiIcT6w0MfGsVvyLTwAbPIdxFHYlJOPoES5RTL+/WODcVELB37TjW4eU+9nQHTHltatwIFefJWy92cOoarsf3ZvL7o=",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258476.904573,
+        "size": 113,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-20T16:41:16.904Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "931e5e50-082c-4c00-8993-4a7f4baa848b",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258476.904525,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-20T16:41:16.904Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e50082914e30276",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999285.100202,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:25.100Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e500829000163c0df39f3b2edefd603a91945d496cb37385bad",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999285.100171,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:25.100Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mus",
+        "value": "0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999285.100109,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:25.100Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020022116411309000982440251",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999273.12296,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:13.122Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHYWRkdGhpcxILCLatnvfcvZs4EAUYBSABKAIyCwjowpyj872bOBAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925676.888398,
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:16.888Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "ed6858c6-4a1a-48fb-b200-297c2f26c794",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925676.888353,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:16.888Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFeUVleWUIb8gPd",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.044528,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:21.044Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "f39s5dhf5021h&b=3&s=9v",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.044517,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:21.044Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBDEIUF4CEAM8nRxzvyHJW_2tJWyFp_EFEgEBAQFZUV5ZXgAAAAAA_SMAAA&S=AQAAAtF1RdPTt2Z3ilnrcaoezik",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.044389,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T22:41:21.044Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "37633c16-9f15-4261-bedd-78460adb04c6#1582303280986",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": 1613839282.025174,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:22.025Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tmid",
+        "value": "-8026777491571758860",
+        "domain": "tubemogul.com",
+        "path": "/",
+        "expires": 1613839281.050605,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:21.050Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "8681094111039449174",
+        "domain": "turn.com",
+        "path": "/",
+        "expires": 1597855286.039653,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:26.039Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99Yy/DaTtRUWg",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855281.09491,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:21.094Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mv3",
+        "value": "py7PKK1nHJzJc97TA9Ik1xblvW13kJJGRr%2f4CbZgtt4AOWakHnm6k0bH2iWwG6064NcgSDJUETDJJ%2bA6O67XTQ%3d%3d",
+        "domain": "cardlytics.com",
+        "path": "/",
+        "expires": 1597855281.049454,
+        "size": 99,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:21.049Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855276.947378,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:16.947Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "11621888734749164652637367405464499873",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1597855276.907366,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:16.907Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "11621888734749164652637367405464499873",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1597855276.907332,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:16.907Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "3763500447752194658",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1590079276.931058,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-05-21T16:41:16.931Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1150321910.1582303273",
+        "domain": "nsvrc.org",
+        "path": "/",
+        "expires": 1582389684,
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-22T16:41:24.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e500828247aaea0003",
+        "domain": "www.nsvrc.org",
+        "path": "/",
+        "expires": 1582305084,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:11:24.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1582304176.825281,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T16:56:16.825Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "nsvrc.org",
+        "path": "/",
+        "expires": 1582303332,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T16:42:12.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "4d2e0045874a29cb",
+        "domain": "nr-data.net",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://www.nsvrc.org/sites/default/files/js/js_z6VNwdMtgOTh-7MT4Gv5oo2dWtvhL57eut-VShKSm90.js": [
+          "keyup"
+        ],
+        "https://www.nsvrc.org/how-to-help": [
+          "keydown"
+        ],
+        "https://www.nsvrc.org/blogs": [
+          "keydown"
+        ],
+        "https://www.nsvrc.org/raliance": [
+          "keydown"
+        ],
+        "https://www.nsvrc.org/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ],
+        "https://www.nsvrc.org/sites/default/files/js/js_z6VNwdMtgOTh-7MT4Gv5oo2dWtvhL57eut-VShKSm90.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.nsvrc.org/sites/default/files/js/js_z6VNwdMtgOTh-7MT4Gv5oo2dWtvhL57eut-VShKSm90.js": [
+          "mousedown"
+        ],
+        "https://www.nsvrc.org/how-to-help": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.nsvrc.org/blogs": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.nsvrc.org/raliance": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.nsvrc.org/": [
+          "mousedown",
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.nsvrc.org/how-to-help": [
+          "touchstart"
+        ],
+        "https://www.nsvrc.org/blogs": [
+          "touchstart"
+        ],
+        "https://www.nsvrc.org/raliance": [
+          "touchstart"
+        ],
+        "https://www.nsvrc.org/": [
+          "touchstart"
+        ]
+      }
+    },
+    "data_exfiltration": {},
+    "canvas_fingerprinters": {
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://js-agent.newrelic.com/nr-1167.min.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://www.nsvrc.org/sites/default/files/js/js_z6VNwdMtgOTh-7MT4Gv5oo2dWtvhL57eut-VShKSm90.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.userAgent"
+        ],
+        "https://use.typekit.net/dpn0svg.js": [
+          "window.navigator.vendor",
+          "window.navigator.userAgent"
+        ],
+        "https://www.nsvrc.org/how-to-help": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.nsvrc.org/blogs": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.nsvrc.org/raliance": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.nsvrc.org/": [
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://www.google-analytics.com/analytics.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 4,
+            "puid": 8681094111039449000,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=4&puid=8681094111039449174&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KdlNBWFgNHBMEV11vBlZTXVQ=",
+            "rst": 792,
+            "ref": "https://www.nsvrc.org/how-to-help",
+            "ap": 25,
+            "be": 109,
+            "fe": 757,
+            "dc": 311,
+            "perf": {
+              "timing": {
+                "of": 1582303284154,
+                "n": 0,
+                "u": 73,
+                "ue": 73,
+                "f": 0,
+                "dn": 0,
+                "dne": 0,
+                "c": 0,
+                "ce": 0,
+                "rq": 1,
+                "rp": 68,
+                "rpe": 70,
+                "dl": 78,
+                "di": 310,
+                "ds": 310,
+                "de": 373,
+                "dc": 756,
+                "l": 756,
+                "le": 769
+              },
+              "navigation": {}
+            },
+            "fp": 430,
+            "fcp": 430,
+            "at": "S0dWEg9KSh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KdlNBWFgNHBMEV11vBlZTXVQ%3D&rst=792&ref=https://www.nsvrc.org/how-to-help&ap=25&be=109&fe=757&dc=311&perf=%7B%22timing%22:%7B%22of%22:1582303284154,%22n%22:0,%22u%22:73,%22ue%22:73,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:1,%22rp%22:68,%22rpe%22:70,%22dl%22:78,%22di%22:310,%22ds%22:310,%22de%22:373,%22dc%22:756,%22l%22:756,%22le%22:769%7D,%22navigation%22:%7B%7D%7D&fp=430&fcp=430&at=S0dWEg9KSh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e5008344ab1b9be",
+            "uid": "5e50082914e30276",
+            "ids": 8791,
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e5008344ab1b9be&uid=5e50082914e30276&ids=8791&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1595446547,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nsvrc.org/how-to-help",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "How to Help Survivors | National Sexual Violence Resource Center (NSVRC)",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1627696579.1582303,
+            "tid": "UA-9619701-1",
+            "_gid": 1150321910.1582303,
+            "z": 962274552
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1595446547&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nsvrc.org%2Fhow-to-help&ul=en-us&de=UTF-8&dt=How%20to%20Help%20Survivors%20%7C%20National%20Sexual%20Violence%20Resource%20Center%20(NSVRC)&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=1627696579.1582303273&tid=UA-9619701-1&_gid=1150321910.1582303273&z=962274552"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e5008344ab1b9be",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 130,
+            "sid": "5e5008344ab1b9be",
+            "pub": "ra-53556ef350af2376",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.nsvrc.org",
+            "fp": "how-to-help",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303284505,
+            "jsl": 1,
+            "uvs": "5e500828247aaea0003",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__6519287746374070"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e5008344ab1b9be&bkl=0&bl=1&pdt=130&sid=5e5008344ab1b9be&pub=ra-53556ef350af2376&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.nsvrc.org&fp=how-to-help&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303284505&jsl=1&uvs=5e500828247aaea0003&skipb=1&callback=addthis.cbs.jsonp__6519287746374070"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-53556ef350af2376/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "dpn0svg",
+            "ht": "tk",
+            "h": "www.nsvrc.org",
+            "f": "137.139.175.5474",
+            "a": 7464245,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303284345
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=dpn0svg&ht=tk&h=www.nsvrc.org&f=137.139.175.5474&a=7464245&js=1.19.2&app=typekit&e=js&_=1582303284345"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/how-to-help",
+            "source": "requested from https://www.nsvrc.org/how-to-help and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc=",
+            "rst": 4232,
+            "ref": "https://www.nsvrc.org/blogs"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc%3D&rst=4232&ref=https://www.nsvrc.org/blogs"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 5460,
+            "ivh": 812,
+            "dt": 3439,
+            "pdt": 235,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|236|0,lojson|529|82,sh|534|37",
+            "rndr": "render_toolbox|833",
+            "cmenu": null,
+            "ppd": 6,
+            "ppl": 6,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.4.1,googleanalytics-analytics.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50083021ffced5",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-53556ef350af2376",
+            "dp": "www.nsvrc.org",
+            "fp": "blogs",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=5460&ivh=812&dt=3439&pdt=235&ict=&pct=0&perf=widget%7C236%7C0%2Clojson%7C529%7C82%2Csh%7C534%7C37&rndr=render_toolbox%7C833&cmenu=null&ppd=6&ppl=6&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.4.1%2Cgoogleanalytics-analytics.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e50083021ffced5&rev=v8.28.3-wp&pub=ra-53556ef350af2376&dp=www.nsvrc.org&fp=blogs&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 24,
+            "puid": -8026777491571759000,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=24&puid=-8026777491571758860&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11147,
+            "puid": "8523a4263b4049dd8e8437f1e5b0081e",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11147&puid=8523a4263b4049dd8e8437f1e5b0081e&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11156,
+            "ssrc": 1,
+            "puid": "c_EJjf1BsGv6Pz35KR6SZK_L1tfuhupqqOQNgg--"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11156&ssrc=1&puid=c_EJjf1BsGv6Pz35KR6SZK_L1tfuhupqqOQNgg--"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11185,
+            "puid": "37633c16-9f15-4261-bedd-78460adb04c6-5e500830-5553",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11185&puid=37633c16-9f15-4261-bedd-78460adb04c6-5e500830-5553&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "",
+            "BK_SWAP_DEST": 2981,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2981?id=&BK_SWAP_DEST=2981&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=23&puidKey=google_gid&ssrc=1&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc=",
+            "rst": 991,
+            "ref": "https://www.nsvrc.org/blogs",
+            "ap": 118,
+            "be": 210,
+            "fe": 949,
+            "dc": 474,
+            "perf": {
+              "timing": {
+                "of": 1582303279994,
+                "n": 0,
+                "u": 168,
+                "ue": 168,
+                "f": 0,
+                "dn": 0,
+                "dne": 0,
+                "c": 0,
+                "ce": 0,
+                "rq": 1,
+                "rp": 163,
+                "rpe": 165,
+                "dl": 173,
+                "di": 474,
+                "ds": 474,
+                "de": 535,
+                "dc": 949,
+                "l": 949,
+                "le": 950
+              },
+              "navigation": {}
+            },
+            "fp": 609,
+            "fcp": 609,
+            "at": "S0dWEg9KSh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc%3D&rst=991&ref=https://www.nsvrc.org/blogs&ap=118&be=210&fe=949&dc=474&perf=%7B%22timing%22:%7B%22of%22:1582303279994,%22n%22:0,%22u%22:168,%22ue%22:168,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:1,%22rp%22:163,%22rpe%22:165,%22dl%22:173,%22di%22:474,%22ds%22:474,%22de%22:535,%22dc%22:949,%22l%22:949,%22le%22:950%7D,%22navigation%22:%7B%7D%7D&fp=609&fcp=609&at=S0dWEg9KSh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "BK_SWAP_DEST": 2981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&BK_SWAP_DEST=2981"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "addthis",
+            "google_cm": null,
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=addthis&google_cm&pid=23&puidKey=google_gid&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "ADDIS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cms.analytics.yahoo.com/cms?partner_id=ADDIS"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e50083021ffced5",
+            "uid": "5e50082914e30276",
+            "ids": "8819-8817-8803-8787-8808-8801",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e50083021ffced5&uid=5e50082914e30276&ids=8819-8817-8803-8787-8808-8801&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1832494955,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nsvrc.org/blogs",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "| National Sexual Violence Resource Center (NSVRC)",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1627696579.1582303,
+            "tid": "UA-9619701-1",
+            "_gid": 1150321910.1582303,
+            "z": 457629638
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1832494955&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nsvrc.org%2Fblogs&ul=en-us&de=UTF-8&dt=%7C%20National%20Sexual%20Violence%20Resource%20Center%20(NSVRC)&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=1627696579.1582303273&tid=UA-9619701-1&_gid=1150321910.1582303273&z=457629638"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50083021ffced5",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 235,
+            "sid": "5e50083021ffced5",
+            "pub": "ra-53556ef350af2376",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.nsvrc.org",
+            "fp": "blogs",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303280509,
+            "jsl": 1,
+            "uvs": "5e500828247aaea0002",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__53104341005418720"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50083021ffced5&bkl=0&bl=1&pdt=235&sid=5e50083021ffced5&pub=ra-53556ef350af2376&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.nsvrc.org&fp=blogs&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303280509&jsl=1&uvs=5e500828247aaea0002&skipb=1&callback=addthis.cbs.jsonp__53104341005418720"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-53556ef350af2376/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "dpn0svg",
+            "ht": "tk",
+            "h": "www.nsvrc.org",
+            "f": "137.139.175.5474",
+            "a": 7464245,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303280371
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=dpn0svg&ht=tk&h=www.nsvrc.org&f=137.139.175.5474&a=7464245&js=1.19.2&app=typekit&e=js&_=1582303280371"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/blogs",
+            "source": "requested from https://www.nsvrc.org/blogs and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KdlNBWFgNHCcXRUhRCWtzWkNSP34GC0VkdABRUUBdQy5WDRB8UV4OY0JQVHoCXQoVRVRREVhCRhwJBFYNAEJZRAB+XlFUTyJdBzZfSkQ=",
+            "rst": 4986,
+            "ref": "https://www.nsvrc.org/raliance"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KdlNBWFgNHCcXRUhRCWtzWkNSP34GC0VkdABRUUBdQy5WDRB8UV4OY0JQVHoCXQoVRVRREVhCRhwJBFYNAEJZRAB%2BXlFUTyJdBzZfSkQ%3D&rst=4986&ref=https://www.nsvrc.org/raliance"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 2426,
+            "ivh": 812,
+            "dt": 3538,
+            "pdt": 832,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|832|0,lojson|1076|212,sh|1092|76",
+            "rndr": "render_toolbox|1428",
+            "cmenu": null,
+            "ppd": 6,
+            "ppl": 6,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.4.1,googleanalytics-analytics.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50082c3d675279",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-53556ef350af2376",
+            "dp": "www.nsvrc.org",
+            "fp": "raliance",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=2426&ivh=812&dt=3538&pdt=832&ict=&pct=0&perf=widget%7C832%7C0%2Clojson%7C1076%7C212%2Csh%7C1092%7C76&rndr=render_toolbox%7C1428&cmenu=null&ppd=6&ppl=6&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.4.1%2Cgoogleanalytics-analytics.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e50082c3d675279&rev=v8.28.3-wp&pub=ra-53556ef350af2376&dp=www.nsvrc.org&fp=raliance&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 6,
+            "puid": 3763500447752194600,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=6&puid=3763500447752194658&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 16,
+            "puid": 1.1621888734749164e+37,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=16&puid=11621888734749164652637367405464499873&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11112,
+            "puid": "931e5e50-082c-4c00-8993-4a7f4baa848b",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11112&puid=931e5e50-082c-4c00-8993-4a7f4baa848b&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11124,
+            "puid": "ed6858c6-4a1a-48fb-b200-297c2f26c794",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11124&puid=ed6858c6-4a1a-48fb-b200-297c2f26c794&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "931e5e50-082c-4c00-8993-4a7f4baa848b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1&mm_bnc&mm_bct&UUID=931e5e50-082c-4c00-8993-4a7f4baa848b"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": "",
+            "google_tc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm=&google_tc="
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 420,
+            "dpuuid": "5e50082914e30276",
+            "redir": "https://su.addthis.com/red/usync?pid=16&puid=${DD_UUID}&ssrc=3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=420&dpuuid=5e50082914e30276&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KdlNBWFgNHCcXRUhRCWtzWkNSP34GC0VkdABRUUBdQy5WDRB8UV4OY0JQVHoCXQoVRVRREVhCRhwJBFYNAEJZRAB+XlFUTyJdBzZfSkQ=",
+            "rst": 1631,
+            "ref": "https://www.nsvrc.org/raliance",
+            "ap": 698,
+            "be": 810,
+            "fe": 1534,
+            "dc": 1029,
+            "perf": {
+              "timing": {
+                "of": 1582303275175,
+                "n": 0,
+                "u": 755,
+                "ue": 755,
+                "f": 8,
+                "dn": 8,
+                "dne": 8,
+                "c": 8,
+                "ce": 8,
+                "rq": 9,
+                "rp": 750,
+                "rpe": 751,
+                "dl": 770,
+                "di": 1029,
+                "ds": 1029,
+                "de": 1092,
+                "dc": 1534,
+                "l": 1534,
+                "le": 1535
+              },
+              "navigation": {}
+            },
+            "fp": 1152,
+            "fcp": 1152,
+            "at": "S0dWEg9KSh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KdlNBWFgNHCcXRUhRCWtzWkNSP34GC0VkdABRUUBdQy5WDRB8UV4OY0JQVHoCXQoVRVRREVhCRhwJBFYNAEJZRAB%2BXlFUTyJdBzZfSkQ%3D&rst=1631&ref=https://www.nsvrc.org/raliance&ap=698&be=810&fe=1534&dc=1029&perf=%7B%22timing%22:%7B%22of%22:1582303275175,%22n%22:0,%22u%22:755,%22ue%22:755,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22ce%22:8,%22rq%22:9,%22rp%22:750,%22rpe%22:751,%22dl%22:770,%22di%22:1029,%22ds%22:1029,%22de%22:1092,%22dc%22:1534,%22l%22:1534,%22le%22:1535%7D,%22navigation%22:%7B%7D%7D&fp=1152&fcp=1152&at=S0dWEg9KSh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||w55c.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "st": "addthis",
+            "rurl": "https://su.addthis.com/red/usync?pid=5&puid=_wfivefivec_&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||w55c.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm.w55c.net/ping_match.gif?st=addthis&rurl=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D5%26puid%3D_wfivefivec_%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=420&dpuuid=5e50082914e30276&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e50082c3d675279",
+            "uid": "5e50082914e30276",
+            "ids": "8788-8795-8822-8796-8797-5470-5846",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e50082c3d675279&uid=5e50082914e30276&ids=8788-8795-8822-8796-8797-5470-5846&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1856207881,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nsvrc.org/raliance",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Raliance | National Sexual Violence Resource Center (NSVRC)",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1627696579.1582303,
+            "tid": "UA-9619701-1",
+            "_gid": 1150321910.1582303,
+            "z": 1726485232
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1856207881&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nsvrc.org%2Fraliance&ul=en-us&de=UTF-8&dt=Raliance%20%7C%20National%20Sexual%20Violence%20Resource%20Center%20(NSVRC)&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=1627696579.1582303273&tid=UA-9619701-1&_gid=1150321910.1582303273&z=1726485232"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50082c3d675279",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 832,
+            "sid": "5e50082c3d675279",
+            "pub": "ra-53556ef350af2376",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.nsvrc.org",
+            "fp": "raliance",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303276250,
+            "jsl": 1,
+            "uvs": "5e500828247aaea0001",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__272487781148234240"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50082c3d675279&bkl=0&bl=1&pdt=832&sid=5e50082c3d675279&pub=ra-53556ef350af2376&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.nsvrc.org&fp=raliance&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303276250&jsl=1&uvs=5e500828247aaea0001&skipb=1&callback=addthis.cbs.jsonp__272487781148234240"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-53556ef350af2376/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "dpn0svg",
+            "ht": "tk",
+            "h": "www.nsvrc.org",
+            "f": "137.139.175.5474",
+            "a": 7464245,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303276068
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=dpn0svg&ht=tk&h=www.nsvrc.org&f=137.139.175.5474&a=7464245&js=1.19.2&app=typekit&e=js&_=1582303276068"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/raliance",
+            "source": "requested from https://www.nsvrc.org/raliance and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc=",
+            "rst": 3921,
+            "ref": "https://www.nsvrc.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc%3D&rst=3921&ref=https://www.nsvrc.org/"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 0,
+            "ph": 3526,
+            "ivh": 812,
+            "dt": 1577,
+            "pdt": 222,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|223|217,lojson|963|153,sh|981|77",
+            "rndr": "render_toolbox|1316",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.4.1,googleanalytics-analytics.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e500828a0d7ec3c",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-53556ef350af2376",
+            "dp": "www.nsvrc.org",
+            "fp": "",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=0&ph=3526&ivh=812&dt=1577&pdt=222&ict=&pct=0&perf=widget%7C223%7C217%2Clojson%7C963%7C153%2Csh%7C981%7C77&rndr=render_toolbox%7C1316&cmenu=null&ppd=0&ppl=0&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.4.1%2Cgoogleanalytics-analytics.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e500828a0d7ec3c&rev=v8.28.3-wp&pub=ra-53556ef350af2376&dp=www.nsvrc.org&fp=&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 91162169,
+            "v": "1167.2a4546b",
+            "to": "ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc=",
+            "rst": 1522,
+            "ref": "https://www.nsvrc.org/",
+            "ap": 174,
+            "be": 224,
+            "fe": 1459,
+            "dc": 902,
+            "perf": {
+              "timing": {
+                "of": 1582303272007,
+                "n": 0,
+                "f": 0,
+                "dn": 1,
+                "dne": 81,
+                "c": 81,
+                "s": 81,
+                "ce": 163,
+                "rq": 163,
+                "rp": 189,
+                "rpe": 191,
+                "dl": 196,
+                "di": 902,
+                "ds": 902,
+                "de": 982,
+                "dc": 1458,
+                "l": 1459,
+                "le": 1460
+              },
+              "navigation": {}
+            },
+            "fp": 495,
+            "fcp": 495,
+            "at": "S0dWEg9KSh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/62d538ca9c?a=91162169&v=1167.2a4546b&to=ZwBVZEdQWRBSABFZV15KYkJcHhgKXQcASBZADUc%3D&rst=1522&ref=https://www.nsvrc.org/&ap=174&be=224&fe=1459&dc=902&perf=%7B%22timing%22:%7B%22of%22:1582303272007,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:81,%22c%22:81,%22s%22:81,%22ce%22:163,%22rq%22:163,%22rp%22:189,%22rpe%22:191,%22dl%22:196,%22di%22:902,%22ds%22:902,%22de%22:982,%22dc%22:1458,%22l%22:1459,%22le%22:1460%7D,%22navigation%22:%7B%7D%7D&fp=495&fcp=495&at=S0dWEg9KSh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "dpn0svg",
+            "ht": "tk",
+            "h": "www.nsvrc.org",
+            "f": "137.139.175.5474",
+            "a": 7464245,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303273227
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=dpn0svg&ht=tk&h=www.nsvrc.org&f=137.139.175.5474&a=7464245&js=1.19.2&app=typekit&e=js&_=1582303273227"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e500828a0d7ec3c",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 222,
+            "sid": "5e500828a0d7ec3c",
+            "pub": "ra-53556ef350af2376",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.nsvrc.org",
+            "fp": "node",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303272969,
+            "jsl": 1,
+            "uvs": "5e500828247aaea0000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__38449119901415750"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e500828a0d7ec3c&bkl=0&bl=1&pdt=222&sid=5e500828a0d7ec3c&pub=ra-53556ef350af2376&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.nsvrc.org&fp=node&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303272969&jsl=1&uvs=5e500828247aaea0000&skipb=1&callback=addthis.cbs.jsonp__38449119901415750"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-53556ef350af2376/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 671155995,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.nsvrc.org/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "| National Sexual Violence Resource Center (NSVRC)",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "YEBAAEABAAAAAC~",
+            "jid": 1689407235,
+            "gjid": 307736510,
+            "cid": 1627696579.1582303,
+            "tid": "UA-9619701-1",
+            "_gid": 1150321910.1582303,
+            "_r": 1,
+            "z": 542730884
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&aip=1&a=671155995&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nsvrc.org%2F&ul=en-us&de=UTF-8&dt=%7C%20National%20Sexual%20Violence%20Resource%20Center%20(NSVRC)&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YEBAAEABAAAAAC~&jid=1689407235&gjid=307736510&cid=1627696579.1582303273&tid=UA-9619701-1&_gid=1150321910.1582303273&_r=1&z=542730884"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.nsvrc.org/",
+            "source": "requested from https://www.nsvrc.org/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

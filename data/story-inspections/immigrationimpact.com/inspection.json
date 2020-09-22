@@ -1,0 +1,3942 @@
+{
+  "title": "vulnerable-groups-sites",
+  "uri_ins": "http://immigrationimpact.com/",
+  "uri_dest": "https://immigrationimpact.com/",
+  "uri_redirects": [
+    "http://immigrationimpact.com/"
+  ],
+  "secure_connection": {},
+  "host": "immigrationimpact.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.138-99.102.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.6.85",
+    "version": {
+      "npm": "0.0.6",
+      "commit": null
+    },
+    "node_version": "v12.14.1"
+  },
+  "start_time": "2020-02-21T16:40:52.180Z",
+  "end_time": "2020-02-21T16:41:09.754Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://immigrationimpact.com/",
+    "https://immigrationimpact.com/category/humanitarian-protection-immigration",
+    "https://immigrationimpact.com/category/enforcement",
+    "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "immigrationimpact.com"
+      ],
+      "third_party": [
+        "s7.addthis.com",
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "z.moatads.com",
+        "immigrationimpact.disqus.com",
+        "fonts.gstatic.com",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "js-agent.newrelic.com",
+        "bam.nr-data.net",
+        "maps.googleapis.com",
+        "tags.bluekai.com",
+        "dpm.demdex.net",
+        "match.adsrvr.org",
+        "sync.mathtag.com",
+        "secure.adnxs.com",
+        "cm.g.doubleclick.net",
+        "graph.facebook.com",
+        "widgets.pinterest.com",
+        "api-public.addthis.com",
+        "su.addthis.com",
+        "x.dlx.addthis.com",
+        "pixel-sync.sitescout.com",
+        "cms.analytics.yahoo.com",
+        "epiv.cardlytics.com",
+        "psi.tubemogul.com",
+        "pm.w55c.net",
+        "c.disquscdn.com",
+        "disqus.com",
+        "a.disquscdn.com",
+        "data",
+        "connect.facebook.net",
+        "apis.google.com",
+        "cdn.viglink.com",
+        "www.facebook.com",
+        "accounts.google.com",
+        "ssl.gstatic.com",
+        "glitter.services.disqus.com",
+        "links.services.disqus.com",
+        "x.disq.us",
+        "referrer.disqus.com",
+        "live.rezync.com",
+        "pippio.com",
+        "io.narrative.io",
+        "ib.adnxs.com",
+        "ce.lijit.com",
+        "s.cpx.to",
+        "idsync.rlcdn.com",
+        "ei.rlcdn.com",
+        "tag.apxlv.com",
+        "p.adsymptotic.com",
+        "rc.rlcdn.com",
+        "usermatch.krxd.net",
+        "s.amazon-adsystem.com",
+        "tag.cogocast.net",
+        "beacon.krxd.net",
+        "gpush.cogocast.net",
+        "p.rfihub.com",
+        "pixel.tapad.com",
+        "ads.scorecardresearch.com",
+        "a.rfihub.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "G_ENABLED_IDPS",
+        "value": "google",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 253402257600,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "9999-12-31T12:00:00.000Z",
+        "expiresDays": 2914582.8,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "zync-uuid",
+        "value": "b57db08f-9667-418a-9373-b82828dfc7d7:1582303266.42",
+        "domain": "rezync.com",
+        "path": "/",
+        "expires": 1897634466.474042,
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2030-02-18T08:41:06.474Z",
+        "expiresDays": 3649.67,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": 1743525666.614902,
+        "size": 11,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2025-04-01T16:41:06.614Z",
+        "expiresDays": 1866,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sd-session-id",
+        "value": ".eJwVykELgjAYgOG_Et_Zg00JEroZMmgbgR22i5ibuWVmbhJO_O-t2_vAu0I1qulVD2pwkLlpVhE0vQ6ykK0gtf3MoaBBqTyOvUQH3dZpC1sEVlmr30Ol5f_c3cPFzS0RBf6ygjtWckSXOCZl113Kp6eeOG4eC8txKgphKLomzJz3wZ7kZKGGzzTHJ9i2H81rMbY.ETGZog.4I00zJFYLIylAi1D2KEkxFyfLOU",
+        "domain": "live.rezync.com",
+        "path": "/",
+        "expires": 1739983266.731266,
+        "size": 244,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2025-02-19T16:41:06.731Z",
+        "expiresDays": 1825,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1314181370.1582303254",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1645375264,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:41:04.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "dc_id",
+        "value": "04958103738d40568312931a8733f498||t=1582303266",
+        "domain": "cogocast.net",
+        "path": "/",
+        "expires": 1645315200.736727,
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T00:00:00.736Z",
+        "expiresDays": 729.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UIDR",
+        "value": "1582303266",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": 1644511266.651476,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-10T16:41:06.651Z",
+        "expiresDays": 720,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UID",
+        "value": "1F018428a17a31a1641e8971582303266",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": 1644511266.651433,
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-10T16:41:06.651Z",
+        "expiresDays": 720,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dc_id",
+        "value": "04958103738d40568312931a8733f498||t=1582303266",
+        "domain": "apxlv.com",
+        "path": "/",
+        "expires": 1640995200.750699,
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-01-01T00:00:00.750Z",
+        "expiresDays": 679.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "io.narrative.guid.v2",
+        "value": "f48af040-54c8-11ea-8adf-0accd915b97b",
+        "domain": "io.narrative.io",
+        "path": "/",
+        "expires": 1629581346.231708,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-08-21T21:29:06.231Z",
+        "expiresDays": 547.2,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344864,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:04.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uvc",
+        "value": "4%7C8",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344864,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:04.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvc",
+        "value": "4%7C8",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1616344863,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-21T16:41:03.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wfivefivec",
+        "value": "DaHi2aMh1J5bmk5",
+        "domain": "w55c.net",
+        "path": "/",
+        "expires": 1616344860.97146,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:00.971Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "683d5e50-0819-4700-8e16-fe7ca0e7150b",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258466.57358,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-20T16:41:06.573Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuidc",
+        "value": "9s5CBFkdfPnEf07uGpoUpRA/TNQSc0ezUF/Jsx2wBurClGTaTqNulTChJZZv4iJi+SiYQByMn8ZFJW1Hy1e7a6+ztbHJOizfyNs9IJInTzY=",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258457.657042,
+        "size": 113,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-20T16:40:57.657Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eud",
+        "value": "H4sIAAAAAAAAAONicjUO4jU0tTAyNjA2MjMzszB8xYjCNwIAIapnbSMAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": 1615999266,
+        "size": 62,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:06.000Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rud",
+        "value": "H4sIAAAAAAAAAOMSNjQzsTA0MDM2MzI0NjYwtjA1thTiM9TNz0w1DPTx8QvzKTOQ4jU0tTACShqZmZlZGAIA3fAyWzQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": 1615999266,
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:06.000Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e500815aaa4d3d0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999263.991461,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:03.991Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mus",
+        "value": "0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999263.991444,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:03.991Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e5008150001546c432492f20fd56d9f320f29d020c88d71d4d6",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999263.991383,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:03.991Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020022116405379600982907408",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999253.812269,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:53.812Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHYWRkdGhpcxILCIyqvr7bvZs4EAUSFwoIbGl2ZXJhbXASCwjW0JSV3L2bOBAFEhQKBXRhcGFkEgsInLKSlty9mzgQBRgBIAEoAjILCJyqlcPyvZs4EAU4AVoFdGFwYWRgAg..",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925666.699755,
+        "size": 145,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:06.699Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "8681d9ec-28f7-4d44-8c39-e9b2a60dd30c",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925666.69972,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:06.699Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFeUVleWUIdhQQa",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860861.012049,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:01.012Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "4h6objlf5020s&b=3&s=3i",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860861.01204,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:01.012Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBBwIUF4CENUIgAW9c8KmObTWMJ0Lm0gFEgEBAQFZUV5ZXgAAAAAA_SMAAA&S=AQAAAqxOuJ_QXwUXP2fyOiERe5w",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860861.012013,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T22:41:01.012Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "wN/BPG5OUU3HQlxDBePWQjsoAgUkyyjl7zl8vYhQWWo=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": 1613839266.691984,
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.691Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dsp_app_nexus",
+        "value": "3052800425257398196#1582303266549",
+        "domain": "cpx.to",
+        "path": "/",
+        "expires": 1613839266.59164,
+        "size": 46,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.591Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cpSess",
+        "value": "11e040a56a580e41",
+        "domain": "cpx.to",
+        "path": "/",
+        "expires": 1613839266.591589,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.591Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ljt_reader",
+        "value": "e9308b706eac2293f6d91862",
+        "domain": "lijit.com",
+        "path": "/",
+        "expires": 1613839266.27143,
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.271Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ljtrtb_8008",
+        "value": "72bc011dc75acb3236288383a05bbb4a",
+        "domain": "lijit.com",
+        "path": "/",
+        "expires": 1613839266.271381,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.271Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "didts",
+        "value": "1582303266",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1613839266.153116,
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.153Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "did",
+        "value": "z4mKI5nfvKQj0r6D",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1613839266.152952,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:06.152Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vglnk.PartnerRfsh.p",
+        "value": "\"\"",
+        "domain": "links.services.disqus.com",
+        "path": "/",
+        "expires": 1613839266.012228,
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:06.012Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vglnk.Agent.p",
+        "value": "72bc011dc75acb3236288383a05bbb4a",
+        "domain": "links.services.disqus.com",
+        "path": "/",
+        "expires": 1613839266.012181,
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:06.012Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "disqus_unique",
+        "value": "24d9pld26ifa4f",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 1613839265,
+        "size": 27,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:05.000Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dsq__",
+        "value": "24dj295ars96d",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1613839265,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:05.000Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_tmid",
+        "value": "-8372027933639858834",
+        "domain": "tubemogul.com",
+        "path": "/",
+        "expires": 1613839261.015454,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:01.015Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "80160eba-9194-488b-b14c-bf431ce10348#1582303260956",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": 1613839261.013918,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:01.013Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-id",
+        "value": "A63Q6VmqCkeLqqsss3p8Rto",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": 1601570466.614866,
+        "size": 28,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-10-01T16:41:06.614Z",
+        "expiresDays": 223,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "198=ZGtcypd6oHPdjwdaHyfqj8D7eOz-Qs3AMmbccscfOBqzQiuAdGMn4v476txEASxYuIfF-4ZAVL_yH6sGKnvu-VVtUaiW5j0pTjtHMAvmIE97rBzpA0a25WUnBZp9MP3Sv0wzTf2v_K63LG51pj1gQsJTFEThNATGZQI1VkvgVg4",
+        "domain": "google.com",
+        "path": "/",
+        "expires": 1598114465.41162,
+        "size": 178,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2020-08-22T16:41:05.411Z",
+        "expiresDays": 183,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "75434634868394755183519114234255767072",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1597855266.652953,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:06.652Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "75434634868394755183519114234255767072",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1597855266.652918,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:06.652Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_kuid_",
+        "value": "NPXN72rc",
+        "domain": "krxd.net",
+        "path": "/",
+        "expires": 1597855266.532397,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-08-19T16:41:06.532Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99OA/DabOHMQl",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855261.05759,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:01.057Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mv3",
+        "value": "uTENuYt0aYZpTu63jpZirbyzZbhKIMFM2z9W6pRvNdrB3SCLqgM6bu%2b9tKRhrSE7Q3RECy%2bGTbRkIEhKkSD3dg%3d%3d",
+        "domain": "cardlytics.com",
+        "path": "/",
+        "expires": 1597855260.957618,
+        "size": 99,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:00.957Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855257.552773,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:40:57.552Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "3052800425257398196",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1590079266.616547,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-05-21T16:41:06.616Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "U",
+        "value": "7d2d453e1fc7c6099436bc1078762345",
+        "domain": "adsymptotic.com",
+        "path": "/",
+        "expires": 1590079266.457582,
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-05-21T16:41:06.457Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "1!1264",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487266.732702,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.732Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TTD_SYNC",
+        "value": "1264",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487266.732689,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.732Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "f4dbf671-54c8-11ea-b5f5-e6dc7803b445",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487266.732655,
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.732Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1582303266647",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487266.73258,
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.732Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CKKQwPIFEgUI6EcQABIGCLXqARAAEgYIwuoBEAA=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": 1587487266.692029,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.692Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CKKQwPIFEgQIAhAAEgUIlCkQABIFCOUrEAASBQjmKxAAEgUI5ysQABIFCOgrEAASBQjpKxAAEgUI6isQABIFCOsrEAASBQjsKxAAEgUI7SsQABIFCO4rEAASBQjTQhAAEgUI1UMQABIFCN5OEAASBgjdrCsQABIGCN+sKxAA",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1587487266.571572,
+        "size": 172,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.571Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nnls",
+        "value": "",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1587487266.153135,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:06.153Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__cfduid",
+        "value": "d6a65355764ecb5dca33f1cf3158f96861582303252",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1584895252.542547,
+        "size": 51,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "expiresUTC": "2020-03-22T16:40:52.542Z",
+        "expiresDays": 30,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.608050796.1582303254",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1582389664,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-22T16:41:04.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "gpl",
+        "value": "1||t=1582303266",
+        "domain": "cogocast.net",
+        "path": "/",
+        "expires": 1582329600.517178,
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-22T00:00:00.517Z",
+        "expiresDays": 0.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__jid",
+        "value": "24dj0gu27iscld",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 1582305065,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T17:11:05.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e500815efe34bde003",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1582305063,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:11:03.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1582304157.452226,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T16:55:57.452Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat_gtag_UA_5413011_1",
+        "value": "1",
+        "domain": "immigrationimpact.com",
+        "path": "/",
+        "expires": 1582303314,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T16:41:54.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "89fad5c9c3bccd65",
+        "domain": "nr-data.net",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "euds",
+        "value": "H4sIAAAAAAAAAONicjUGAEAxo38EAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ruds",
+        "value": "H4sIAAAAAAAAAOMSNjQzsTA0MDM2MzI0NjYwtjA1thTiM9TNz0w1DPTx8QvzKTMAAIQIdeMlAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 80,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://c.disquscdn.com/next/embed/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "click"
+        ],
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ],
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://immigrationimpact.disqus.com/embed.js": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://immigrationimpact.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp": [
+          "scroll",
+          "click"
+        ],
+        "https://immigrationimpact.com/wp-content/themes/Extra/scripts/scripts.min.js?ver=2.26": [
+          "click"
+        ],
+        "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/": [
+          "mousedown",
+          "click"
+        ],
+        "https://immigrationimpact.com/category/enforcement/": [
+          "mousedown",
+          "click"
+        ],
+        "https://immigrationimpact.com/": [
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "keypress"
+        ],
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/": [
+          "keydown"
+        ],
+        "https://immigrationimpact.com/category/enforcement/": [
+          "keydown"
+        ],
+        "https://immigrationimpact.com/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/": [
+          "touchstart"
+        ],
+        "https://immigrationimpact.com/category/enforcement/": [
+          "touchstart"
+        ],
+        "https://immigrationimpact.com/": [
+          "touchstart"
+        ]
+      }
+    },
+    "data_exfiltration": {},
+    "canvas_fingerprinters": {
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "window.navigator.doNotTrack"
+        ],
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "window.navigator.userAgent",
+          "window.navigator.platform"
+        ],
+        "https://ssl.gstatic.com/accounts/o/473708910-idpiframe.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.JKCQ2Hvuo0E.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=wQE/rs=AGLTcCOl3FsgYnTqVeIFUJJD2j4-pO09lQ/cb=gapi.loaded_0": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js?hash=6ec6c8c3fa9bf72f492765ce709e7cf8": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://c.disquscdn.com/next/embed/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://js-agent.newrelic.com/nr-1167.min.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.disqus.com/embed.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/wp-includes/js/wp-emoji-release.min.js?ver=5.3.2": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/wp-includes/js/wp-embed.min.js?ver=5.3.2": [
+          "window.navigator.userAgent",
+          "window.navigator.appVersion"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/wp-content/themes/Extra/core/admin/js/common.js?ver=3.26": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/wp-content/themes/Extra/scripts/scripts.min.js?ver=2.26": [
+          "window.navigator.userAgent",
+          "window.navigator.appVersion"
+        ],
+        "https://immigrationimpact.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/": [
+          "window.navigator.userAgent"
+        ],
+        "https://maps.googleapis.com/maps/api/js?v=3&key&ver=2.26": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.13-9993131": [
+          "window.navigator.appName",
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/category/enforcement/": [
+          "window.navigator.userAgent"
+        ],
+        "https://immigrationimpact.com/": [
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://immigrationimpact.disqus.com/embed.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.screen.colorDepth"
+        ]
+      },
+      "CANVAS": {
+        "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/": [
+          "HTMLCanvasElement.toDataURL",
+          "CanvasRenderingContext2D.fillText"
+        ],
+        "https://immigrationimpact.com/category/enforcement/": [
+          "HTMLCanvasElement.toDataURL",
+          "CanvasRenderingContext2D.fillText"
+        ],
+        "https://immigrationimpact.com/category/humanitarian-protection-immigration/": [
+          "HTMLCanvasElement.toDataURL",
+          "CanvasRenderingContext2D.fillText"
+        ],
+        "https://immigrationimpact.com/": [
+          "HTMLCanvasElement.toDataURL",
+          "CanvasRenderingContext2D.fillText"
+        ]
+      }
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||referrer.disqus.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "experiment": "network_default",
+            "variant": "fallthrough",
+            "page_referrer": "direct",
+            "product": "embed",
+            "thread": 7802829930,
+            "thread_id": 7802829930,
+            "forum": "immigrationimpact",
+            "forum_id": 2984321,
+            "zone": "thread",
+            "page_url": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "service": "dynamic",
+            "verb": "view",
+            "object_type": "product",
+            "object_id": "embed",
+            "extra_data": {
+              "color_scheme": "light",
+              "anchor_color": "rgb(64,124,202)",
+              "typeface": "sans-serif",
+              "width": 338
+            },
+            "event": "activity",
+            "imp": "24dj0gu27iscld",
+            "prev_imp": "",
+            "section": "default",
+            "area": "n/a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||referrer.disqus.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://referrer.disqus.com/juggler/event.js?experiment=network_default&variant=fallthrough&page_referrer=direct&product=embed&thread=7802829930&thread_id=7802829930&forum=immigrationimpact&forum_id=2984321&zone=thread&page_url=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F%23.XlAIHx3LfoY&service=dynamic&verb=view&object_type=product&object_id=embed&extra_data=%7B%22color_scheme%22%3A%22light%22%2C%22anchor_color%22%3A%22rgb(64%2C124%2C202)%22%2C%22typeface%22%3A%22sans-serif%22%2C%22width%22%3A338%7D&event=activity&imp=24dj0gu27iscld&prev_imp=&section=default&area=n%2Fa"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "google_error": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&google_error=5"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_push": "",
+            "google_hm": "MTY0ODEwNjM2MjEzMzAzODUzOQ==https://live.rezync.com/sync?c=4656c20ee35215f78e9273796625d90b&p=260a954059a0ab1986e4ee8c5c88c54c&pid={userid}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_push=&google_hm=MTY0ODEwNjM2MjEzMzAzODUzOQ==https%3A%2F%2Flive.rezync.com%2Fsync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "https://tag.cogocast.net/tag/partner/222?pixel_mode=pixel&dc_id=04958103738d40568312931a8733f498&cb=https%3A%2F%2Ftag%2Eapxlv%2Ecom%2Ftag%2Fpartner%2F222%3Fpixel%5Fmode%3Dpixel%26c%5Fi%3D1&c_i=0",
+            "google_hm": "BJWBA3ONQFaDEpMahzP0mA==",
+            "google_nid": "cogo_labs",
+            "google_sc": "",
+            "u": "04958103738d40568312931a8733f498"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?cb=https%3A%2F%2Ftag.cogocast.net%2Ftag%2Fpartner%2F222%3Fpixel_mode%3Dpixel%26dc_id%3D04958103738d40568312931a8733f498%26cb%3Dhttps%253A%252F%252Ftag%252Eapxlv%252Ecom%252Ftag%252Fpartner%252F222%253Fpixel%255Fmode%253Dpixel%2526c%255Fi%253D1%26c_i%3D0&google_hm=BJWBA3ONQFaDEpMahzP0mA%3D%3D&google_nid=cogo_labs&google_sc=&u=04958103738d40568312931a8733f498"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?pub=39342&in=1&userid=b57db08f-9667-418a-9373-b82828dfc7d7%3A1582303266.42&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D",
+            "rfi_ts": 1582303266645,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&rfi_evt=cm&rfi_uri=%2Fcm%3Fpub%3D39342%26in%3D1%26userid%3Db57db08f-9667-418a-9373-b82828dfc7d7%253A1582303266.42%26forward%3Dhttps%253A%2F%2Flive.rezync.com%2Fsync%253Fc%253D4656c20ee35215f78e9273796625d90b%2526p%253D260a954059a0ab1986e4ee8c5c88c54c%2526pid%253D%257Buserid%257D&rfi_ts=1582303266645&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": 7.543463486839475e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362248.gif?partner_uid=75434634868394755183519114234255767072"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_no_sc": null,
+            "google_cm": null,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?pub=39342&in=1&userid=b57db08f-9667-418a-9373-b82828dfc7d7%3A1582303266.42&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D",
+            "rfi_ts": 1582303266645
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_no_sc&google_cm&rfi_evt=cm&rfi_uri=%2Fcm%3Fpub%3D39342%26in%3D1%26userid%3Db57db08f-9667-418a-9373-b82828dfc7d7%253A1582303266.42%26forward%3Dhttps%253A%2F%2Flive.rezync.com%2Fsync%253Fc%253D4656c20ee35215f78e9273796625d90b%2526p%253D260a954059a0ab1986e4ee8c5c88c54c%2526pid%253D%257Buserid%257D&rfi_ts=1582303266645"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 14652657,
+            "cs_xi": "b57db08f-9667-418a-9373-b82828dfc7d7:1582303266.42"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/b2?c1=9&c2=14652657&cs_xi=b57db08f-9667-418a-9373-b82828dfc7d7%3A1582303266.42"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=477&dpuuid=145c5be208835274fc2b50d02032e1642be11b72e76717af1673d8fe3ff2c695b0da87c991749652&redir=https%3A%2F%2Fidsync.rlcdn.com%2F362248.gif%3Fpartner_uid%3D%24%7BDD_UUID%7D"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": 3052800425257398300
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/52154.gif?served_by=evergreen&partner_uid=3052800425257398196"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "8681d9ec-28f7-4d44-8c39-e9b2a60dd30c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362588.gif?partner_uid=8681d9ec-28f7-4d44-8c39-e9b2a60dd30c"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": "683d5e50-0819-4700-8e16-fe7ca0e7150b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=683d5e50-0819-4700-8e16-fe7ca0e7150b"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=6"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 14652657,
+            "cs_xi": "b57db08f-9667-418a-9373-b82828dfc7d7:1582303266.42"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/b?c1=9&c2=14652657&cs_xi=b57db08f-9667-418a-9373-b82828dfc7d7%3A1582303266.42"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 39342,
+            "in": 1,
+            "userid": "b57db08f-9667-418a-9373-b82828dfc7d7:1582303266.42",
+            "forward": "https://live.rezync.com/sync?c=4656c20ee35215f78e9273796625d90b&p=260a954059a0ab1986e4ee8c5c88c54c&pid={userid}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=1&userid=b57db08f-9667-418a-9373-b82828dfc7d7%3A1582303266.42&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9pld26ifa4f&pctry=US and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362358.gif?google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10017,
+            "redir": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10017&redir=https%3A%2F%2Fidsync.rlcdn.com%2F47154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 4
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=4"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=5"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 710202,
+            "it": 1,
+            "iv": "7d2d453e1fc7c6099436bc1078762345"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=710202&it=1&iv=7d2d453e1fc7c6099436bc1078762345"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 9
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=9"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 14417,
+            "_psign": "aacbfedfe8c67d03dd0ef03237a13b30",
+            "_redirect": "https://api.traversedlp.com/v1/ddc604a6-d5bd-41eb-b35e-4f4d2388a7c1/0.gif?partnerCookieId=${UUID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=14417&_psign=aacbfedfe8c67d03dd0ef03237a13b30&_redirect=https%3A%2F%2Fapi.traversedlp.com%2Fv1%2Fddc604a6-d5bd-41eb-b35e-4f4d2388a7c1%2F0.gif%3FpartnerCookieId%3D%24%7BUUID%7D"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=2"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16257,
+            "_psign": "5a9f251662be469b9732c38b03f11952",
+            "_redirect": "https://pippio.com/api/sync?pid=710202&it=1&iv=${UUID}",
+            "_rand": "03352210"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16257&_psign=5a9f251662be469b9732c38b03f11952&_redirect=https%3A%2F%2Fpippio.com%2Fapi%2Fsync%3Fpid%3D710202%26it%3D1%26iv%3D%24%7BUUID%7D&_rand=03352210"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "epsilon",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=epsilon&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "kuid_status": "new",
+            "partner": "liveramp_identity"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=liveramp_identity"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362358.gif?google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": "683d5e50-0819-4700-8e16-fe7ca0e7150b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=683d5e50-0819-4700-8e16-fe7ca0e7150b"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 13553,
+            "_psign": "9e62e5c043ecadc9479a0ccac401dd7d",
+            "_expected_cookie": "7d2d453e1fc7c6099436bc1078762345"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=13553&_psign=9e62e5c043ecadc9479a0ccac401dd7d&_expected_cookie=7d2d453e1fc7c6099436bc1078762345"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": 3052800425257398300
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/52154.gif?served_by=evergreen&partner_uid=3052800425257398196"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "8681d9ec-28f7-4d44-8c39-e9b2a60dd30c"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362588.gif?partner_uid=8681d9ec-28f7-4d44-8c39-e9b2a60dd30c"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5324,
+            "_": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=5324&_=2"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "epsilon",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=epsilon&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10017,
+            "redir": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10017&redir=https%3A%2F%2Fidsync.rlcdn.com%2F47154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "memo": "COnwGxoNCKKQwPIFEgUI6AcQAEIASgA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/1000.gif?memo=COnwGxoNCKKQwPIFEgUI6AcQAEIASgA"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "liveramp_identity"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://usermatch.krxd.net/um/v2?partner=liveramp_identity"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 2,
+            "m": "CO8KEhoKFggBEPkHGg9jMjRkOXBsZDI2aWZhNGYQABpuCKKQwPIFEgQIAhAAEgUIlCkQABIFCOUrEAASBQjmKxAAEgUI5ysQABIFCOgrEAASBQjpKxAAEgUI6isQABIFCOsrEAASBQjsKxAAEgUI7SsQABIFCO4rEAASBQjTQhAAEgUI1UMQABIFCN5OEABCAEoA",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync/ddp?pid=2&m=CO8KEhoKFggBEPkHGg9jMjRkOXBsZDI2aWZhNGYQABpuCKKQwPIFEgQIAhAAEgUIlCkQABIFCOUrEAASBQjmKxAAEgUI5ysQABIFCOgrEAASBQjpKxAAEgUI6isQABIFCOsrEAASBQjsKxAAEgUI7SsQABIFCO4rEAASBQjTQhAAEgUI1UMQABIFCN5OEABCAEoA&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 11
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=11"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=3"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 8
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=8"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 10
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=10"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=7"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 13553,
+            "_psign": "9e62e5c043ecadc9479a0ccac401dd7d"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=13553&_psign=9e62e5c043ecadc9479a0ccac401dd7d"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "pippio_dmp",
+            "google_cm": null,
+            "google_no_sc": null,
+            "m": "CO8KEhoKFggBEPkHGg9jMjRkOXBsZDI2aWZhNGYQABpuCKKQwPIFEgQIAhAAEgUIlCkQABIFCOUrEAASBQjmKxAAEgUI5ysQABIFCOgrEAASBQjpKxAAEgUI6isQABIFCOsrEAASBQjsKxAAEgUI7SsQABIFCO4rEAASBQjTQhAAEgUI1UMQABIFCN5OEABCAEoA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=pippio_dmp&google_cm&google_no_sc&m=CO8KEhoKFggBEPkHGg9jMjRkOXBsZDI2aWZhNGYQABpuCKKQwPIFEgQIAhAAEgUIlCkQABIFCOUrEAASBQjmKxAAEgUI5ysQABIFCOgrEAASBQjpKxAAEgUI6isQABIFCOsrEAASBQjsKxAAEgUI7SsQABIFCO4rEAASBQjTQhAAEgUI1UMQABIFCN5OEABCAEoA"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 1,
+            "pdata": "placement=1391"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ei.rlcdn.com/448046.gif?n=1&pdata=placement%3D1391"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "c24d9pld26ifa4f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/462246.gif?partner_uid=c24d9pld26ifa4f"
+      },
+      {
+        "data": {
+          "filter": "||ce.lijit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 8008,
+            "3pid": "72bc011dc75acb3236288383a05bbb4a",
+            "dnr": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||ce.lijit.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ce.lijit.com/merge?pid=8008&3pid=72bc011dc75acb3236288383a05bbb4a&dnr=1"
+      },
+      {
+        "data": {
+          "filter": "||cpx.to^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "",
+            "pid": 12037,
+            "url": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "adnxs_uid": 3052800425257398300
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||cpx.to^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.cpx.to/ca.png?ref=&pid=12037&url=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&adnxs_uid=3052800425257398196"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "io.narrative.guid.v2": "f48af040-54c8-11ea-8adf-0accd915b97b",
+            "companyId": 19,
+            "id": "disqus_id:c24d9pld26ifa4f",
+            "ret": "img",
+            "ref": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?io.narrative.guid.v2=f48af040-54c8-11ea-8adf-0accd915b97b&companyId=19&id=disqus_id%3Ac24d9pld26ifa4f&ret=img&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F"
+      },
+      {
+        "data": {
+          "filter": "||ce.lijit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 8008,
+            "3pid": "72bc011dc75acb3236288383a05bbb4a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||ce.lijit.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ce.lijit.com/merge?pid=8008&3pid=72bc011dc75acb3236288383a05bbb4a"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fimmigrationimpact.com%252F2020%252F01%252F06%252Fuscis-fee-increase-solve-problems%252F%26adnxs_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fimmigrationimpact.com%252F2020%252F01%252F06%252Fuscis-fee-increase-solve-problems%252F%26adnxs_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "companyId": 19,
+            "id": "disqus_id:c24d9pld26ifa4f",
+            "ret": "img",
+            "ref": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?companyId=19&id=disqus_id%3Ac24d9pld26ifa4f&ret=img&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 1391,
+            "ref": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "it": 1,
+            "iv": "c24d9pld26ifa4f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&it=1&iv=c24d9pld26ifa4f"
+      },
+      {
+        "data": {
+          "filter": "/sync.gif?partner_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "svn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter /sync.gif?partner_"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/sync.gif?partner_id=svn"
+      },
+      {
+        "data": {
+          "filter": "||referrer.disqus.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abe": 0,
+            "embed_hidden": 0,
+            "integration": "wordpress 3.0.17",
+            "load_time": 1127,
+            "event": "init_embed",
+            "thread": 7802829930,
+            "forum": "immigrationimpact",
+            "forum_id": 2984321,
+            "imp": "24dj0gu27iscld",
+            "prev_imp": null,
+            "thread_slug": "4_ways_uscis_proposed_fee_increase_fails_to_solve_the_agencys_problems",
+            "user_type": "anon",
+            "referrer": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "theme": "next",
+            "dnt": 0,
+            "tracking_enabled": 1,
+            "experiment": "network_default",
+            "variant": "fallthrough",
+            "service": "dynamic",
+            "promoted_enabled": false,
+            "max_enabled": false
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=immigrationimpact&t_i=34297%20https%3A%2F%2Fimmigrationimpact.com%2F%3Fp%3D34297&t_u=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&t_e=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_d=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&t_t=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&s_o=default and matched with easyprivacy.txt filter ||referrer.disqus.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://referrer.disqus.com/juggler/event.gif?abe=0&embed_hidden=0&integration=wordpress%203.0.17&load_time=1127&event=init_embed&thread=7802829930&forum=immigrationimpact&forum_id=2984321&imp=24dj0gu27iscld&prev_imp&thread_slug=4_ways_uscis_proposed_fee_increase_fails_to_solve_the_agencys_problems&user_type=anon&referrer=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&theme=next&dnt=0&tracking_enabled=1&experiment=network_default&variant=fallthrough&service=dynamic&promoted_enabled=false&max_enabled=false"
+      },
+      {
+        "data": {
+          "filter": "||disqus.com/api/ping",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||disqus.com/api/ping"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/ping"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "rn": 10.752186780766543
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=2&rn=10.752186780766543"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "rn": 10.752186780766543
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=1&rn=10.752186780766543"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 438743740,
+            "v": "1167.2a4546b",
+            "to": "NQNbbEJSWRBSBUJdXgxJeFtEWlgNHBVfWlYOAxRIX0BD",
+            "rst": 2120,
+            "ref": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "ap": 1792,
+            "be": 73,
+            "fe": 1911,
+            "dc": 534,
+            "perf": {
+              "timing": {
+                "of": 1582303263281,
+                "n": 0,
+                "u": 31,
+                "ue": 31,
+                "f": 0,
+                "dn": 0,
+                "dne": 0,
+                "c": 0,
+                "ce": 0,
+                "rq": 1,
+                "rp": 26,
+                "rpe": 28,
+                "dl": 36,
+                "di": 534,
+                "ds": 534,
+                "de": 637,
+                "dc": 1911,
+                "l": 1911,
+                "le": 1934
+              },
+              "navigation": {}
+            },
+            "fp": 475,
+            "fcp": 475,
+            "at": "GURYGgpISh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-96c790ccb11141f82dd?a=438743740&v=1167.2a4546b&to=NQNbbEJSWRBSBUJdXgxJeFtEWlgNHBVfWlYOAxRIX0BD&rst=2120&ref=https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/&ap=1792&be=73&fe=1911&dc=534&perf=%7B%22timing%22:%7B%22of%22:1582303263281,%22n%22:0,%22u%22:31,%22ue%22:31,%22f%22:0,%22dn%22:0,%22dne%22:0,%22c%22:0,%22ce%22:0,%22rq%22:1,%22rp%22:26,%22rpe%22:28,%22dl%22:36,%22di%22:534,%22ds%22:534,%22de%22:637,%22dc%22:1911,%22l%22:1911,%22le%22:1934%7D,%22navigation%22:%7B%7D%7D&fp=475&fcp=475&at=GURYGgpISh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 2092572990,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "4 Ways USCIS’ Proposed Fee Increase Fails to Solve the Agency’s Problems",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1314181370.1582303,
+            "tid": "UA-5413011-1",
+            "_gid": 608050796.1582303,
+            "gtm": "2ou2c0",
+            "z": 1747087630
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=2092572990&t=pageview&_s=1&dl=https%3A%2F%2Fimmigrationimpact.com%2F2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&ul=en-us&de=UTF-8&dt=4%20Ways%20USCIS%E2%80%99%20Proposed%20Fee%20Increase%20Fails%20to%20Solve%20the%20Agency%E2%80%99s%20Problems&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1314181370.1582303254&tid=UA-5413011-1&_gid=608050796.1582303254&gtm=2ou2c0&z=1747087630"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50081fd86cf9e5",
+            "bkl": 0,
+            "bl": 5,
+            "pdt": 70,
+            "sid": "5e50081fd86cf9e5",
+            "pub": "ra-584c0a695a3d9565",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "wpwt",
+            "cb": 0,
+            "ab": "-",
+            "dp": "immigrationimpact.com",
+            "fp": "2020/01/06/uscis-fee-increase-solve-problems/",
+            "fr": "",
+            "fcu": "XlAIHx3LfoY",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 1,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303263898,
+            "wpv": "wpwt-3.2.6",
+            "addthis_plugin_info": {
+              "info_status": "enabled",
+              "cms_name": "WordPress",
+              "plugin_name": "Website Tools by AddThis",
+              "plugin_version": "3.2.6",
+              "plugin_mode": "AddThis",
+              "anonymous_profile_id": "wp-37cf7e77c23885887ff9f750f38ef85d",
+              "page_info": {
+                "template": "posts",
+                "post_type": ""
+              },
+              "sharing_enabled_on_post_via_metabox": false
+            },
+            "jsl": 1,
+            "uvs": "5e500815efe34bde003",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__76169968494401140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/#.XlAIHx3LfoY and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50081fd86cf9e5&bkl=0&bl=5&pdt=70&sid=5e50081fd86cf9e5&pub=ra-584c0a695a3d9565&rev=v8.28.3-wp&ln=en&pc=wpwt&cb=0&ab=-&dp=immigrationimpact.com&fp=2020%2F01%2F06%2Fuscis-fee-increase-solve-problems%2F&fr=&fcu=XlAIHx3LfoY&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303263898&wpv=wpwt-3.2.6&addthis_plugin_info=%7B%22info_status%22%3A%22enabled%22%2C%22cms_name%22%3A%22WordPress%22%2C%22plugin_name%22%3A%22Website%20Tools%20by%20AddThis%22%2C%22plugin_version%22%3A%223.2.6%22%2C%22plugin_mode%22%3A%22AddThis%22%2C%22anonymous_profile_id%22%3A%22wp-37cf7e77c23885887ff9f750f38ef85d%22%2C%22page_info%22%3A%7B%22template%22%3A%22posts%22%2C%22post_type%22%3A%22%22%7D%2C%22sharing_enabled_on_post_via_metabox%22%3Afalse%7D&jsl=1&uvs=5e500815efe34bde003&skipb=1&callback=addthis.cbs.jsonp__76169968494401140"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-584c0a695a3d9565/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-5413011-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/",
+            "source": "requested from https://immigrationimpact.com/2020/01/06/uscis-fee-increase-solve-problems/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-5413011-1"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 438743740,
+            "v": "1167.2a4546b",
+            "to": "NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA9YUFQa",
+            "rst": 3545,
+            "ref": "https://immigrationimpact.com/category/enforcement/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-96c790ccb11141f82dd?a=438743740&v=1167.2a4546b&to=NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA9YUFQa&rst=3545&ref=https://immigrationimpact.com/category/enforcement/"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 6223,
+            "ivh": 812,
+            "dt": 2695,
+            "pdt": 71,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|71|39,lojson|753|92,sh|772|75",
+            "rndr": "render_toolbox|966,render_layers_thankyou|1231,render_layers_sharedock|1289",
+            "cmenu": null,
+            "ppd": 7,
+            "ppl": 7,
+            "fbe": "-1|2",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.12.4,googleanalytics-analytics.js",
+            "al": "wpwt,smlty,msd",
+            "scr": 6,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50081c78b56f8f",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-584c0a695a3d9565",
+            "dp": "immigrationimpact.com",
+            "fp": "category/enforcement/",
+            "pfm": 0,
+            "icns": "facebook,twitter,mailto,pinterest_share,whatsapp,addthis"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=6223&ivh=812&dt=2695&pdt=71&ict=&pct=0&perf=widget%7C71%7C39%2Clojson%7C753%7C92%2Csh%7C772%7C75&rndr=render_toolbox%7C966%2Crender_layers_thankyou%7C1231%2Crender_layers_sharedock%7C1289&cmenu=null&ppd=7&ppl=7&fbe=-1%7C2&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.12.4%2Cgoogleanalytics-analytics.js&al=wpwt%2Csmlty%2Cmsd&scr=6&scv=0&apiu=1&ba=3&sid=5e50081c78b56f8f&rev=v8.28.3-wp&pub=ra-584c0a695a3d9565&dp=immigrationimpact.com&fp=category%2Fenforcement%2F&pfm=0&icns=facebook%2Ctwitter%2Cmailto%2Cpinterest_share%2Cwhatsapp%2Caddthis"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 24,
+            "puid": -8372027933639859000,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=24&puid=-8372027933639858834&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11185,
+            "puid": "80160eba-9194-488b-b14c-bf431ce10348-5e50081c-5553",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11185&puid=80160eba-9194-488b-b14c-bf431ce10348-5e50081c-5553&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11156,
+            "ssrc": 1,
+            "puid": "Sy1cVYEb2m6_opxKV9igMtoh.IKFtofqVEIeKQ--"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11156&ssrc=1&puid=Sy1cVYEb2m6_opxKV9igMtoh.IKFtofqVEIeKQ--"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11147,
+            "puid": "5e3ac252cef94c2cbb1fe424b0044dab",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11147&puid=5e3ac252cef94c2cbb1fe424b0044dab&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=23&puidKey=google_gid&ssrc=1&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "",
+            "BK_SWAP_DEST": 2981,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2981?id=&BK_SWAP_DEST=2981&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 438743740,
+            "v": "1167.2a4546b",
+            "to": "NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA9YUFQa",
+            "rst": 1190,
+            "ref": "https://immigrationimpact.com/category/enforcement/",
+            "ap": 2258,
+            "be": 87,
+            "fe": 1107,
+            "dc": 639,
+            "perf": {
+              "timing": {
+                "of": 1582303259766,
+                "n": 0,
+                "u": 43,
+                "r": 1,
+                "ue": 43,
+                "re": 19,
+                "f": 19,
+                "dn": 19,
+                "dne": 19,
+                "c": 19,
+                "ce": 19,
+                "rq": 20,
+                "rp": 40,
+                "rpe": 45,
+                "dl": 50,
+                "di": 638,
+                "ds": 639,
+                "de": 786,
+                "dc": 1106,
+                "l": 1106,
+                "le": 1110
+              },
+              "navigation": {
+                "rc": 1
+              }
+            },
+            "fp": 506,
+            "fcp": 506,
+            "at": "GURYGgpISh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-96c790ccb11141f82dd?a=438743740&v=1167.2a4546b&to=NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA9YUFQa&rst=1190&ref=https://immigrationimpact.com/category/enforcement/&ap=2258&be=87&fe=1107&dc=639&perf=%7B%22timing%22:%7B%22of%22:1582303259766,%22n%22:0,%22u%22:43,%22r%22:1,%22ue%22:43,%22re%22:19,%22f%22:19,%22dn%22:19,%22dne%22:19,%22c%22:19,%22ce%22:19,%22rq%22:20,%22rp%22:40,%22rpe%22:45,%22dl%22:50,%22di%22:638,%22ds%22:639,%22de%22:786,%22dc%22:1106,%22l%22:1106,%22le%22:1110%7D,%22navigation%22:%7B%22rc%22:1%7D%7D&fp=506&fcp=506&at=GURYGgpISh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||w55c.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "st": "addthis",
+            "rurl": "https://su.addthis.com/red/usync?pid=5&puid=_wfivefivec_&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||w55c.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm.w55c.net/ping_match.gif?st=addthis&rurl=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D5%26puid%3D_wfivefivec_%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "BK_SWAP_DEST": 2981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&BK_SWAP_DEST=2981"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "addthis",
+            "google_cm": null,
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=addthis&google_cm&pid=23&puidKey=google_gid&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "ADDIS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cms.analytics.yahoo.com/cms?partner_id=ADDIS"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e50081c78b56f8f",
+            "uid": "5e500815aaa4d3d0",
+            "ids": "8817-8803-8787-8808-8819-8801-5846",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e50081c78b56f8f&uid=5e500815aaa4d3d0&ids=8817-8803-8787-8808-8819-8801-5846&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1434730408,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://immigrationimpact.com/category/enforcement/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Enforcement Archives | Immigration Impact",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1314181370.1582303,
+            "tid": "UA-5413011-1",
+            "_gid": 608050796.1582303,
+            "gtm": "2ou2c0",
+            "z": 352375953
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=1434730408&t=pageview&_s=1&dl=https%3A%2F%2Fimmigrationimpact.com%2Fcategory%2Fenforcement%2F&ul=en-us&de=UTF-8&dt=Enforcement%20Archives%20%7C%20Immigration%20Impact&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1314181370.1582303254&tid=UA-5413011-1&_gid=608050796.1582303254&gtm=2ou2c0&z=352375953"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50081c78b56f8f",
+            "bkl": 0,
+            "bl": 5,
+            "pdt": 71,
+            "sid": "5e50081c78b56f8f",
+            "pub": "ra-584c0a695a3d9565",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "wpwt",
+            "cb": 0,
+            "ab": "-",
+            "dp": "immigrationimpact.com",
+            "fp": "category/enforcement/",
+            "fr": "",
+            "fcu": "XlAIHB3LfoY",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 1,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303260518,
+            "wpv": "wpwt-3.2.6",
+            "addthis_plugin_info": {
+              "info_status": "enabled",
+              "cms_name": "WordPress",
+              "plugin_name": "Website Tools by AddThis",
+              "plugin_version": "3.2.6",
+              "plugin_mode": "AddThis",
+              "anonymous_profile_id": "wp-37cf7e77c23885887ff9f750f38ef85d",
+              "page_info": {
+                "template": "categories",
+                "post_type": ""
+              },
+              "sharing_enabled_on_post_via_metabox": false
+            },
+            "jsl": 1,
+            "uvs": "5e500815efe34bde002",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__50531917370553630"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/#.XlAIHB3LfoY and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50081c78b56f8f&bkl=0&bl=5&pdt=71&sid=5e50081c78b56f8f&pub=ra-584c0a695a3d9565&rev=v8.28.3-wp&ln=en&pc=wpwt&cb=0&ab=-&dp=immigrationimpact.com&fp=category%2Fenforcement%2F&fr=&fcu=XlAIHB3LfoY&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303260518&wpv=wpwt-3.2.6&addthis_plugin_info=%7B%22info_status%22%3A%22enabled%22%2C%22cms_name%22%3A%22WordPress%22%2C%22plugin_name%22%3A%22Website%20Tools%20by%20AddThis%22%2C%22plugin_version%22%3A%223.2.6%22%2C%22plugin_mode%22%3A%22AddThis%22%2C%22anonymous_profile_id%22%3A%22wp-37cf7e77c23885887ff9f750f38ef85d%22%2C%22page_info%22%3A%7B%22template%22%3A%22categories%22%2C%22post_type%22%3A%22%22%7D%2C%22sharing_enabled_on_post_via_metabox%22%3Afalse%7D&jsl=1&uvs=5e500815efe34bde002&skipb=1&callback=addthis.cbs.jsonp__50531917370553630"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-584c0a695a3d9565/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-5413011-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/enforcement/",
+            "source": "requested from https://immigrationimpact.com/category/enforcement/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-5413011-1"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 6061,
+            "ivh": 812,
+            "dt": 2821,
+            "pdt": 64,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|65|137,lojson|847|112,sh|881|3",
+            "rndr": "render_toolbox|1060,render_layers_thankyou|1340,render_layers_sharedock|1369",
+            "cmenu": null,
+            "ppd": 5,
+            "ppl": 5,
+            "fbe": "-1|2",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.12.4,googleanalytics-analytics.js",
+            "al": "wpwt,smlty,msd",
+            "scr": 6,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50081885bc2181",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-584c0a695a3d9565",
+            "dp": "immigrationimpact.com",
+            "fp": "category/humanitarian-protection-immigration/",
+            "pfm": 0,
+            "icns": "facebook,twitter,mailto,pinterest_share,whatsapp,addthis"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=6061&ivh=812&dt=2821&pdt=64&ict=&pct=0&perf=widget%7C65%7C137%2Clojson%7C847%7C112%2Csh%7C881%7C3&rndr=render_toolbox%7C1060%2Crender_layers_thankyou%7C1340%2Crender_layers_sharedock%7C1369&cmenu=null&ppd=5&ppl=5&fbe=-1%7C2&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.12.4%2Cgoogleanalytics-analytics.js&al=wpwt%2Csmlty%2Cmsd&scr=6&scv=0&apiu=1&ba=3&sid=5e50081885bc2181&rev=v8.28.3-wp&pub=ra-584c0a695a3d9565&dp=immigrationimpact.com&fp=category%2Fhumanitarian-protection-immigration%2F&pfm=0&icns=facebook%2Ctwitter%2Cmailto%2Cpinterest_share%2Cwhatsapp%2Caddthis"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11112,
+            "puid": "683d5e50-0819-4700-8e16-fe7ca0e7150b",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11112&puid=683d5e50-0819-4700-8e16-fe7ca0e7150b&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 6,
+            "puid": 3052800425257398300,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=6&puid=3052800425257398196&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11124,
+            "puid": "8681d9ec-28f7-4d44-8c39-e9b2a60dd30c",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11124&puid=8681d9ec-28f7-4d44-8c39-e9b2a60dd30c&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 16,
+            "puid": 7.543463486839475e+37,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=16&puid=75434634868394755183519114234255767072&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "683d5e50-0819-4700-8e16-fe7ca0e7150b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1&mm_bnc&mm_bct&UUID=683d5e50-0819-4700-8e16-fe7ca0e7150b"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": "",
+            "google_tc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm=&google_tc="
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 420,
+            "dpuuid": "5e500815aaa4d3d0",
+            "redir": "https://su.addthis.com/red/usync?pid=16&puid=${DD_UUID}&ssrc=3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=420&dpuuid=5e500815aaa4d3d0&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=420&dpuuid=5e500815aaa4d3d0&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e50081885bc2181",
+            "uid": "5e500815aaa4d3d0",
+            "ids": "8788-8796-8795-8822-8797-5470",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e50081885bc2181&uid=5e500815aaa4d3d0&ids=8788-8796-8795-8822-8797-5470&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 405935031,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://immigrationimpact.com/category/humanitarian-protection-immigration/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Humanitarian Protection Archives | Immigration Impact",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1314181370.1582303,
+            "tid": "UA-5413011-1",
+            "_gid": 608050796.1582303,
+            "gtm": "2ou2c0",
+            "z": 1188314399
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=405935031&t=pageview&_s=1&dl=https%3A%2F%2Fimmigrationimpact.com%2Fcategory%2Fhumanitarian-protection-immigration%2F&ul=en-us&de=UTF-8&dt=Humanitarian%20Protection%20Archives%20%7C%20Immigration%20Impact&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1314181370.1582303254&tid=UA-5413011-1&_gid=608050796.1582303254&gtm=2ou2c0&z=1188314399"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50081885bc2181",
+            "bkl": 0,
+            "bl": 5,
+            "pdt": 64,
+            "sid": "5e50081885bc2181",
+            "pub": "ra-584c0a695a3d9565",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "wpwt",
+            "cb": 0,
+            "ab": "-",
+            "dp": "immigrationimpact.com",
+            "fp": "category/humanitarian-protection-immigration/",
+            "fr": "",
+            "fcu": "XlAIGB3LfoY",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 1,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303256998,
+            "wpv": "wpwt-3.2.6",
+            "addthis_plugin_info": {
+              "info_status": "enabled",
+              "cms_name": "WordPress",
+              "plugin_name": "Website Tools by AddThis",
+              "plugin_version": "3.2.6",
+              "plugin_mode": "AddThis",
+              "anonymous_profile_id": "wp-37cf7e77c23885887ff9f750f38ef85d",
+              "page_info": {
+                "template": "categories",
+                "post_type": ""
+              },
+              "sharing_enabled_on_post_via_metabox": false
+            },
+            "jsl": 1,
+            "uvs": "5e500815efe34bde001",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__18767801645370040"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/#.XlAIGB3LfoY and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50081885bc2181&bkl=0&bl=5&pdt=64&sid=5e50081885bc2181&pub=ra-584c0a695a3d9565&rev=v8.28.3-wp&ln=en&pc=wpwt&cb=0&ab=-&dp=immigrationimpact.com&fp=category%2Fhumanitarian-protection-immigration%2F&fr=&fcu=XlAIGB3LfoY&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303256998&wpv=wpwt-3.2.6&addthis_plugin_info=%7B%22info_status%22%3A%22enabled%22%2C%22cms_name%22%3A%22WordPress%22%2C%22plugin_name%22%3A%22Website%20Tools%20by%20AddThis%22%2C%22plugin_version%22%3A%223.2.6%22%2C%22plugin_mode%22%3A%22AddThis%22%2C%22anonymous_profile_id%22%3A%22wp-37cf7e77c23885887ff9f750f38ef85d%22%2C%22page_info%22%3A%7B%22template%22%3A%22categories%22%2C%22post_type%22%3A%22%22%7D%2C%22sharing_enabled_on_post_via_metabox%22%3Afalse%7D&jsl=1&uvs=5e500815efe34bde001&skipb=1&callback=addthis.cbs.jsonp__18767801645370040"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-584c0a695a3d9565/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-5413011-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/category/humanitarian-protection-immigration/",
+            "source": "requested from https://immigrationimpact.com/category/humanitarian-protection-immigration/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-5413011-1"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 438743740,
+            "v": "1167.2a4546b",
+            "to": "NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA5ZWVQ=",
+            "rst": 3806,
+            "ref": "https://immigrationimpact.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/NRJS-96c790ccb11141f82dd?a=438743740&v=1167.2a4546b&to=NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA5ZWVQ%3D&rst=3806&ref=https://immigrationimpact.com/"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1293,
+            "ph": 5057,
+            "ivh": 812,
+            "dt": 2440,
+            "pdt": 178,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|178|138,lojson|1324|91,sh|1337|38",
+            "rndr": "render_toolbox|1799,render_layers_thankyou|2318",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.12.4,googleanalytics-analytics.js",
+            "al": "wpwt,smlty",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50081527d6118d",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-584c0a695a3d9565",
+            "dp": "immigrationimpact.com",
+            "fp": "",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1293&ph=5057&ivh=812&dt=2440&pdt=178&ict=&pct=0&perf=widget%7C178%7C138%2Clojson%7C1324%7C91%2Csh%7C1337%7C38&rndr=render_toolbox%7C1799%2Crender_layers_thankyou%7C2318&cmenu=null&ppd=0&ppl=0&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.12.4%2Cgoogleanalytics-analytics.js&al=wpwt%2Csmlty&scr=0&scv=0&apiu=1&ba=3&sid=5e50081527d6118d&rev=v8.28.3-wp&pub=ra-584c0a695a3d9565&dp=immigrationimpact.com&fp=&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 438743740,
+            "v": "1167.2a4546b",
+            "to": "NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA5ZWVQ=",
+            "rst": 2460,
+            "ref": "https://immigrationimpact.com/",
+            "ap": 4258,
+            "be": 181,
+            "fe": 2215,
+            "dc": 1100,
+            "perf": {
+              "timing": {
+                "of": 1582303252397,
+                "n": 0,
+                "f": 20,
+                "dn": 21,
+                "dne": 21,
+                "c": 21,
+                "s": 22,
+                "ce": 115,
+                "rq": 115,
+                "rp": 145,
+                "rpe": 152,
+                "dl": 151,
+                "di": 1100,
+                "ds": 1100,
+                "de": 1339,
+                "dc": 2215,
+                "l": 2215,
+                "le": 2309
+              },
+              "navigation": {}
+            },
+            "fp": 854,
+            "fcp": 854,
+            "at": "GURYGgpISh4=",
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/NRJS-96c790ccb11141f82dd?a=438743740&v=1167.2a4546b&to=NQNbbEJSWRBSBUJdXgxJeFtEWlgNHA5ZWVQ%3D&rst=2460&ref=https://immigrationimpact.com/&ap=4258&be=181&fe=2215&dc=1100&perf=%7B%22timing%22:%7B%22of%22:1582303252397,%22n%22:0,%22f%22:20,%22dn%22:21,%22dne%22:21,%22c%22:21,%22s%22:22,%22ce%22:115,%22rq%22:115,%22rp%22:145,%22rpe%22:152,%22dl%22:151,%22di%22:1100,%22ds%22:1100,%22de%22:1339,%22dc%22:2215,%22l%22:2215,%22le%22:2309%7D,%22navigation%22:%7B%7D%7D&fp=854&fcp=854&at=GURYGgpISh4%3D&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j81",
+            "tid": "UA-5413011-1",
+            "cid": 1314181370.1582303,
+            "jid": 1139516264,
+            "gjid": 115184690,
+            "_gid": 608050796.1582303,
+            "_u": "IEBAAUAAAAAAAC~",
+            "z": 252492948
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j81&tid=UA-5413011-1&cid=1314181370.1582303254&jid=1139516264&gjid=115184690&_gid=608050796.1582303254&_u=IEBAAUAAAAAAAC~&z=252492948"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1576633198,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://immigrationimpact.com/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Immigration Impact",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 1139516264,
+            "gjid": 115184690,
+            "cid": 1314181370.1582303,
+            "tid": "UA-5413011-1",
+            "_gid": 608050796.1582303,
+            "_r": 1,
+            "gtm": "2ou2c0",
+            "z": 931477945
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&a=1576633198&t=pageview&_s=1&dl=https%3A%2F%2Fimmigrationimpact.com%2F&ul=en-us&de=UTF-8&dt=Immigration%20Impact&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IEBAAUABAAAAAC~&jid=1139516264&gjid=115184690&cid=1314181370.1582303254&tid=UA-5413011-1&_gid=608050796.1582303254&_r=1&gtm=2ou2c0&z=931477945"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50081527d6118d",
+            "bkl": 0,
+            "bl": 5,
+            "pdt": 178,
+            "sid": "5e50081527d6118d",
+            "pub": "ra-584c0a695a3d9565",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "wpwt",
+            "cb": 0,
+            "ab": "-",
+            "dp": "immigrationimpact.com",
+            "fp": "",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 1,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303253719,
+            "wpv": "wpwt-3.2.6",
+            "addthis_plugin_info": {
+              "info_status": "enabled",
+              "cms_name": "WordPress",
+              "plugin_name": "Website Tools by AddThis",
+              "plugin_version": "3.2.6",
+              "plugin_mode": "AddThis",
+              "anonymous_profile_id": "wp-37cf7e77c23885887ff9f750f38ef85d",
+              "page_info": {
+                "template": "home",
+                "post_type": ""
+              },
+              "sharing_enabled_on_post_via_metabox": false
+            },
+            "jsl": 1,
+            "uvs": "5e500815efe34bde000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__62557659060382780"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50081527d6118d&bkl=0&bl=5&pdt=178&sid=5e50081527d6118d&pub=ra-584c0a695a3d9565&rev=v8.28.3-wp&ln=en&pc=wpwt&cb=0&ab=-&dp=immigrationimpact.com&fp=&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=1&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303253719&wpv=wpwt-3.2.6&addthis_plugin_info=%7B%22info_status%22%3A%22enabled%22%2C%22cms_name%22%3A%22WordPress%22%2C%22plugin_name%22%3A%22Website%20Tools%20by%20AddThis%22%2C%22plugin_version%22%3A%223.2.6%22%2C%22plugin_mode%22%3A%22AddThis%22%2C%22anonymous_profile_id%22%3A%22wp-37cf7e77c23885887ff9f750f38ef85d%22%2C%22page_info%22%3A%7B%22template%22%3A%22home%22%2C%22post_type%22%3A%22%22%7D%2C%22sharing_enabled_on_post_via_metabox%22%3Afalse%7D&jsl=1&uvs=5e500815efe34bde000&skipb=1&callback=addthis.cbs.jsonp__62557659060382780"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-584c0a695a3d9565/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-5413011-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://immigrationimpact.com/",
+            "source": "requested from https://immigrationimpact.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-5413011-1"
+      }
+    ]
+  }
+}

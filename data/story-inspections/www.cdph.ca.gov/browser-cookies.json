@@ -1,0 +1,100 @@
+{
+  "browser_cookies": [
+    {
+      "name": "TS01bbb7e1",
+      "value": "014fd60d342d752bd8ddc7790c06bea61124d33da33f3667fb29321c4eee54a9e2e2ce17eb35f2c01e4e0e6464786e7a4f0d7599ca",
+      "domain": "www.cdph.ca.gov",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.547230675.1585318603",
+      "domain": "ca.gov",
+      "path": "/",
+      "expires": 1648390623,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-03-27T14:17:03.000Z",
+      "expiresDays": 730
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1883102902.1585318603",
+      "domain": "ca.gov",
+      "path": "/",
+      "expires": 1585405023,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2020-03-28T14:17:03.000Z",
+      "expiresDays": 1
+    },
+    {
+      "name": "_gat_UA-109056085-1",
+      "value": "1",
+      "domain": "ca.gov",
+      "path": "/",
+      "expires": 1585318662,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2020-03-27T14:17:42.000Z",
+      "expiresDays": 0
+    },
+    {
+      "name": "WSS_FullScreenMode",
+      "value": "false",
+      "domain": "www.cdph.ca.gov",
+      "path": "/",
+      "expires": -1,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": true
+    },
+    {
+      "name": "csrftoken",
+      "value": "WcqrAPVYuYzoN8jAtOEnKfExF7qGA9HN",
+      "domain": "instagram.com",
+      "path": "/",
+      "expires": 1616768223.384777,
+      "size": 41,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-03-26T14:17:03.384Z",
+      "expiresDays": 364
+    },
+    {
+      "name": "rur",
+      "value": "FTW",
+      "domain": "instagram.com",
+      "path": "/",
+      "expires": -1,
+      "size": 6,
+      "httpOnly": true,
+      "secure": true,
+      "session": true
+    },
+    {
+      "name": "TS23748982027",
+      "value": "087ed344cfab2000cd5a84fa475b081f964edb8aaccf0511e6b49c2794944f0cce926db4fbb2d329082df11ec0113000093814ab9a301a802fcb78eaf1dc152dfb5b1806af10ac93e6645b6c0ecd161669682f1078c7d395dacd39d0370daa47",
+      "domain": "www.cdph.ca.gov",
+      "path": "/",
+      "expires": -1,
+      "size": 205,
+      "httpOnly": false,
+      "secure": false,
+      "session": true
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- JAVASCRIPT --> 
+<script type="text/javascript" async="" src="//siteimproveanalytics.com/js/siteanalyze_6486.js"></script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="/macros/js/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="/macros/js/bootstrap.js"></script> -->
+<script type="text/javascript" src="/macros/js/banner.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/macros/css/bootstrap/bootstrap.css">
+
+
+
+
+<script src="/macros/js/bootstrap.js"></script></head>
+<body><div id="skiptocontent" class="no_print"><a href="#body" class="skip">Skip to Content</a></div>
+<script>
+   $( document ).ready(function() {
+        $(".skip").click(function(event){   
+            var skipTo="#"+this.href.split('#')[1];
+            $(skipTo).attr('tabindex', -1).on('blur focusout', function () {
+                $(this).removeAttr('tabindex');    
+            }).focus();
+        });
+    });
+</script>
+<!-- MDH CURRENT BANNER CONTENT --->
+<!-- Start Banner Include -->
+
+<!-- Specify MDH main phone numbers for Google Searches; added 3-14-15 --> 
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "url" : "http://www.health.state.mn.us",
+  "contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+1-888-345-0823",
+      "contactType" : "customer service",
+      "contactOption" : "TollFree",
+      "areaServed" : "US"
+    } , {
+      "@type" : "ContactPoint",
+      "telephone" : "+1-651-201-5000",
+      "contactType" : "customer service"
+    } ] }
+</script>
+
+
+
+
+   <title>MDH Feedback Form</title>
+<!-- Start Dublin Core -->
+<meta name="DC.Title" content="MDH Feedback Form">
+<meta name="DC.Subject" scheme="LIV-MN" content="programs">
+<meta name="DC.Description" content="Feedback form">
+<meta name="DC.Creator.CorporateName" scheme="AACR2" content="Minnesota Dept. of Health">
+<meta name="DC.Date.Modified" scheme="ISO 8601" content="2006-08-09">
+<meta name="DC.Language" scheme="ISO639-1" content="en">
+<link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements">
+<!-- End Dublin Core -->
+<!-- style sheet -->
+<link rel="stylesheet" href="/macros/main.css">
+
+<script language="JavaScript" type="text/javascript">
+<!-- hide
+
+function checkForm() {
+	
+	//http regex
+	var reHttp = /https?|HTTPS?|url|URL/;
+	
+	//check to see if there is an email address
+	var emailStr = "";
+	if (!window.document.emailForm.optOut.checked) {
+		var reEmail = /^\w+([\.\'-]?\w+)*@\w+([\.\'-]?\w+)*(\.\w{2,7})+$/;  //make sure email is ok
+		var emailStr = window.document.emailForm.email.value;
+		if (!reEmail.test(emailStr)){
+			alert("Sorry \"" + emailStr + "\" is an invalid email address...");
+			window.document.emailForm.email.focus();
+			return(false);
+		}
+		//make sure the email address matches
+		var emailStr2 = window.document.emailForm.email2.value;
+		if (emailStr != emailStr2) {
+					alert("Entered email address did not match")
+					window.document.emailForm.email2.focus();
+					window.document.emailForm.email2.select();
+					return(false);
+		}
+	}
+	
+	
+	//now check the radio buttons
+	var radio_select = "no";
+	for (var i = 0; i < window.document.emailForm.who.length; i++) {
+		if (window.document.emailForm.who[i].checked == true){
+		radio_select = "yes";
+		}
+	}	
+	if (radio_select =="no") {
+		alert("You must select a recipient for this feedback...Thank you");
+		window.document.emailForm.who[0].focus();
+		return(false);
+	}
+	
+	//if the url box includes http alert user
+	if (reHttp.test(window.document.emailForm.url.value)){
+		alert("I am sorry but \"http\" and\/or \"url\" are illegal characters...");
+		
+		return(false);
+	}
+	
+	//check the comment box to make sure there is something in it
+	if (window.document.emailForm.message.value =="") {
+		alert("Please provide text for the Comment box, thank you.");
+		window.document.emailForm.message.focus();
+		return(false);
+	}
+	
+	if (window.document.emailForm.passphrase.value =="") {
+		alert("Please provide the passphrase, thank you.");
+		window.document.emailForm.passphrase.focus();
+		return(false);
+	}
+	
+		
+return(true);	
+}
+
+// this takes the value of the limits defined in the textbox tag and passes them
+// to the "countfield"
+
+function textCounter(field, countfield, maxlimit) {
+if (field.value.length > maxlimit)
+field.value = field.value.substring(0, maxlimit);
+else 
+countfield.value = maxlimit - field.value.length;
+}
+
+function toggleEmail(checked) {
+	document.getElementById("emailInputs").style.display = checked ? 'none' : 'block';
+}
+-->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/macros/css/main.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/macros/css/banner.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/macros/css/footer.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/macros/css/print.css" media="print">
+
+<script type="text/javascript" src="/macros/js/common.svn.js"></script>
+<script type="text/javascript" src="/macros/js/dropdown.js"></script>
+
+
+
+<!-- MDH BANNER HTML --------------------------------------------------------------------------->
+<div id="mdhHeaderDiv">
+  <header class="banner"> <a href="/index.html"><img class="bannerImg no_print" src="/images/logo-reverse.png" alt="Department of Health Logo"></a>
+    <img class="bannerImg-small hidden" src="/images/portal-logo-screen_tcm1077-226393.png" alt="Minnesota logo">
+    
+    <img src="/images/logo_print.png" alt="MDH Logo" width="250" height="37" class="printOnly">
+    
+    <div class="title hidden" tabindex="0">Minnesota Department of Health</div>
+  
+    <div id="navigation">
+      <ul id="navbar" class="clearfix">
+        <li><a href="/index.html" id="home">HOME</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" id="topic">TOPICS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li style="width:400px"><a href="/data/index.html">Data, Statistics and Legislation</a></li>
+            <li><a href="/diseases/index.html">Diseases and Conditions</a></li>
+            <li><a href="/facilities/index.html">Health Care Facilities, Providers, and Insurance</a></li>
+            <li><a href="/communities/index.html">Healthy Communities, Environment and Workplaces</a></li>
+            <li><a href="/people/index.html">Individual and Family Health</a></li>
+          </ul>
+        </li>
+        <li><a href="/about/index.html" id="about">ABOUT US</a></li>
+      </ul>
+	<div id="searchform">
+            <form id="cse-search-box" name="seek" action="https://mn.gov/mdh/search/" onsubmit="return validateSearch(this);">
+      <div id="searchbox">
+        <label style="position: absolute; left:-1100px" for="q">search input field</label>
+        <button type="submit" class="searchbutton"><span class="sr-only">Search</span></button>
+        <input type="text" name="query" placeholder="Search" id="q" size="30" class="searchtext" value="" onfocus="return clearSearchDefault;">
+			   
+        
+      </div>
+      </form>
+
+    </div>         
+  </div>
+  </header>
+</div>
+<!--------------------------------------------------------------------------------------------->
+
+
+
+<!-- End Banner Include -->
+
+
+<!-- Begin Main Content -->
+
+
+
+
+<!-- Begin Main Content -->
+
+<div id="container">
+	<div id="content" class="clearfix">
+		<div id="sidebar_left">
+			
+		</div>
+		<div id="body">
+ 
+      
+            <form action="mailConfirm.cfm" method="POST" name="emailForm" onsubmit="var the_result = checkForm(); return the_result;">
+              
+        <h1>MDH Feedback 
+          Form
+        </h1>
+        <p align="left">Thank 
+          you for visiting the Minnesota Department of Health website. Your comments 
+          and suggestions are valuable. </p>
+        
+		<p><span class="redbold">Notice: </span>Please do not include any private or sensitive information in your message 
+		(such as social security numbers or credit card numbers). If you need to give us private information, 
+		please contact us by phone. For phone numbers, see <a href="/about/faqphones.html">
+Frequently Called Phone Numbers by Subject</a>.</p>
+		<p>If you have an accessibility or usability problem with our website, submit your feedback on the <a href="http://mn.gov/portal/about-minnesota/accessibility-issues/">Minnesota E-Government Accessibility/Usability Comment Form</a>.</p>
+		
+    <p>
+			Your first and last name (optional): <br>
+			<input type="text" name="name" size="50" maxlength="50">
+		</p>
+		
+		<div id="emailInputs">
+			<p>
+				Your email address: <span class="redbold">(This information is required to receive a reply)</span><br>
+			<input name="email" type="text" id="email" size="50" maxlength="50" required="yes"><br>
+			</p>            
+			<p>
+				Please verify your email address:<br>
+				<input name="email2" type="text" id="email2" size="50" maxlength="50" required="yes">
+			</p>
+		</div>
+
+		<p>
+			The purpose of this feedback is for:<br>
+      <input type="radio" name="who" value="mdhinfo">General questions about MDH programs or services<br>
+      <input type="radio" name="who" value="commissioner">The Commissioner of the Department of Health<br>
+      <input type="radio" name="who" value="webmaster">
+      The webmaster in regard to a technical question<br><span class="redbold">(This information is required)</span>
+		</p>
+              
+              <p><strong>Note: If you are reporting a broken link, please tell us the page that contains the broken link.               </strong>              
+              </p><p>If commenting on a specific page, please include the web address at the top of the page: <br>
+              http://www.health.state.mn.us/
+                <input type="text" name="url" size="30">
+              </p><p><i>Limited to 1800 characters<br> 
+                <input disabled="" type="text" name="message_count" size="4" maxlength="4" value="1800">
+                remaining.</i><br>
+                Your comments or suggestions:<br>
+                <textarea name="message" cols="70" rows="5" id="messsage" onkeydown="textCounter(this.form.message,this.form.message_count,1800);" onkeyup="textCounter(this.form.message,this.form.message_count,1800);" wrap="physical"></textarea>
+              
+			  </p><table width="100%">
+			  <tbody><tr bgcolor="#FFFFCC">
+              <td>To prevent abuse of this form, please type the following letters/numbers <strong>
+              
+	
+
+
+
+
+    
+   
+   
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+27M5U
+
+              </strong> into the field below. Thank you.<br>
+              <strong>
+              
+              </strong>
+			  <input type="TEXT" name="passphrase" size="6" maxlength="5">
+			  <input type="HIDDEN" name="goodpassphrase" value="
+	
+
+
+
+
+    
+   
+   
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+27M5U
+">
+			  <br>
+             <span class="redbold">required</span>
+              <p></p>
+			  </td>
+			  </tr>
+			  </tbody></table>
+                <p><input type="submit" value="Send your message" name="submit">
+              <input type="reset" value="Clear the form" name="reset"></p>
+          </form>
+          
+      <!--End of story -->
+        </div>
+  <div id="sidebar_right">
+			<!------------------------------------------------------- Begin social media links column ------------------------------------------------------------>        
+			<ul id="socialMedia">
+				<li><a href="javascript:window.open('https://public.govdelivery.com/accounts/MNMDH/subscriber/new','Popup','width=700,height=440,toolbar=no,scrollbars=yes,resizable=yes'); void('');" onclick="window.status='Subscribe'; return true" onmouseover="window.status='Subscribe'; return true" onmouseout="window.status=''; return true" class="email">Email Updates</a></li>
+				<div id="share" role="navigation" aria-label="Main menu"><br>
+					<ul class="nav">
+					<li><a class="share">Share This</a><ul class="addthis_toolbox addthis_default_style">
+  					<li><a class="addthis_button_preferred_1">Facebook</a></li>
+					<li><a class="addthis_button_preferred_2">Twitter</a></li>
+  					<li><a class="addthis_button_preferred_3">Email</a></li>
+  					<li><a class="addthis_button_preferred_4">Print</a></li>
+  					<li><a class="addthis_button_preferred_12">LinkedIn</a></li>
+  					<!-- <li><a class="addthis_button_preferred_8">Reddit</a></li> -->
+                    </ul> 
+    			</li>     
+			</ul> 
+            <!------------------------------------------------------- Begin social media links column ------------------------------------------------------------>    
+                       
+				</div> 
+			</ul>
+			
+		</div>
+	</div>
+</div>
+  
+	  <!-- Begin Footer Include -->
+<div id="footer">
+	<div id="footerContainer">
+		<div id="footerTopics">
+        <ul class="clearfix">
+	    <li><a href="/people/index.html">Individual &amp; Family Health</a></li>
+                <li><a href="/facilities/index.html">Health Care Facilities, Providers <br>
+  &amp; Insurance</a></li>
+                <li><a href="/data/index.html">Data, Statistics and Legislation</a></li>
+                <li><a href="/diseases/index.html">Diseases &amp; Conditions</a></li>
+                <li><a href="/communities/index.html">Healthy Communities, Environment <br>
+  &amp; Workplaces</a></li>
+                <li><a href="/about/index.html">About MDH</a></li>
+                <li><a href="/about/locations/index.html">Locations &amp; Directions</a></li>
+                <li><a href="/forms/feedback/mail.html">Comments &amp; Questions</a></li>
+                <li><a href="/about/privacy.html">Privacy Statement &amp; Disclaimer</a></li>
+                <li><a href="/about/equalopp.html">Equal Opportunity</a>      </li>
+        </ul>
+	  </div>
+      <div id="footerTopics" style="height:150px;"> 
+      <p>651-201-5000 Phone<br>
+				888-345-0823 Toll-free</p>
+			<p>Information on this website is available in alternative formats upon request. </p>
+		<p style="text-align:center; overflow:hidden"><a href="https://mn.gov/portal/" onclick="return OuttaHere(); return false;"><img src="https://mn.gov/portal/assets/mn.logo.footer_tcm1077-65019.png" alt="Minnesota.gov"></a></p><p style="text-align:center"><a href="https://www.phaboard.org/"><img src="/images/phabseal.png" width="125" height="125" alt="Public Health Accreditation Board"></a></p>
+	  </div>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20272425-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_6486.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<script>
+		
+var lib = '/macros/js/bootstrap.js';
+
+if (!isLoadedScript(lib)) {
+  loadScript(lib);
+}
+
+// Detect if library loaded
+function isLoadedScript(lib) {
+  return document.querySelectorAll('[src="' + lib + '"]').length > 0
+}
+
+// Load library
+function loadScript(lib) {
+  var script = document.createElement('script');
+  script.setAttribute('src', lib);
+  document.getElementsByTagName('head')[0].appendChild(script);
+  return script;
+}
+</script>
+
+
+<!-- End Footer Include -->
+
+<p align="left">Updated Monday, May 06, 2019 at 04:40PM
+</p>
+
+
+
+</body></html>

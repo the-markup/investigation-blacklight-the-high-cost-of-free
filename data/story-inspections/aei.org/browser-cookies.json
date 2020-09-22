@@ -1,0 +1,16 @@
+{
+  "browser_cookies": [
+    {
+      "name": "__cfduid",
+      "value": "d93abef4e4ecf39a983de93d03ce171e21591058350",
+      "domain": "aei.org",
+      "path": "/",
+      "expires": "2020-07-02T00:39:10.555Z",
+      "size": 51,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax"
+    }
+  ]
+}

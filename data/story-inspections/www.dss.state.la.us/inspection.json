@@ -1,0 +1,1601 @@
+{
+  "title": "state-corona-sites",
+  "uri_ins": "http://www.dss.state.la.us/page/coronavirus",
+  "uri_dest": "http://www.dss.state.la.us/page/coronavirus",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.dss.state.la.us",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.152.253",
+    "version": {
+      "npm": "0.0.8",
+      "commit": null
+    },
+    "node_version": "v12.16.1"
+  },
+  "start_time": "2020-03-27T14:17:03.622Z",
+  "end_time": "2020-03-27T14:17:20.794Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "http://www.dss.state.la.us/page/coronavirus",
+    "http://www.dss.state.la.us/page/414",
+    "http://www.dss.state.la.us/form/12",
+    "http://www.dss.state.la.us/page/246"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.dss.state.la.us"
+      ],
+      "third_party": [
+        "use.fontawesome.com",
+        "www.google-analytics.com",
+        "clientservices.covalentlogic.com",
+        "translate.google.com",
+        "cdnjs.cloudflare.com",
+        "maxcdn.bootstrapcdn.com",
+        "s7.addthis.com",
+        "fonts.googleapis.com",
+        "www.youtube.com",
+        "fonts.gstatic.com",
+        "translate.googleapis.com",
+        "stats.g.doubleclick.net",
+        "z.moatads.com",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "www.gstatic.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "data",
+        "yt3.ggpht.com",
+        "i.ytimg.com",
+        "graph.facebook.com",
+        "api-public.addthis.com",
+        "api-public-oci-origin.addthis.com",
+        "tags.bluekai.com",
+        "match.adsrvr.org",
+        "sync.mathtag.com",
+        "dpm.demdex.net",
+        "secure.adnxs.com",
+        "cm.g.doubleclick.net",
+        "x.dlx.addthis.com",
+        "su.addthis.com",
+        "www.google.com",
+        "pixel-sync.sitescout.com",
+        "cms.analytics.yahoo.com",
+        "psi.tubemogul.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.3.1745236110.1585318625",
+        "domain": "state.la.us",
+        "path": "/",
+        "expires": 1648390637,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-03-27T14:17:17.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "PREF",
+        "value": "f4=4000000",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1648390625,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-03-27T14:17:05.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619533038,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-27T14:17:18.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uvc",
+        "value": "4%7C13",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619533038,
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-27T14:17:18.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvc",
+        "value": "4%7C13",
+        "domain": "www.dss.state.la.us",
+        "path": "/",
+        "expires": 1619533037,
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-04-27T14:17:17.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uuid",
+        "value": "d84c5e7e-0ae4-4600-ba35-4c4162107787",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1619273828.194227,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-24T14:17:08.194Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e7e0ae1c3c921db",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014637.773891,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:17.773Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mus",
+        "value": "0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014637.773875,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:17.773Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e7e0ae10001d9aff41c7e764de6f7e30496e1ff7a09b0b2fb1a",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014637.773812,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:17.773Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020032714170542400412770801",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014625.454765,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:05.454Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFef1xeh0IcFAQF",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876231.958464,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-03-27T20:17:11.958Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "d25n5v9f7s2n7&b=3&s=mj",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876231.958456,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T20:17:11.958Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBOcKfl4CEBNKXMt6dSaRhW8-nfrlFtEFEgEBAQFcf16HXgAAAAAA_SMAAA&S=AQAAArlsAzGiR3ZyAOsSvAlxjY4",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876231.958429,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T20:17:11.958Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tmid",
+        "value": "8692219435996593059",
+        "domain": "tubemogul.com",
+        "path": "/",
+        "expires": 1616854631.980079,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T14:17:11.980Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "8815e8e2-c79e-462b-bc2f-f293c207ed10#1585318631868",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": 1616854631.976692,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-03-27T14:17:11.976Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHYWRkdGhpcxILCPrl5I3ymKk4EAUYBSABKAIyCwjYpJK6iJmpOBAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1616854628.158023,
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:17:08.158Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "9dcac85b-5134-4ce5-b1a0-bc4bb7d69ec1",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1616854628.15798,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:17:08.157Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99mxv4kTGoVXN",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1600870631.034631,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:11.034Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "08789641973757575082553193329325895427",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1600870628.174243,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:08.174Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "08789641973757575082553193329325895427",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1600870628.174163,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:08.174Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1600870628.136649,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:08.136Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "RFlczva2VBw",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1600870624.6971,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:04.697Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "3445220297552873016",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1593094628.305697,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-06-25T14:17:08.305Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.3.43241966.1585318625",
+        "domain": "state.la.us",
+        "path": "/",
+        "expires": 1585405037,
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-28T14:17:17.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e7e0ae1344303e0003",
+        "domain": "www.dss.state.la.us",
+        "path": "/",
+        "expires": 1585320437,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:47:17.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "GPS",
+        "value": "1",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1585320424.697089,
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:47:04.697Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1585319525.837445,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-03-27T14:32:05.837Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "state.la.us",
+        "path": "/",
+        "expires": 1585318684,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:18:04.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "YSC",
+        "value": "HJMKcZfbz5c",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.youtube.com/s/player/d9b4c6ee/player_ias.vflset/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ],
+        "https://www.youtube.com/s/player/d9b4c6ee/player_ias.vflset/en_US/base.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ],
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js": [
+          "click"
+        ],
+        "https://www.youtube.com/s/player/d9b4c6ee/player_ias.vflset/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.youtube.com/s/player/d9b4c6ee/player_ias.vflset/en_US/base.js": [
+          "touchend",
+          "touchstart"
+        ]
+      }
+    },
+    "key_logging": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {},
+    "session_recorders": {},
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0aed86179599",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 170,
+            "sid": "5e7e0aed86179599",
+            "pub": "ra-56e9d1496e3fff9e",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.dss.state.la.us",
+            "fp": "page/246",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318637660,
+            "jsl": 1,
+            "uvs": "5e7e0ae1344303e0003",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__167098543976229590"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/246",
+            "source": "requested from http://www.dss.state.la.us/page/246 and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0aed86179599&bkl=0&bl=1&pdt=170&sid=5e7e0aed86179599&pub=ra-56e9d1496e3fff9e&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.dss.state.la.us&fp=page%2F246&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318637660&jsl=1&uvs=5e7e0ae1344303e0003&skipb=1&callback=addthis.cbs.jsonp__167098543976229590"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/246",
+            "source": "requested from http://www.dss.state.la.us/page/246 and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-56e9d1496e3fff9e/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1023223523,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "http://www.dss.state.la.us/page/246",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Residential Care and Special Population Licensing | Louisiana Department of Children & Family Services",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1745236110.158532,
+            "tid": "UA-763464-45",
+            "_gid": 43241966.15853186,
+            "z": 1081455064
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/246",
+            "source": "requested from http://www.dss.state.la.us/page/246 and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=1023223523&t=pageview&_s=1&dl=http%3A%2F%2Fwww.dss.state.la.us%2Fpage%2F246&ul=en-us&de=UTF-8&dt=Residential%20Care%20and%20Special%20Population%20Licensing%20%7C%20Louisiana%20Department%20of%20Children%20%26%20Family%20Services&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAEAB~&jid=&gjid=&cid=1745236110.1585318625&tid=UA-763464-45&_gid=43241966.1585318625&z=1081455064"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/246",
+            "source": "requested from http://www.dss.state.la.us/page/246 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 2035,
+            "ph": 2335,
+            "ivh": 812,
+            "dt": 5515,
+            "pdt": 315,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|315|57,lojson|554|120,sh|558|36",
+            "rndr": "render_toolbox|790,render_layers_sharetoolbox|1036",
+            "cmenu": null,
+            "ppd": 5,
+            "ppl": 5,
+            "fbe": "-1|2",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.2.1,googleanalytics-analytics.js",
+            "al": "men,tbx",
+            "scr": 4,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 7,
+            "sid": "5e7e0ae759660ef7",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-56e9d1496e3fff9e",
+            "dp": "www.dss.state.la.us",
+            "fp": "form/12",
+            "pfm": 0,
+            "icns": "facebook,twitter,linkedin,print,addthis"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/form/12",
+            "source": "requested from http://www.dss.state.la.us/form/12 and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=2035&ph=2335&ivh=812&dt=5515&pdt=315&ict=&pct=0&perf=widget%7C315%7C57%2Clojson%7C554%7C120%2Csh%7C558%7C36&rndr=render_toolbox%7C790%2Crender_layers_sharetoolbox%7C1036&cmenu=null&ppd=5&ppl=5&fbe=-1%7C2&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.2.1%2Cgoogleanalytics-analytics.js&al=men%2Ctbx&scr=4&scv=0&apiu=1&ba=7&sid=5e7e0ae759660ef7&rev=v8.28.3-wp&pub=ra-56e9d1496e3fff9e&dp=www.dss.state.la.us&fp=form%2F12&pfm=0&icns=facebook%2Ctwitter%2Clinkedin%2Cprint%2Caddthis"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 24,
+            "puid": 8692219435996593000,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=24&puid=8692219435996593059&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11185,
+            "puid": "8815e8e2-c79e-462b-bc2f-f293c207ed10-5e7e0ae7-5553",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11185&puid=8815e8e2-c79e-462b-bc2f-f293c207ed10-5e7e0ae7-5553&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11156,
+            "ssrc": 1,
+            "puid": "GllT4r5Pq1SYBWsBmrK4YZJ8PnPmSnNSDZpRvw--"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11156&ssrc=1&puid=GllT4r5Pq1SYBWsBmrK4YZJ8PnPmSnNSDZpRvw--"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=23&puidKey=google_gid&ssrc=1&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "",
+            "BK_SWAP_DEST": 2981,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2981?id=&BK_SWAP_DEST=2981&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "BK_SWAP_DEST": 2981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&BK_SWAP_DEST=2981"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "addthis",
+            "google_cm": null,
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=addthis&google_cm&pid=23&puidKey=google_gid&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "ADDIS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cms.analytics.yahoo.com/cms?partner_id=ADDIS"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e7e0ae759660ef7",
+            "uid": "5e7e0ae1c3c921db",
+            "ids": "8817-8803-8787-8808-8801",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e7e0ae759660ef7&uid=5e7e0ae1c3c921db&ids=8817-8803-8787-8808-8801&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ae759660ef7",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 315,
+            "sid": "5e7e0ae759660ef7",
+            "pub": "ra-56e9d1496e3fff9e",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.dss.state.la.us",
+            "fp": "form/12",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318631237,
+            "jsl": 1,
+            "uvs": "5e7e0ae1344303e0002",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__411594437007883230"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/form/12",
+            "source": "requested from http://www.dss.state.la.us/form/12 and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ae759660ef7&bkl=0&bl=1&pdt=315&sid=5e7e0ae759660ef7&pub=ra-56e9d1496e3fff9e&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.dss.state.la.us&fp=form%2F12&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318631237&jsl=1&uvs=5e7e0ae1344303e0002&skipb=1&callback=addthis.cbs.jsonp__411594437007883230"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/form/12",
+            "source": "requested from http://www.dss.state.la.us/form/12 and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-56e9d1496e3fff9e/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 137300416,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "http://www.dss.state.la.us/form/12",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "DCFS News | Louisiana Department of Children & Family Services",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1745236110.158532,
+            "tid": "UA-763464-45",
+            "_gid": 43241966.15853186,
+            "z": 2002408413
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/form/12",
+            "source": "requested from http://www.dss.state.la.us/form/12 and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=137300416&t=pageview&_s=1&dl=http%3A%2F%2Fwww.dss.state.la.us%2Fform%2F12&ul=en-us&de=UTF-8&dt=DCFS%20News%20%7C%20Louisiana%20Department%20of%20Children%20%26%20Family%20Services&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAEAB~&jid=&gjid=&cid=1745236110.1585318625&tid=UA-763464-45&_gid=43241966.1585318625&z=2002408413"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/form/12",
+            "source": "requested from http://www.dss.state.la.us/form/12 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 2154,
+            "ivh": 812,
+            "dt": 2337,
+            "pdt": 148,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|149|17,lojson|429|114,sh|434|58",
+            "rndr": "render_toolbox|489,render_layers_sharetoolbox|866",
+            "cmenu": null,
+            "ppd": 5,
+            "ppl": 5,
+            "fbe": "-1|2",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.2.1,googleanalytics-analytics.js",
+            "al": "men,tbx",
+            "scr": 4,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 7,
+            "sid": "5e7e0ae304a80eae",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-56e9d1496e3fff9e",
+            "dp": "www.dss.state.la.us",
+            "fp": "page/414",
+            "pfm": 0,
+            "icns": "facebook,twitter,linkedin,print,addthis"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/414",
+            "source": "requested from http://www.dss.state.la.us/page/414 and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=2154&ivh=812&dt=2337&pdt=148&ict=&pct=0&perf=widget%7C149%7C17%2Clojson%7C429%7C114%2Csh%7C434%7C58&rndr=render_toolbox%7C489%2Crender_layers_sharetoolbox%7C866&cmenu=null&ppd=5&ppl=5&fbe=-1%7C2&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.2.1%2Cgoogleanalytics-analytics.js&al=men%2Ctbx&scr=4&scv=0&apiu=1&ba=7&sid=5e7e0ae304a80eae&rev=v8.28.3-wp&pub=ra-56e9d1496e3fff9e&dp=www.dss.state.la.us&fp=page%2F414&pfm=0&icns=facebook%2Ctwitter%2Clinkedin%2Cprint%2Caddthis"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 6,
+            "puid": 3445220297552873000,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=6&puid=3445220297552873016&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11112,
+            "puid": "d84c5e7e-0ae4-4600-ba35-4c4162107787",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11112&puid=d84c5e7e-0ae4-4600-ba35-4c4162107787&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "d84c5e7e-0ae4-4600-ba35-4c4162107787"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1&mm_bnc&mm_bct&UUID=d84c5e7e-0ae4-4600-ba35-4c4162107787"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 16,
+            "puid": "08789641973757575082553193329325895427",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=16&puid=08789641973757575082553193329325895427&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11124,
+            "puid": "9dcac85b-5134-4ce5-b1a0-bc4bb7d69ec1",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11124&puid=9dcac85b-5134-4ce5-b1a0-bc4bb7d69ec1&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 420,
+            "dpuuid": "5e7e0ae1c3c921db",
+            "redir": "https://su.addthis.com/red/usync?pid=16&puid=${DD_UUID}&ssrc=3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=420&dpuuid=5e7e0ae1c3c921db&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=420&dpuuid=5e7e0ae1c3c921db&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e7e0ae304a80eae",
+            "uid": "5e7e0ae1c3c921db",
+            "ids": "8796-8795-8822-8788-8797-5470",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e7e0ae304a80eae&uid=5e7e0ae1c3c921db&ids=8796-8795-8822-8788-8797-5470&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ae304a80eae",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 148,
+            "sid": "5e7e0ae304a80eae",
+            "pub": "ra-56e9d1496e3fff9e",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.dss.state.la.us",
+            "fp": "page/414",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318627676,
+            "jsl": 1,
+            "uvs": "5e7e0ae1344303e0001",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__50411096638870840"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/414",
+            "source": "requested from http://www.dss.state.la.us/page/414 and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ae304a80eae&bkl=0&bl=1&pdt=148&sid=5e7e0ae304a80eae&pub=ra-56e9d1496e3fff9e&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.dss.state.la.us&fp=page%2F414&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318627676&jsl=1&uvs=5e7e0ae1344303e0001&skipb=1&callback=addthis.cbs.jsonp__50411096638870840"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/414",
+            "source": "requested from http://www.dss.state.la.us/page/414 and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-56e9d1496e3fff9e/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 384089914,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "http://www.dss.state.la.us/page/414",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Email LAHelpU.dcfs@LA.GOV | Louisiana Department of Children & Family Services",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1745236110.158532,
+            "tid": "UA-763464-45",
+            "_gid": 43241966.15853186,
+            "z": 1010037771
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/414",
+            "source": "requested from http://www.dss.state.la.us/page/414 and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=384089914&t=pageview&_s=1&dl=http%3A%2F%2Fwww.dss.state.la.us%2Fpage%2F414&ul=en-us&de=UTF-8&dt=Email%20LAHelpU.dcfs%40LA.GOV%20%7C%20Louisiana%20Department%20of%20Children%20%26%20Family%20Services&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAEAB~&jid=&gjid=&cid=1745236110.1585318625&tid=UA-763464-45&_gid=43241966.1585318625&z=1010037771"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/414",
+            "source": "requested from http://www.dss.state.la.us/page/414 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 0,
+            "ph": 9906,
+            "ivh": 812,
+            "dt": 1763,
+            "pdt": 774,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|775|284,lojson|1483|133,sh|1499|40",
+            "rndr": "render_toolbox|1799,render_layers_sharetoolbox|2236",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "-1|2",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-3.2.1,googleanalytics-analytics.js",
+            "al": "men,tbx",
+            "scr": 4,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 7,
+            "sid": "5e7e0ae1fca463d1",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-56e9d1496e3fff9e",
+            "dp": "www.dss.state.la.us",
+            "fp": "page/coronavirus",
+            "pfm": 0,
+            "icns": "facebook,twitter,linkedin,print,addthis"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=0&ph=9906&ivh=812&dt=1763&pdt=774&ict=&pct=0&perf=widget%7C775%7C284%2Clojson%7C1483%7C133%2Csh%7C1499%7C40&rndr=render_toolbox%7C1799%2Crender_layers_sharetoolbox%7C2236&cmenu=null&ppd=0&ppl=0&fbe=-1%7C2&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-3.2.1%2Cgoogleanalytics-analytics.js&al=men%2Ctbx&scr=4&scv=0&apiu=1&ba=7&sid=5e7e0ae1fca463d1&rev=v8.28.3-wp&pub=ra-56e9d1496e3fff9e&dp=www.dss.state.la.us&fp=page%2Fcoronavirus&pfm=0&icns=facebook%2Ctwitter%2Clinkedin%2Cprint%2Caddthis"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ae1fca463d1",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 774,
+            "sid": "5e7e0ae1fca463d1",
+            "pub": "ra-56e9d1496e3fff9e",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.dss.state.la.us",
+            "fp": "page/coronavirus",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318625320,
+            "jsl": 1,
+            "uvs": "5e7e0ae1344303e0000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__90327299146603980"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ae1fca463d1&bkl=0&bl=1&pdt=774&sid=5e7e0ae1fca463d1&pub=ra-56e9d1496e3fff9e&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.dss.state.la.us&fp=page%2Fcoronavirus&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318625320&jsl=1&uvs=5e7e0ae1344303e0000&skipb=1&callback=addthis.cbs.jsonp__90327299146603980"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-56e9d1496e3fff9e/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j81",
+            "tid": "UA-763464-45",
+            "cid": 1745236110.158532,
+            "jid": 1675225712,
+            "gjid": 1723873963,
+            "_gid": 43241966.15853186,
+            "_u": "IEBAAEAAAAAAAC~",
+            "z": 257516820
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j81&tid=UA-763464-45&cid=1745236110.1585318625&jid=1675225712&gjid=1723873963&_gid=43241966.1585318625&_u=IEBAAEAAAAAAAC~&z=257516820"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1393849458,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "http://www.dss.state.la.us/page/coronavirus",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Coronavirus (COVID-19) | Louisiana Department of Children & Family Services",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IEBAAEABAAAAAC~",
+            "jid": 1675225712,
+            "gjid": 1723873963,
+            "cid": 1745236110.158532,
+            "tid": "UA-763464-45",
+            "_gid": 43241966.15853186,
+            "_r": 1,
+            "z": 605428797
+          }
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&a=1393849458&t=pageview&_s=1&dl=http%3A%2F%2Fwww.dss.state.la.us%2Fpage%2Fcoronavirus&ul=en-us&de=UTF-8&dt=Coronavirus%20(COVID-19)%20%7C%20Louisiana%20Department%20of%20Children%20%26%20Family%20Services&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IEBAAEABAAAAAC~&jid=1675225712&gjid=1723873963&cid=1745236110.1585318625&tid=UA-763464-45&_gid=43241966.1585318625&_r=1&z=605428797"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "http://www.dss.state.la.us/page/coronavirus",
+            "source": "requested from http://www.dss.state.la.us/page/coronavirus and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      }
+    ]
+  }
+}

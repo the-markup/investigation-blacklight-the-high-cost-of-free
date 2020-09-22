@@ -1,0 +1,2724 @@
+{
+  "title": "vulnerable-groups-sites",
+  "uri_ins": "https://www.domesticshelters.org/",
+  "uri_dest": "https://www.domesticshelters.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.domesticshelters.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.138-99.102.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.185.85",
+    "version": {
+      "npm": "0.0.6",
+      "commit": null
+    },
+    "node_version": "v12.14.1"
+  },
+  "start_time": "2020-02-21T16:41:03.168Z",
+  "end_time": "2020-02-21T16:41:31.854Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.domesticshelters.org/",
+    "https://www.domesticshelters.org/advertise",
+    "https://www.domesticshelters.org/resources/risk-assessment-tools",
+    "https://www.domesticshelters.org/articles/child-custody"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.domesticshelters.org"
+      ],
+      "third_party": [
+        "d3i11hp0zpbt87.cloudfront.net",
+        "www.googletagmanager.com",
+        "s7.addthis.com",
+        "maps.googleapis.com",
+        "use.typekit.net",
+        "pagead2.googlesyndication.com",
+        "www.google-analytics.com",
+        "www.googletagservices.com",
+        "connect.facebook.net",
+        "cdnjs.cloudflare.com",
+        "www.googleadservices.com",
+        "browser-update.org",
+        "stats.g.doubleclick.net",
+        "adservice.google.com",
+        "googleads.g.doubleclick.net",
+        "securepubads.g.doubleclick.net",
+        "z.moatads.com",
+        "www.google.com",
+        "p.typekit.net",
+        "js-agent.newrelic.com",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "tpc.googlesyndication.com",
+        "bam.nr-data.net",
+        "partner.googleadservices.com",
+        "tags.bluekai.com",
+        "dpm.demdex.net",
+        "d.turn.com",
+        "match.adsrvr.org",
+        "sync.mathtag.com",
+        "secure.adnxs.com",
+        "cm.g.doubleclick.net",
+        "x.dlx.addthis.com",
+        "su.addthis.com",
+        "pixel-sync.sitescout.com",
+        "cms.analytics.yahoo.com",
+        "epiv.cardlytics.com",
+        "psi.tubemogul.com",
+        "bid.g.doubleclick.net"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.1767262830.1582303265",
+        "domain": "domesticshelters.org",
+        "path": "/",
+        "expires": 1645375285,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:41:25.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__gads",
+        "value": "ID=3d7dc3c65a38f6a8:T=1582303273:S=ALNI_MaLBRMZjsNMQbazF4480Cwt68TSEg",
+        "domain": "domesticshelters.org",
+        "path": "/",
+        "expires": 1645375273,
+        "size": 75,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:41:13.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344887,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:27.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uvc",
+        "value": "4%7C8",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344887,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:27.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvc",
+        "value": "4%7C8",
+        "domain": "www.domesticshelters.org",
+        "path": "/",
+        "expires": 1616344886,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-21T16:41:26.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uuidc",
+        "value": "jXbObWOQ1BLRD0AD4fOOn7IQPDMvVbvEbxW0ik2nB4RtGKzEeoRfBbuGzFZMelPH9zPl8CSgQPnx2UQxldgSh6CpiYPJatQo1pnBJEyy8bM=",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258475.258887,
+        "size": 113,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-20T16:41:15.258Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "6fbc5e50-082b-4e00-824d-dde2f8bd2a9a",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258475.258841,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-20T16:41:15.258Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e500823004dc580",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999287.11816,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:27.118Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mus",
+        "value": "0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999287.118143,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:27.118Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e50082300011f8dc326627b83059c7a9b6266e33345eee2c9e7",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999287.1181,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:27.118Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020022116410722600468903830",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999267.260112,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:07.260Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHYWRkdGhpcxILCMjR6ubcvZs4EAUYBSABKAIyCwiynrST872bOBAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925675.183379,
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:15.183Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "8ea459c5-2cf2-4372-be4d-3a125429f3f7",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925675.183348,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:15.183Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFeUVleWUId5AQS",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.001715,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:21.001Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "9ddc8tlf5021g&b=3&s=t2",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.001706,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T22:41:21.001Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBDAIUF4CEHI3dowAAps3iIaT8u2ItZYFEgEBAQFZUV5ZXgAAAAAA_SMAAA&S=AQAAAufAPwY0YhF3t2QbACRb-nc",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1613860881.00168,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T22:41:21.001Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tmid",
+        "value": "-6813319988311596645",
+        "domain": "tubemogul.com",
+        "path": "/",
+        "expires": 1613839280.981041,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:20.981Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "8e3f5c4d-dead-472c-a205-dadad86f0a0f#1582303280942",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": 1613839280.957873,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:20.957Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mv3",
+        "value": "LTUctEa9rmaXkg%2bL5oFhAm59xvWByavho6iWSYSssdoEH9ZjPiX4P8mIGSIDZ9zKS%2bzCdBlKdVYOUHNe7PqrEA%3d%3d",
+        "domain": "cardlytics.com",
+        "path": "/",
+        "expires": 1597855281.023071,
+        "size": 99,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:21.023Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99YL/DaTaEITF",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855281.002349,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:21.002Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "8666901961632065877",
+        "domain": "turn.com",
+        "path": "/",
+        "expires": 1597855276.182124,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:16.182Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855275.298074,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:15.298Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "28635623081176129254396163152543241622",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1597855275.21857,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:15.218Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "28635623081176129254396163152543241622",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1597855275.218524,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:15.218Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "4593589549305377438",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1590079275.277951,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-05-21T16:41:15.277Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_domestic_shelters_session",
+        "value": "UVVIanBNNXhUSXJSRDcyM1ZRdUhDTWFYR2RQT3JSc3AzZnZRNVRxRVpJYjJOTWZySmQvTEJZazMwZ0F2enEwTUorY2EyZjYxQVcwdHBzZ0E3WU9KRml5NkxnTEExQUZrNHd0ZFRxNVl0emhLYno0b1NLZ2JSVVVYTlVnN0pEVlFqTlYvbFo2VkZRN05hV1JNSXVLWGhwT1FVM2tjLzkwblhieHFIaW9UaFcwcEd0M3lMK3dlODRHVjZMY1lBNk9MLS1SRlVBbUZhY1FOWnowZ1RQTy9mMTh3PT0%3D--8487a488a8c61167cca3d69ff66f1d68479dedb1",
+        "domain": "www.domesticshelters.org",
+        "path": "/",
+        "expires": 1582389685.418632,
+        "size": 362,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2020-02-22T16:41:25.418Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.620794200.1582303265",
+        "domain": "domesticshelters.org",
+        "path": "/",
+        "expires": 1582389685,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-22T16:41:25.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e500821d6022fea003",
+        "domain": "www.domesticshelters.org",
+        "path": "/",
+        "expires": 1582305086,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:11:26.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1582304165.577982,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T16:56:05.577Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat",
+        "value": "1",
+        "domain": "domesticshelters.org",
+        "path": "/",
+        "expires": 1582303324,
+        "size": 5,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T16:42:04.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "fa64d13209f6e30e",
+        "domain": "nr-data.net",
+        "path": "/",
+        "expires": -1,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ],
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-aux-b387287f98537a5b24fec48319466742b3c6cfbf142af162527088f3687c80da.js": [
+          "scroll"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-global-d4279f0267c5558ddacd9acbe0bc1fe6852b90cf2c390ede5f6f007cca3feef3.js": [
+          "click"
+        ],
+        "https://www.domesticshelters.org/articles/child-custody": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.domesticshelters.org/resources/risk-assessment-tools": [
+          "mousedown",
+          "click"
+        ],
+        "https://www.domesticshelters.org/advertise": [
+          "mousedown",
+          "click"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/application-90ace5ea14a0a76795ece7235c19f816cd3a8944d98e790c46d39979b8a090fa.js": [
+          "scroll"
+        ],
+        "https://www.domesticshelters.org/": [
+          "mousedown",
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-global-d4279f0267c5558ddacd9acbe0bc1fe6852b90cf2c390ede5f6f007cca3feef3.js": [
+          "keyup",
+          "input"
+        ],
+        "https://www.domesticshelters.org/articles/child-custody": [
+          "keydown"
+        ],
+        "https://www.domesticshelters.org/resources/risk-assessment-tools": [
+          "keydown"
+        ],
+        "https://www.domesticshelters.org/advertise": [
+          "keydown"
+        ],
+        "https://www.domesticshelters.org/": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-global-d4279f0267c5558ddacd9acbe0bc1fe6852b90cf2c390ede5f6f007cca3feef3.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://www.domesticshelters.org/articles/child-custody": [
+          "touchstart"
+        ],
+        "https://www.domesticshelters.org/resources/risk-assessment-tools": [
+          "touchstart"
+        ],
+        "https://www.domesticshelters.org/advertise": [
+          "touchstart"
+        ],
+        "https://www.domesticshelters.org/": [
+          "touchstart"
+        ]
+      }
+    },
+    "data_exfiltration": {},
+    "canvas_fingerprinters": {
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://maps.googleapis.com/maps-api-v3/api/js/40/1/util.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://pagead2.googlesyndication.com/bg/g8HnjsmLmyWLw3udozKMxTFjcjHmVZtvSlLA8SBUepQ.js": [
+          "window.navigator.platform"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.language",
+          "window.navigator.doNotTrack",
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://tpc.googlesyndication.com/sodar/sodar2.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://js-agent.newrelic.com/nr-1167.min.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://pagead2.googlesyndication.com/pagead/js/r20200219/r20190131/reactive_library.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js?hash=6ec6c8c3fa9bf72f492765ce709e7cf8": [
+          "window.navigator.userAgent"
+        ],
+        "https://googleads.g.doubleclick.net/pagead/html/r20200219/r20190131/zrt_lookup.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://pagead2.googlesyndication.com/pagead/js/r20200219/r20190131/show_ads_impl.js": [
+          "window.navigator.userAgent",
+          "window.navigator.platform",
+          "window.navigator.language",
+          "window.navigator.appName"
+        ],
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": [
+          "window.navigator.userAgent",
+          "window.navigator.cookieEnabled"
+        ],
+        "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2020021802.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://browser-update.org/update.min.js": [
+          "window.navigator.platform",
+          "window.navigator.userAgent",
+          "window.navigator.languages"
+        ],
+        "https://www.googleadservices.com/pagead/conversion_async.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/fbevents.js": [
+          "window.navigator.userAgent",
+          "window.navigator.vendor"
+        ],
+        "https://www.googletagservices.com/tag/js/gpt.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://use.typekit.net/mhw0uzi.js": [
+          "window.navigator.vendor",
+          "window.navigator.userAgent"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/application-90ace5ea14a0a76795ece7235c19f816cd3a8944d98e790c46d39979b8a090fa.js": [
+          "window.navigator.userAgent",
+          "window.navigator.vendor",
+          "window.navigator.appVersion"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-aux-b387287f98537a5b24fec48319466742b3c6cfbf142af162527088f3687c80da.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://d3i11hp0zpbt87.cloudfront.net/assets/vendor-global-d4279f0267c5558ddacd9acbe0bc1fe6852b90cf2c390ede5f6f007cca3feef3.js": [
+          "window.navigator.appVersion",
+          "window.navigator.userAgent"
+        ],
+        "https://maps.googleapis.com/maps/api/js?libraries=places,visualization&key=AIzaSyDkl3yIdYCNlDZXhEHSyWx9QOeadyUNwgQ": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-696448608": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.domesticshelters.org/articles/child-custody": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.domesticshelters.org/resources/risk-assessment-tools": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.domesticshelters.org/advertise": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.domesticshelters.org/": [
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://pagead2.googlesyndication.com/pagead/js/r20200219/r20190131/show_ads_impl.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://www.googleadservices.com/pagead/conversion_async.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 206,
+            "t": 2,
+            "li": "gda_r20200219",
+            "jk": 1363076966361290,
+            "bg": "!RkWlRV1Y7ZyPIy6xaHgCAAAAi1IAAAAhmQE_GQRb6PnGraby36Ii_vCL-GYjvny_0dWbHs9fODkdtZ5NWeLwIjWgOiixj853mNbPQ6AjWRU6lPysdPu5yohzpcCe2rLLz3GSkCggGUAp3dkCWcE4JspKKHU5h2764HAd92OufH1BWqJ7wU14dBpnEcHt43L7I4NA8ySR_tic88f78apl1lAUwH6pUxrlDzPj0yY0rnXeIxnGMPwlnYrpZN76k8PwRiOx980owzPZG8g3Qi7ULkweePwL-l71JkTrMMlJhLlQXjbmCh3L6TOs6veYx8vMD7Is6U_3rSKvf189aMU4p2X-y_CMSnGHK0IhpsvxkCg5xHW7A6N4Zjx2sqNRj3JKO4fJZ2w_GrhzokUVve6m2wCwwJj7GvmMKcgip64BX5zfdqn3EzrGyPrMNeCFnQDSDSLn7O_3Xl6etg"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=206&t=2&li=gda_r20200219&jk=1363076966361290&bg=!RkWlRV1Y7ZyPIy6xaHgCAAAAi1IAAAAhmQE_GQRb6PnGraby36Ii_vCL-GYjvny_0dWbHs9fODkdtZ5NWeLwIjWgOiixj853mNbPQ6AjWRU6lPysdPu5yohzpcCe2rLLz3GSkCggGUAp3dkCWcE4JspKKHU5h2764HAd92OufH1BWqJ7wU14dBpnEcHt43L7I4NA8ySR_tic88f78apl1lAUwH6pUxrlDzPj0yY0rnXeIxnGMPwlnYrpZN76k8PwRiOx980owzPZG8g3Qi7ULkweePwL-l71JkTrMMlJhLlQXjbmCh3L6TOs6veYx8vMD7Is6U_3rSKvf189aMU4p2X-y_CMSnGHK0IhpsvxkCg5xHW7A6N4Zjx2sqNRj3JKO4fJZ2w_GrhzokUVve6m2wCwwJj7GvmMKcgip64BX5zfdqn3EzrGyPrMNeCFnQDSDSLn7O_3Xl6etg"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8HS0QMVw9TRRZRDV9EA0tVAQ==",
+            "rst": 2826,
+            "ref": "https://www.domesticshelters.org/articles/child-custody",
+            "ap": 134,
+            "be": 243,
+            "fe": 2402,
+            "dc": 744,
+            "perf": {
+              "timing": {
+                "of": 1582303284537,
+                "n": 0,
+                "u": 150,
+                "ue": 150,
+                "f": 1,
+                "dn": 1,
+                "dne": 1,
+                "c": 1,
+                "ce": 1,
+                "rq": 2,
+                "rp": 143,
+                "rpe": 145,
+                "dl": 165,
+                "di": 745,
+                "ds": 745,
+                "de": 826,
+                "dc": 2402,
+                "l": 2402,
+                "le": 2642
+              },
+              "navigation": {}
+            },
+            "fp": 548,
+            "fcp": 548,
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8HS0QMVw9TRRZRDV9EA0tVAQ%3D%3D&rst=2826&ref=https://www.domesticshelters.org/articles/child-custody&ap=134&be=243&fe=2402&dc=744&perf=%7B%22timing%22:%7B%22of%22:1582303284537,%22n%22:0,%22u%22:150,%22ue%22:150,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:2,%22rp%22:143,%22rpe%22:145,%22dl%22:165,%22di%22:745,%22ds%22:745,%22de%22:826,%22dc%22:2402,%22l%22:2402,%22le%22:2642%7D,%22navigation%22:%7B%7D%7D&fp=548&fcp=548&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||bid.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "d": "KAE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||bid.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e500835051fd8d6",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 241,
+            "sid": "5e500835051fd8d6",
+            "pub": "ra-537fda1d7162ee8f",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.domesticshelters.org",
+            "fp": "articles/child-custody?page=1",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303287029,
+            "jsl": 129,
+            "uvs": "5e500821d6022fea003",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__317399239816444470"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e500835051fd8d6&bkl=0&bl=1&pdt=241&sid=5e500835051fd8d6&pub=ra-537fda1d7162ee8f&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.domesticshelters.org&fp=articles%2Fchild-custody%3Fpage%3D1&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303287029&jsl=129&uvs=5e500821d6022fea003&skipb=1&callback=addthis.cbs.jsonp__317399239816444470"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-537fda1d7162ee8f/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.15",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/280604075972484?v=2.9.15&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 752811138,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.domesticshelters.org/articles/child-custody",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Child Custody Articles",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "ACCAgEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1767262830.1582303,
+            "tid": "UA-47346704-1",
+            "_gid": 620794200.1582303,
+            "z": 651870076
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=752811138&t=pageview&_s=1&dl=https%3A%2F%2Fwww.domesticshelters.org%2Farticles%2Fchild-custody&ul=en-us&de=UTF-8&dt=Child%20Custody%20Articles&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=ACCAgEAB~&jid=&gjid=&cid=1767262830.1582303265&tid=UA-47346704-1&_gid=620794200.1582303265&z=651870076"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.domesticshelters.org",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-1682973219714995",
+            "cookie": "ID=3d7dc3c65a38f6a8:T=1582303273:S=ALNI_MaLBRMZjsNMQbazF4480Cwt68TSEg",
+            "crv": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.domesticshelters.org&callback=_gfp_s_&client=ca-pub-1682973219714995&cookie=ID%3D3d7dc3c65a38f6a8%3AT%3D1582303273%3AS%3DALNI_MaLBRMZjsNMQbazF4480Cwt68TSEg&crv=1"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "mhw0uzi",
+            "ht": "tk",
+            "h": "www.domesticshelters.org",
+            "f": "2003.2004.2005.2006.2009.2010.17398.17399",
+            "a": 2082186,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303285281
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=mhw0uzi&ht=tk&h=www.domesticshelters.org&f=2003.2004.2005.2006.2009.2010.17398.17399&a=2082186&js=1.19.2&app=typekit&e=js&_=1582303285281"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-696448608"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/articles/child-custody",
+            "source": "requested from https://www.domesticshelters.org/articles/child-custody and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-696448608"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xFXlZA",
+            "rst": 5974,
+            "ref": "https://www.domesticshelters.org/resources/risk-assessment-tools"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xFXlZA&rst=5974&ref=https://www.domesticshelters.org/resources/risk-assessment-tools"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1521,
+            "ph": 4060,
+            "ivh": 812,
+            "dt": 4642,
+            "pdt": 170,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|171|20,lojson|794|94,sh|830|204",
+            "rndr": "render_toolbox|1674",
+            "cmenu": null,
+            "ppd": 6,
+            "ppl": 6,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "knockout,jquery,googleanalytics,facebook",
+            "jsfwv": "knockout-3.4.0,jquery-1.12.4,googleanalytics-analytics.js,facebook-unk",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e50082f3d732b67",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-537fda1d7162ee8f",
+            "dp": "www.domesticshelters.org",
+            "fp": "resources/risk-assessment-tools",
+            "pfm": 0,
+            "icns": "facebook,twitter,pinterest_share,instagram,rss"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1521&ph=4060&ivh=812&dt=4642&pdt=170&ict=&pct=0&perf=widget%7C171%7C20%2Clojson%7C794%7C94%2Csh%7C830%7C204&rndr=render_toolbox%7C1674&cmenu=null&ppd=6&ppl=6&fbe=&xmv=0&xms=0&xmlc=0&jsfw=knockout%2Cjquery%2Cgoogleanalytics%2Cfacebook&jsfwv=knockout-3.4.0%2Cjquery-1.12.4%2Cgoogleanalytics-analytics.js%2Cfacebook-unk&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e50082f3d732b67&rev=v8.28.3-wp&pub=ra-537fda1d7162ee8f&dp=www.domesticshelters.org&fp=resources%2Frisk-assessment-tools&pfm=0&icns=facebook%2Ctwitter%2Cpinterest_share%2Cinstagram%2Crss"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xFXlZA",
+            "rst": 2538,
+            "ref": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "ap": 69,
+            "be": 173,
+            "fe": 2495,
+            "dc": 690,
+            "perf": {
+              "timing": {
+                "of": 1582303278710,
+                "n": 0,
+                "u": 92,
+                "ue": 92,
+                "f": 8,
+                "dn": 8,
+                "dne": 8,
+                "c": 8,
+                "ce": 8,
+                "rq": 9,
+                "rp": 85,
+                "rpe": 87,
+                "dl": 109,
+                "di": 690,
+                "ds": 690,
+                "de": 931,
+                "dc": 2494,
+                "l": 2494,
+                "le": 2517
+              },
+              "navigation": {}
+            },
+            "fp": 449,
+            "fcp": 449,
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xFXlZA&rst=2538&ref=https://www.domesticshelters.org/resources/risk-assessment-tools&ap=69&be=173&fe=2495&dc=690&perf=%7B%22timing%22:%7B%22of%22:1582303278710,%22n%22:0,%22u%22:92,%22ue%22:92,%22f%22:8,%22dn%22:8,%22dne%22:8,%22c%22:8,%22ce%22:8,%22rq%22:9,%22rp%22:85,%22rpe%22:87,%22dl%22:109,%22di%22:690,%22ds%22:690,%22de%22:931,%22dc%22:2494,%22l%22:2494,%22le%22:2517%7D,%22navigation%22:%7B%7D%7D&fp=449&fcp=449&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11147,
+            "puid": "a09227ce091e46d6afde6e2a99807e80",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11147&puid=a09227ce091e46d6afde6e2a99807e80&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11156,
+            "ssrc": 1,
+            "puid": "UzN4fckXvUl._w8JEfc92S3fwycI8.5KYvThXA--"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11156&ssrc=1&puid=UzN4fckXvUl._w8JEfc92S3fwycI8.5KYvThXA--"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 24,
+            "puid": -6813319988311597000,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=24&puid=-6813319988311596645&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11185,
+            "puid": "8e3f5c4d-dead-472c-a205-dadad86f0a0f-5e500830-5553",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11185&puid=8e3f5c4d-dead-472c-a205-dadad86f0a0f-5e500830-5553&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=23&puidKey=google_gid&ssrc=1&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "",
+            "BK_SWAP_DEST": 2981,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2981?id=&BK_SWAP_DEST=2981&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "BK_SWAP_DEST": 2981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&BK_SWAP_DEST=2981"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "addthis",
+            "google_cm": null,
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=addthis&google_cm&pid=23&puidKey=google_gid&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "ADDIS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cms.analytics.yahoo.com/cms?partner_id=ADDIS"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e50082f3d732b67",
+            "uid": "5e500823004dc580",
+            "ids": "8817-8803-8787-8808-8819-8801",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e50082f3d732b67&uid=5e500823004dc580&ids=8817-8803-8787-8808-8819-8801&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.domesticshelters.org",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-1682973219714995",
+            "cookie": "ID=3d7dc3c65a38f6a8:T=1582303273:S=ALNI_MaLBRMZjsNMQbazF4480Cwt68TSEg",
+            "crv": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.domesticshelters.org&callback=_gfp_s_&client=ca-pub-1682973219714995&cookie=ID%3D3d7dc3c65a38f6a8%3AT%3D1582303273%3AS%3DALNI_MaLBRMZjsNMQbazF4480Cwt68TSEg&crv=1"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.15",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/280604075972484?v=2.9.15&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 2122736923,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Domestic Violence Assessment Tools",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "ACCAgEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1767262830.1582303,
+            "tid": "UA-47346704-1",
+            "_gid": 620794200.1582303,
+            "z": 2147352116
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=2122736923&t=pageview&_s=1&dl=https%3A%2F%2Fwww.domesticshelters.org%2Fresources%2Frisk-assessment-tools&ul=en-us&de=UTF-8&dt=Domestic%20Violence%20Assessment%20Tools&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=ACCAgEAB~&jid=&gjid=&cid=1767262830.1582303265&tid=UA-47346704-1&_gid=620794200.1582303265&z=2147352116"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e50082f3d732b67",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 170,
+            "sid": "5e50082f3d732b67",
+            "pub": "ra-537fda1d7162ee8f",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.domesticshelters.org",
+            "fp": "resources/risk-assessment-tools",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "mk": "domestic violence,danger,assessment,tools,MOSAIC,SHARP,stalking,harassment,risk profile",
+            "colc": 1582303279503,
+            "jsl": 129,
+            "uvs": "5e500821d6022fea002",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__01919317006881860"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e50082f3d732b67&bkl=0&bl=1&pdt=170&sid=5e50082f3d732b67&pub=ra-537fda1d7162ee8f&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.domesticshelters.org&fp=resources%2Frisk-assessment-tools&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&mk=domestic%20violence%2Cdanger%2Cassessment%2Ctools%2CMOSAIC%2CSHARP%2Cstalking%2Charassment%2Crisk%20profile&colc=1582303279503&jsl=129&uvs=5e500821d6022fea002&skipb=1&callback=addthis.cbs.jsonp__01919317006881860"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-537fda1d7162ee8f/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "mhw0uzi",
+            "ht": "tk",
+            "h": "www.domesticshelters.org",
+            "f": "2003.2004.2005.2006.2009.2010.17398.17399",
+            "a": 2082186,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303279399
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=mhw0uzi&ht=tk&h=www.domesticshelters.org&f=2003.2004.2005.2006.2009.2010.17398.17399&a=2082186&js=1.19.2&app=typekit&e=js&_=1582303279399"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-696448608"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/resources/risk-assessment-tools",
+            "source": "requested from https://www.domesticshelters.org/resources/risk-assessment-tools and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-696448608"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xFXlZA",
+            "rst": 6937,
+            "ref": "https://www.domesticshelters.org/advertise"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xFXlZA&rst=6937&ref=https://www.domesticshelters.org/advertise"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1521,
+            "ph": 3482,
+            "ivh": 812,
+            "dt": 4725,
+            "pdt": 179,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|180|280,lojson|2636|80,sh|2660|78",
+            "rndr": "render_toolbox|2957",
+            "cmenu": null,
+            "ppd": 6,
+            "ppl": 6,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "knockout,jquery,googleanalytics,facebook",
+            "jsfwv": "knockout-3.4.0,jquery-1.12.4,googleanalytics-analytics.js,facebook-unk",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e5008297f064fcd",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-537fda1d7162ee8f",
+            "dp": "www.domesticshelters.org",
+            "fp": "advertise",
+            "pfm": 0,
+            "icns": "facebook,twitter,pinterest_share,instagram,rss"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1521&ph=3482&ivh=812&dt=4725&pdt=179&ict=&pct=0&perf=widget%7C180%7C280%2Clojson%7C2636%7C80%2Csh%7C2660%7C78&rndr=render_toolbox%7C2957&cmenu=null&ppd=6&ppl=6&fbe=&xmv=0&xms=0&xmlc=0&jsfw=knockout%2Cjquery%2Cgoogleanalytics%2Cfacebook&jsfwv=knockout-3.4.0%2Cjquery-1.12.4%2Cgoogleanalytics-analytics.js%2Cfacebook-unk&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e5008297f064fcd&rev=v8.28.3-wp&pub=ra-537fda1d7162ee8f&dp=www.domesticshelters.org&fp=advertise&pfm=0&icns=facebook%2Ctwitter%2Cpinterest_share%2Cinstagram%2Crss"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 206,
+            "t": 2,
+            "li": "gda_r20200219",
+            "jk": 2803170371825054,
+            "bg": "!iomliZFYY2tURizO3NUCAAABA1IAAAAMmQE_iUr2a7i0xHzA-lLsT1RLqH_Gf0dUeQlQbIf44rzfK6Ybc7zpsETky2tT8KAcYVdlhRR7reigELZtK4QBMeW4CI9tx8VoRDXinG_JqUIMqGbykYfMSYw1-dzkTlQVyvXiVCbqqgy8b0w4BeRp9qJae5wYXfbx8MUiXr8s6e-VW4BAEQ_g3BE2bdpw-m4-iDQ0WU_sbKABm9L3m2uAdymAXYQVq2QVrkHzmhyWdYz1T5sH3-HafpWIvKXiWphBuQHBcOy8iCpUtUWWjQAvraKUI7KPJgVmpGj27uqiYRqtBRTYiKxqGIcysYRErVK_inhJzqv2cSJN0u-vCyEUTmPteXF9Qxso_jEIji9IKjWVtnsmQIMXCdcD1Nc8z2ohwc7je1qXutwOpmIiG-I3AIG21quPv8LUBn7PcBIqXE6How"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=206&t=2&li=gda_r20200219&jk=2803170371825054&bg=!iomliZFYY2tURizO3NUCAAABA1IAAAAMmQE_iUr2a7i0xHzA-lLsT1RLqH_Gf0dUeQlQbIf44rzfK6Ybc7zpsETky2tT8KAcYVdlhRR7reigELZtK4QBMeW4CI9tx8VoRDXinG_JqUIMqGbykYfMSYw1-dzkTlQVyvXiVCbqqgy8b0w4BeRp9qJae5wYXfbx8MUiXr8s6e-VW4BAEQ_g3BE2bdpw-m4-iDQ0WU_sbKABm9L3m2uAdymAXYQVq2QVrkHzmhyWdYz1T5sH3-HafpWIvKXiWphBuQHBcOy8iCpUtUWWjQAvraKUI7KPJgVmpGj27uqiYRqtBRTYiKxqGIcysYRErVK_inhJzqv2cSJN0u-vCyEUTmPteXF9Qxso_jEIji9IKjWVtnsmQIMXCdcD1Nc8z2ohwc7je1qXutwOpmIiG-I3AIG21quPv8LUBn7PcBIqXE6How"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 6,
+            "puid": 4593589549305377300,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=6&puid=4593589549305377438&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11112,
+            "puid": "6fbc5e50-082b-4e00-824d-dde2f8bd2a9a",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11112&puid=6fbc5e50-082b-4e00-824d-dde2f8bd2a9a&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 16,
+            "puid": 2.8635623081176127e+37,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=16&puid=28635623081176129254396163152543241622&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11124,
+            "puid": "8ea459c5-2cf2-4372-be4d-3a125429f3f7",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11124&puid=8ea459c5-2cf2-4372-be4d-3a125429f3f7&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 4,
+            "puid": 8666901961632066000,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=4&puid=8666901961632065877&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "6fbc5e50-082b-4e00-824d-dde2f8bd2a9a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1&mm_bnc&mm_bct&UUID=6fbc5e50-082b-4e00-824d-dde2f8bd2a9a"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 420,
+            "dpuuid": "5e500823004dc580",
+            "redir": "https://su.addthis.com/red/usync?pid=16&puid=${DD_UUID}&ssrc=3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=420&dpuuid=5e500823004dc580&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=420&dpuuid=5e500823004dc580&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e5008297f064fcd",
+            "uid": "5e500823004dc580",
+            "ids": "8788-8791-8795-8796-8822-8797-5470",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e5008297f064fcd&uid=5e500823004dc580&ids=8788-8791-8795-8796-8822-8797-5470&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xFXlZA",
+            "rst": 2901,
+            "ref": "https://www.domesticshelters.org/advertise",
+            "ap": 72,
+            "be": 182,
+            "fe": 2541,
+            "dc": 783,
+            "perf": {
+              "timing": {
+                "of": 1582303271862,
+                "n": 0,
+                "u": 120,
+                "ue": 128,
+                "f": 1,
+                "dn": 1,
+                "dne": 1,
+                "c": 1,
+                "ce": 1,
+                "rq": 1,
+                "rp": 79,
+                "rpe": 82,
+                "dl": 140,
+                "di": 783,
+                "ds": 783,
+                "de": 857,
+                "dc": 2541,
+                "l": 2541,
+                "le": 2698
+              },
+              "navigation": {}
+            },
+            "fp": 516,
+            "fcp": 516,
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xFXlZA&rst=2901&ref=https://www.domesticshelters.org/advertise&ap=72&be=182&fe=2541&dc=783&perf=%7B%22timing%22:%7B%22of%22:1582303271862,%22n%22:0,%22u%22:120,%22ue%22:128,%22f%22:1,%22dn%22:1,%22dne%22:1,%22c%22:1,%22ce%22:1,%22rq%22:1,%22rp%22:79,%22rpe%22:82,%22dl%22:140,%22di%22:783,%22ds%22:783,%22de%22:857,%22dc%22:2541,%22l%22:2541,%22le%22:2698%7D,%22navigation%22:%7B%7D%7D&fp=516&fcp=516&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e5008297f064fcd",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 179,
+            "sid": "5e5008297f064fcd",
+            "pub": "ra-537fda1d7162ee8f",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.domesticshelters.org",
+            "fp": "advertise",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303274488,
+            "jsl": 129,
+            "uvs": "5e500821d6022fea001",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__80140860482963180"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e5008297f064fcd&bkl=0&bl=1&pdt=179&sid=5e5008297f064fcd&pub=ra-537fda1d7162ee8f&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.domesticshelters.org&fp=advertise&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303274488&jsl=129&uvs=5e500821d6022fea001&skipb=1&callback=addthis.cbs.jsonp__80140860482963180"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-537fda1d7162ee8f/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.domesticshelters.org",
+            "callback": "_gfp_s_",
+            "client": "ca-pub-1682973219714995"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.domesticshelters.org&callback=_gfp_s_&client=ca-pub-1682973219714995"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.15",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/280604075972484?v=2.9.15&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 119603712,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.domesticshelters.org/advertise",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Advertise with DomesticShelters.org",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "ACCAgEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1767262830.1582303,
+            "tid": "UA-47346704-1",
+            "_gid": 620794200.1582303,
+            "z": 971892712
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=119603712&t=pageview&_s=1&dl=https%3A%2F%2Fwww.domesticshelters.org%2Fadvertise&ul=en-us&de=UTF-8&dt=Advertise%20with%20DomesticShelters.org&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=ACCAgEAB~&jid=&gjid=&cid=1767262830.1582303265&tid=UA-47346704-1&_gid=620794200.1582303265&z=971892712"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "mhw0uzi",
+            "ht": "tk",
+            "h": "www.domesticshelters.org",
+            "f": "2003.2004.2005.2006.2009.2010.17398.17399",
+            "a": 2082186,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303272644
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=mhw0uzi&ht=tk&h=www.domesticshelters.org&f=2003.2004.2005.2006.2009.2010.17398.17399&a=2082186&js=1.19.2&app=typekit&e=js&_=1582303272644"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-696448608"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/advertise",
+            "source": "requested from https://www.domesticshelters.org/advertise and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-696448608"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xeWVRSFFJXAw==",
+            "rst": 8578,
+            "ref": "https://www.domesticshelters.org/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/events/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xeWVRSFFJXAw%3D%3D&rst=8578&ref=https://www.domesticshelters.org/"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 5214,
+            "ph": 6148,
+            "ivh": 812,
+            "dt": 5447,
+            "pdt": 382,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|383|397,lojson|3743|118,sh|3780|40",
+            "rndr": "render_toolbox|4124",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "knockout,jquery,googleanalytics",
+            "jsfwv": "knockout-3.4.0,jquery-1.12.4,googleanalytics-analytics.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e500821800fc78b",
+            "rev": "v8.28.3-wp",
+            "pub": "ra-537fda1d7162ee8f",
+            "dp": "www.domesticshelters.org",
+            "fp": "",
+            "pfm": 0,
+            "icns": "facebook,twitter,pinterest_share,instagram,rss"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=5214&ph=6148&ivh=812&dt=5447&pdt=382&ict=&pct=0&perf=widget%7C383%7C397%2Clojson%7C3743%7C118%2Csh%7C3780%7C40&rndr=render_toolbox%7C4124&cmenu=null&ppd=0&ppl=0&fbe=&xmv=0&xms=0&xmlc=0&jsfw=knockout%2Cjquery%2Cgoogleanalytics&jsfwv=knockout-3.4.0%2Cjquery-1.12.4%2Cgoogleanalytics-analytics.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e500821800fc78b&rev=v8.28.3-wp&pub=ra-537fda1d7162ee8f&dp=www.domesticshelters.org&fp=&pfm=0&icns=facebook%2Ctwitter%2Cpinterest_share%2Cinstagram%2Crss"
+      },
+      {
+        "data": {
+          "filter": "/gen_204?$image,other,ping,script",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "sodar2",
+            "v": 206,
+            "t": 2,
+            "li": "gda_r20200219",
+            "jk": 2379179590156222,
+            "bg": "!rK-lr7dYxSR36P-ijnUCAAAAxlIAAAAMmQE_QIrISw_eTBXottz0G7YaCW-S5YnmozR5uIVTVPw6pa1NIu2aZq15JZtef6S8fKKLMMXwRx1Y4c3-tvUc3hn734LBdVJT9wmgc-0ORCcXqyWafRa3_jmBrAbTyWC78niC8QPbAdtLcN9YLSu5c3cx5PfQhlHRzNkJRKUHnLL6o_av4Y4eHXhk9NnvGxKNwWFEst5F-5cLqMoHkT969SFzEZT7Va9Qzl0ONutjlY_gD1je99O_QVGlarpqpG5Ok18BDDiAve2-rubb_Awm7_W_BzRTs064c9NuDJn0zKnhPzJMjEx0iTcqdhPHdltqNuO44RTbhwHJ0SuFejQjJkwNY-P3kJm7JGuIYEyRwRRioSH8KRjeD1BFzrPYjDZWo-L65ZvZpvUNDPKVTuco1TaqQ2Cp8wzy2NaCfnhA0XvXhA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=206&t=2&li=gda_r20200219&jk=2379179590156222&bg=!rK-lr7dYxSR36P-ijnUCAAAAxlIAAAAMmQE_QIrISw_eTBXottz0G7YaCW-S5YnmozR5uIVTVPw6pa1NIu2aZq15JZtef6S8fKKLMMXwRx1Y4c3-tvUc3hn734LBdVJT9wmgc-0ORCcXqyWafRa3_jmBrAbTyWC78niC8QPbAdtLcN9YLSu5c3cx5PfQhlHRzNkJRKUHnLL6o_av4Y4eHXhk9NnvGxKNwWFEst5F-5cLqMoHkT969SFzEZT7Va9Qzl0ONutjlY_gD1je99O_QVGlarpqpG5Ok18BDDiAve2-rubb_Awm7_W_BzRTs064c9NuDJn0zKnhPzJMjEx0iTcqdhPHdltqNuO44RTbhwHJ0SuFejQjJkwNY-P3kJm7JGuIYEyRwRRioSH8KRjeD1BFzrPYjDZWo-L65ZvZpvUNDPKVTuco1TaqQ2Cp8wzy2NaCfnhA0XvXhA"
+      },
+      {
+        "data": {
+          "filter": "||nr-data.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a": 222546979,
+            "v": "1167.2a4546b",
+            "to": "cwpaF0RZVVsBQR8WWFcAR0xeWVRSFFJXAw==",
+            "rst": 4103,
+            "ref": "https://www.domesticshelters.org/",
+            "ap": 194,
+            "be": 361,
+            "fe": 3364,
+            "dc": 1201,
+            "perf": {
+              "timing": {
+                "of": 1582303263400,
+                "n": 0,
+                "f": 0,
+                "dn": 1,
+                "dne": 31,
+                "c": 31,
+                "s": 32,
+                "ce": 110,
+                "rq": 111,
+                "rp": 313,
+                "rpe": 315,
+                "dl": 334,
+                "di": 1201,
+                "ds": 1201,
+                "de": 1288,
+                "dc": 3364,
+                "l": 3364,
+                "le": 3881
+              },
+              "navigation": {}
+            },
+            "fp": 740,
+            "fcp": 740,
+            "jsonp": "NREUM.setToken"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bam.nr-data.net/1/55e26e5895?a=222546979&v=1167.2a4546b&to=cwpaF0RZVVsBQR8WWFcAR0xeWVRSFFJXAw%3D%3D&rst=4103&ref=https://www.domesticshelters.org/&ap=194&be=361&fe=3364&dc=1201&perf=%7B%22timing%22:%7B%22of%22:1582303263400,%22n%22:0,%22f%22:0,%22dn%22:1,%22dne%22:31,%22c%22:31,%22s%22:32,%22ce%22:110,%22rq%22:111,%22rp%22:313,%22rpe%22:315,%22dl%22:334,%22di%22:1201,%22ds%22:1201,%22de%22:1288,%22dc%22:3364,%22l%22:3364,%22le%22:3881%7D,%22navigation%22:%7B%7D%7D&fp=740&fcp=740&jsonp=NREUM.setToken"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e500821800fc78b",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 382,
+            "sid": "5e500821800fc78b",
+            "pub": "ra-537fda1d7162ee8f",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.domesticshelters.org",
+            "fp": "",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303267141,
+            "jsl": 1,
+            "uvs": "5e500821d6022fea000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__21849076195269990"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e500821800fc78b&bkl=0&bl=1&pdt=382&sid=5e500821800fc78b&pub=ra-537fda1d7162ee8f&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.domesticshelters.org&fp=&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303267141&jsl=1&uvs=5e500821d6022fea000&skipb=1&callback=addthis.cbs.jsonp__21849076195269990"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-537fda1d7162ee8f/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||js-agent.newrelic.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^*/osd.js$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "/r20100101"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+      },
+      {
+        "data": {
+          "filter": ".net/p.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "s": 1,
+            "k": "mhw0uzi",
+            "ht": "tk",
+            "h": "www.domesticshelters.org",
+            "f": "2003.2004.2005.2006.2009.2010.17398.17399",
+            "a": 2082186,
+            "js": "1.19.2",
+            "app": "typekit",
+            "e": "js",
+            "_": 1582303265924
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter .net/p.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.typekit.net/p.gif?s=1&k=mhw0uzi&ht=tk&h=www.domesticshelters.org&f=2003.2004.2005.2006.2009.2010.17398.17399&a=2082186&js=1.19.2&app=typekit&e=js&_=1582303265924"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.15",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/280604075972484?v=2.9.15&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1270183951,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.domesticshelters.org/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Find Domestic Violence and Abuse Help, Information and Stats",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IGBAgEAB~",
+            "jid": 384135909,
+            "gjid": 911829974,
+            "cid": 1767262830.1582303,
+            "tid": "UA-47346704-1",
+            "_gid": 620794200.1582303,
+            "z": 1606705987
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=1270183951&t=pageview&_s=1&dl=https%3A%2F%2Fwww.domesticshelters.org%2F&ul=en-us&de=UTF-8&dt=Find%20Domestic%20Violence%20and%20Abuse%20Help%2C%20Information%20and%20Stats&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IGBAgEAB~&jid=384135909&gjid=911829974&cid=1767262830.1582303265&tid=UA-47346704-1&_gid=620794200.1582303265&z=1606705987"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j81",
+            "tid": "UA-47346704-1",
+            "cid": 1767262830.1582303,
+            "jid": 384135909,
+            "gjid": 911829974,
+            "_gid": 620794200.1582303,
+            "_u": "IGBAgEABAAAAAE~",
+            "z": 1924613795
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j81&tid=UA-47346704-1&cid=1767262830.1582303265&jid=384135909&gjid=911829974&_gid=620794200.1582303265&_u=IGBAgEABAAAAAE~&z=1924613795"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-696448608"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.domesticshelters.org/",
+            "source": "requested from https://www.domesticshelters.org/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-696448608"
+      }
+    ]
+  }
+}

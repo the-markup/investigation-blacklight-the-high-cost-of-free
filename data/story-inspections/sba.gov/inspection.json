@@ -1,0 +1,820 @@
+{
+  "title": "tranco-50k-for-release-2.0.0",
+  "uri_ins": "http://sba.gov",
+  "uri_dest": "https://www.sba.gov/",
+  "uri_redirects": [
+    "http://sba.gov/"
+  ],
+  "secure_connection": {},
+  "host": "sba.gov",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.184.213",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.16.3"
+  },
+  "start_time": "2020-06-02T00:32:12.200Z",
+  "end_time": "2020-06-02T00:32:29.777Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.sba.gov/",
+    "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+    "https://www.sba.gov/about-sba/sba-performance/open-government/about-sbagov-website/no-fear-act",
+    "https://www.sba.gov/tools/local-assistance"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "sba.gov",
+        "www.sba.gov"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "gateway.foresee.com",
+        "connect.facebook.net",
+        "script.crazyegg.com",
+        "fonts.gstatic.com",
+        "translate.google.com",
+        "translate.googleapis.com",
+        "www.gstatic.com",
+        "www.google.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "analytics.foresee.com",
+        "ethn.io",
+        "maps.googleapis.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://www.sba.gov/build/469a3d0bb954860e101a.bundle.js": [
+          "touchstart",
+          "touchmove",
+          "touchend"
+        ],
+        "https://www.sba.gov/build/22.469a3d0bb954860e101a.bundle.js": [
+          "touchstart"
+        ]
+      },
+      "MOUSE": {
+        "https://www.sba.gov/build/469a3d0bb954860e101a.bundle.js": [
+          "mousedown",
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-MSNZZ6M": [
+          "click"
+        ],
+        "https://www.sba.gov/build/22.469a3d0bb954860e101a.bundle.js": [
+          "scroll"
+        ],
+        "https://www.sba.gov/build/27.469a3d0bb954860e101a.bundle.js": [
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.sba.gov/build/469a3d0bb954860e101a.bundle.js": [
+          "keyup",
+          "input",
+          "keydown"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "https://gateway.foresee.com/code/19.6.1/fs.utils.js": [
+          "data:image/png;base64,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"
+        ]
+      },
+      "fingerprinters": [
+        "https://gateway.foresee.com/code/19.6.1/fs.utils.js"
+      ],
+      "styles": {
+        "https://gateway.foresee.com/code/19.6.1/fs.utils.js": [
+          "rgba(102, 204, 0, 0.7)",
+          "#069",
+          "#f60"
+        ]
+      },
+      "texts": {
+        "https://gateway.foresee.com/code/19.6.1/fs.utils.js": [
+          "ForeSee,CloudUser <canvas> 1.0"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.115039652.1591057935",
+        "domain": "sba.gov",
+        "path": "/",
+        "expires": "2022-06-02T00:32:25.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.184367278.1591057935",
+        "domain": "sba.gov",
+        "path": "/",
+        "expires": "2020-06-03T00:32:25.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-19362636-5",
+        "value": "1",
+        "domain": "sba.gov",
+        "path": "/",
+        "expires": "2020-06-02T00:33:14.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_4c_",
+        "value": "hVLBbtwgEP2VivPumjFgG39EVamnnirA4EVxwAISt4323zN4d6Moe6hlWTNv3rw3DH4j29kGMoKQQEUveU8FP5An%2BzeT8Y2YtX5f9zBOlowE5Kk7ATmQ8g8zioENWCdrmjB2yCeTgYlqzQ0XLaOOukk4OVDhetNLAIu8l7Qg8VzKmsem2bbtlLU6zfG1WaJRy1Hl7HNRwdjG%2BTA12JKtKT6G30tUIR%2FnpELBEcn3TyXsSMWH%2BQv8rIKaH2ETQ0kK44eK0vGlHHEixH99wkuMy1dPvcT5jukUt2wTZj%2BVU8l%2Fg7qoWMv%2BxzmGevJknU1pJ1UVX%2BpSb4e%2FAbj8K3a8YsWm56qB4VpXzcnlQP5c7ww4Z1xw2iGt4E6HjtP6ICP56XZ5RIBupe20MYaCBGaV6QctYJCtgs4IVL7qDQNjEl9RBVbU2%2Fvhw472LWMc2rsd2t%2Ft6mg7G3%2Bf%2Fw%2FntL4Plz%2Fc9wbG2WPD5fIO",
+        "domain": "sba.gov",
+        "path": "/",
+        "expires": "2022-06-02T00:00:00.000Z",
+        "size": 518,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 997190243,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.sba.gov/local-assistance/find/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Small Business Administration",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QCCAgAADQ~",
+            "jid": "",
+            "gjid": "",
+            "cid": 115039652.1591058,
+            "tid": "UA-19362636-5",
+            "_gid": 184367278.1591058,
+            "gtm": "2wg5k1MSNZZ6M",
+            "z": 68349660
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=997190243&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sba.gov%2Flocal-assistance%2Ffind%2F&ul=en-us&de=UTF-8&dt=Small%20Business%20Administration&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QCCAgAADQ~&jid=&gjid=&cid=115039652.1591057935&tid=UA-19362636-5&_gid=184367278.1591057935&gtm=2wg5k1MSNZZ6M&z=68349660"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/gtm/js?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NNVCNQ9",
+            "t": "gtm4",
+            "cid": 115039652.1591058
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-NNVCNQ9&t=gtm4&cid=115039652.1591057935"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1601132503528457?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||ethn.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||ethn.io^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ethn.io/22403.js"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter ||crazyegg.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0079/6340.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find/",
+            "source": "requested from https://www.sba.gov/local-assistance/find/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MSNZZ6M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/local-assistance/find",
+            "source": "requested from https://www.sba.gov/local-assistance/find and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSNZZ6M"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1109590217,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "No Fear Act",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QCCAgAADQ~",
+            "jid": "",
+            "gjid": "",
+            "cid": 115039652.1591058,
+            "tid": "UA-19362636-5",
+            "_gid": 184367278.1591058,
+            "gtm": "2wg5k1MSNZZ6M",
+            "z": 845087239
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=1109590217&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sba.gov%2Fabout-sba%2Fopen-government%2Fabout-sbagov-website%2Fno-fear-act&ul=en-us&de=UTF-8&dt=No%20Fear%20Act&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QCCAgAADQ~&jid=&gjid=&cid=115039652.1591057935&tid=UA-19362636-5&_gid=184367278.1591057935&gtm=2wg5k1MSNZZ6M&z=845087239"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/gtm/js?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NNVCNQ9",
+            "t": "gtm4",
+            "cid": 115039652.1591058
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-NNVCNQ9&t=gtm4&cid=115039652.1591057935"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1601132503528457?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter ||crazyegg.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0079/6340.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MSNZZ6M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act",
+            "source": "requested from https://www.sba.gov/about-sba/open-government/about-sbagov-website/no-fear-act and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSNZZ6M"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 740194437,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Pay taxes",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QCCAgAADQ~",
+            "jid": "",
+            "gjid": "",
+            "cid": 115039652.1591058,
+            "tid": "UA-19362636-5",
+            "_gid": 184367278.1591058,
+            "gtm": "2wg5k1MSNZZ6M",
+            "z": 1815434815
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=740194437&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sba.gov%2Fbusiness-guide%2Fmanage-your-business%2Fpay-taxes&ul=en-us&de=UTF-8&dt=Pay%20taxes&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QCCAgAADQ~&jid=&gjid=&cid=115039652.1591057935&tid=UA-19362636-5&_gid=184367278.1591057935&gtm=2wg5k1MSNZZ6M&z=1815434815"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/gtm/js?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NNVCNQ9",
+            "t": "gtm4",
+            "cid": 115039652.1591058
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-NNVCNQ9&t=gtm4&cid=115039652.1591057935"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1601132503528457?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter ||crazyegg.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0079/6340.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MSNZZ6M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/business-guide/manage-your-business/pay-taxes",
+            "source": "requested from https://www.sba.gov/business-guide/manage-your-business/pay-taxes and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSNZZ6M"
+      },
+      {
+        "data": {
+          "filter": "||analytics.foresee.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||analytics.foresee.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.foresee.com/ingest/events"
+      },
+      {
+        "data": {
+          "filter": "||analytics.foresee.com^",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||analytics.foresee.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.foresee.com/ingest/events"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j82",
+            "a": 1105094299,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.sba.gov/",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Small Business Administration",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "YGBAgAADQ~",
+            "jid": 2085703546,
+            "gjid": 227915872,
+            "cid": 115039652.1591058,
+            "tid": "UA-19362636-5",
+            "_gid": 184367278.1591058,
+            "gtm": "2wg5k1MSNZZ6M",
+            "z": 811486657
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j82&a=1105094299&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sba.gov%2F&ul=en-us&de=UTF-8&dt=Small%20Business%20Administration&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YGBAgAADQ~&jid=2085703546&gjid=227915872&cid=115039652.1591057935&tid=UA-19362636-5&_gid=184367278.1591057935&gtm=2wg5k1MSNZZ6M&z=811486657"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/gtm/js?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-NNVCNQ9",
+            "t": "gtm4",
+            "cid": 115039652.1591058
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/gtm/js?id=GTM-NNVCNQ9&t=gtm4&cid=115039652.1591057935"
+      },
+      {
+        "data": {
+          "filter": "||stats.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "t": "dc",
+            "aip": 1,
+            "_r": 3,
+            "v": 1,
+            "_v": "j82",
+            "tid": "UA-19362636-5",
+            "cid": 115039652.1591058,
+            "jid": 2085703546,
+            "gjid": 227915872,
+            "_gid": 184367278.1591058,
+            "_u": "YGBAgAADQAAAAE~",
+            "z": 1979384840
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j82&tid=UA-19362636-5&cid=115039652.1591057935&jid=2085703546&gjid=227915872&_gid=184367278.1591057935&_u=YGBAgAADQAAAAE~&z=1979384840"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": "2.9.18",
+            "r": "stable"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/1601132503528457?v=2.9.18&r=stable"
+      },
+      {
+        "data": {
+          "filter": "||crazyegg.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter ||crazyegg.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://script.crazyegg.com/pages/scripts/0079/6340.js"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-MSNZZ6M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.sba.gov/",
+            "source": "requested from https://www.sba.gov/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSNZZ6M"
+      }
+    ]
+  }
+}

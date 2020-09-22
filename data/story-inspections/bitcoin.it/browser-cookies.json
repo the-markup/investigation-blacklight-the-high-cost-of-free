@@ -1,0 +1,16 @@
+{
+  "browser_cookies": [
+    {
+      "name": "__cfduid",
+      "value": "d42d5fa87d62ba4adfd7d6e7c0a8a203e1591059200",
+      "domain": "bitcoin.it",
+      "path": "/",
+      "expires": "2020-07-02T00:53:20.457Z",
+      "size": 51,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax"
+    }
+  ]
+}

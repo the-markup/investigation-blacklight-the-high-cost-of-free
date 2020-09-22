@@ -1,0 +1,1554 @@
+{
+  "title": "state-corona-sites",
+  "uri_ins": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+  "uri_dest": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.health.state.mn.us",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.71.37",
+    "version": {
+      "npm": "0.0.8",
+      "commit": null
+    },
+    "node_version": "v12.16.1"
+  },
+  "start_time": "2020-03-27T14:17:00.262Z",
+  "end_time": "2020-03-27T14:17:17.941Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+    "https://www.health.state.mn.us/forms/feedback/mail.html",
+    "https://www.health.state.mn.us/about/locations/index.html",
+    "https://www.health.state.mn.us/about/privacy.html"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.health.state.mn.us"
+      ],
+      "third_party": [
+        "netdna.bootstrapcdn.com",
+        "maxcdn.bootstrapcdn.com",
+        "fonts.googleapis.com",
+        "s7.addthis.com",
+        "mn.gov",
+        "fonts.gstatic.com",
+        "ssl.google-analytics.com",
+        "siteimproveanalytics.com",
+        "z.moatads.com",
+        "6486.global.siteimproveanalytics.io",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "server.arcgisonline.com",
+        "tags.bluekai.com",
+        "match.adsrvr.org",
+        "dpm.demdex.net",
+        "sync.mathtag.com",
+        "secure.adnxs.com",
+        "cm.g.doubleclick.net",
+        "pm.w55c.net",
+        "su.addthis.com",
+        "x.dlx.addthis.com",
+        "pixel-sync.sitescout.com",
+        "cms.analytics.yahoo.com",
+        "psi.tubemogul.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "nmstat",
+        "value": "1585318697591",
+        "domain": "www.health.state.mn.us",
+        "path": "/",
+        "expires": 1671718624,
+        "size": 19,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "expiresUTC": "2022-12-22T14:17:04.000Z",
+        "expiresDays": 1000,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utma",
+        "value": "139985834.1444087878.1585318624.1585318624.1585318624.1",
+        "domain": "health.state.mn.us",
+        "path": "/",
+        "expires": 1648390634,
+        "size": 61,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-03-27T14:17:14.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619533035,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-27T14:17:15.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uvc",
+        "value": "3%7C13",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619533035,
+        "size": 9,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-27T14:17:15.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__atuvc",
+        "value": "3%7C13",
+        "domain": "www.health.state.mn.us",
+        "path": "/",
+        "expires": 1619533034,
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-04-27T14:17:14.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wfivefivec",
+        "value": "NT3kXtjK1JhPNl5",
+        "domain": "w55c.net",
+        "path": "/",
+        "expires": 1619533032.000872,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-27T14:17:12.000Z",
+        "expiresDays": 396,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "3bf35e7e-0ae8-4f00-acf7-8199bf13519f",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1619273832.062432,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-24T14:17:12.062Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e7e0ae0d7e4b1fb",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014635.364523,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:15.364Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e7e0ae000016b26dd3994baaaf126a46c678f0d9a102aca08d9",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014635.364508,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:15.364Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mus",
+        "value": "0",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014635.364476,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:15.364Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020032714170464500928187856",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014624.680692,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:17:04.680Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GUC",
+        "value": "AQEBAQFef1xeh0IbDwQg",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876235.287208,
+        "size": 23,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-03-27T20:17:15.287Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "09r1c2lf7s2nb&b=3&s=dq",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876235.287199,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T20:17:15.287Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBOsKfl4CEKWem8HoJ_h-6C8HbBUs7AQFEgEBAQFcf16HXgAAAAAA_SMAAA&S=AQAAAt-Yhl_0r5hKN-9nu3akHhA",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876235.287173,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T20:17:15.287Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ssi",
+        "value": "ea434540-8d9d-434c-9b09-a49179ab06d4#1585318635246",
+        "domain": "sitescout.com",
+        "path": "/",
+        "expires": 1616854635.280084,
+        "size": 53,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-03-27T14:17:15.280Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_tmid",
+        "value": "3900539125301521887",
+        "domain": "tubemogul.com",
+        "path": "/",
+        "expires": 1616854635.26165,
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T14:17:15.261Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFgoHYWRkdGhpcxILCMS0nLLymKk4EAUYBSABKAIyCwimxfzeiJmpOBAFOAE.",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1616854631.964907,
+        "size": 69,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:17:11.964Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "d926127d-1666-4095-a642-36fdb9559958",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1616854631.964868,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:17:11.964Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmz",
+        "value": "139985834.1585318624.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "domain": "health.state.mn.us",
+        "path": "/",
+        "expires": 1601086634,
+        "size": 76,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-09-26T02:17:14.000Z",
+        "expiresDays": 182.5,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "bku",
+        "value": "ylT99mzv4kflbAT7",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1600870635.303594,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:15.303Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "50777817931262383383779416631522241074",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1600870632.021573,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:12.021Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "50777817931262383383779416631522241074",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1600870632.021532,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:12.021Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1600870631.981941,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-09-23T14:17:11.981Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "6405945691306036213",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1593094632.071104,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-06-25T14:17:12.071Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmb",
+        "value": "139985834.4.10.1585318624",
+        "domain": "health.state.mn.us",
+        "path": "/",
+        "expires": 1585320434,
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:47:14.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e7e0ae08ece8d2b002",
+        "domain": "www.health.state.mn.us",
+        "path": "/",
+        "expires": 1585320434,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:47:14.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1585319531.981637,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-03-27T14:32:11.981Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmt",
+        "value": "1",
+        "domain": "health.state.mn.us",
+        "path": "/",
+        "expires": 1585319224,
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:27:04.000Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmc",
+        "value": "139985834",
+        "domain": "health.state.mn.us",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "siteimproveses",
+        "value": "003ceac2-f56d-42e7-ae0f-ad6b41bcf98d",
+        "domain": "6486.global.siteimproveanalytics.io",
+        "path": "/",
+        "expires": -1,
+        "size": 50,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AWSELB",
+        "value": "79A3199D10510369DCF60AC124D33FFF155635892213FCE10CD68EF1D878A534CA035F101AA2DAA4E6F9A6EE17FC236DF7A9DACDD549EA0A197473BCEDBDD17E64D80E1EBF83D3D477F866E9905C6F39062AB18BCD",
+        "domain": "6486.global.siteimproveanalytics.io",
+        "path": "/",
+        "expires": -1,
+        "size": 176,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "JSESSIONID",
+        "value": "0000sASMApLKM0Lhy5RTj_2EiG4:1bsqr01bi",
+        "domain": "mn.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 47,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TS01889c2f",
+        "value": "01f6d3688a0efd00dbfd48935f2f03d9919b0240c67724f62cd89ae64185e9864a6fd6ed7f381bad9f00c22fca853273a99536e702e688688c5cc7c42c4401d9277b25a721",
+        "domain": "mn.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 148,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://www.health.state.mn.us/macros/js/jquery.min.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ],
+        "https://www.health.state.mn.us/macros/js/jquery.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://siteimproveanalytics.com/js/siteanalyze_6486.js": [
+          "scroll",
+          "mousedown"
+        ]
+      }
+    },
+    "key_logging": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.userAgent"
+        ],
+        "https://ssl.google-analytics.com/ga.js": [
+          "window.navigator.userAgent",
+          "window.navigator.language",
+          "window.navigator.platform",
+          "window.navigator.appName"
+        ],
+        "https://www.health.state.mn.us/about/locations/leaflet/leaflet.js": [
+          "window.navigator.userAgent",
+          "window.navigator.platform"
+        ]
+      },
+      "SCREEN": {
+        "https://ssl.google-analytics.com/ga.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "session_recorders": {},
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11156,
+            "ssrc": 1,
+            "puid": "EDjap0M30Gj5aFIp6FKTTnD.7Zmi72050ViPtQ--"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11156&ssrc=1&puid=EDjap0M30Gj5aFIp6FKTTnD.7Zmi72050ViPtQ--"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11185,
+            "puid": "ea434540-8d9d-434c-9b09-a49179ab06d4-5e7e0aeb-5553",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11185&puid=ea434540-8d9d-434c-9b09-a49179ab06d4-5e7e0aeb-5553&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 24,
+            "puid": 3900539125301522000,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=24&puid=3900539125301521887&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "",
+            "BK_SWAP_DEST": 2981,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2981?id=&BK_SWAP_DEST=2981&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=23&puidKey=google_gid&ssrc=1&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "bluekai",
+            "google_cm": null,
+            "google_sc": null,
+            "BK_SWAP_DEST": 2981
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=bluekai&google_cm&google_sc&BK_SWAP_DEST=2981"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "addthis",
+            "google_cm": null,
+            "pid": 23,
+            "puidKey": "google_gid",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=addthis&google_cm&pid=23&puidKey=google_gid&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||analytics.yahoo.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "ADDIS"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||analytics.yahoo.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cms.analytics.yahoo.com/cms?partner_id=ADDIS"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e7e0aeac3ea23c9",
+            "uid": "5e7e0ae0d7e4b1fb",
+            "ids": "8817-8803-8787-8808-8801",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e7e0aeac3ea23c9&uid=5e7e0ae0d7e4b1fb&ids=8817-8803-8787-8808-8801&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0aeac3ea23c9",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 68,
+            "sid": "5e7e0aeac3ea23c9",
+            "pub": "mnhealth",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.health.state.mn.us",
+            "fp": "about/privacy.html",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318634967,
+            "jsl": 33,
+            "uvs": "5e7e0ae08ece8d2b002",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__56906736258958040"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/privacy.html",
+            "source": "requested from https://www.health.state.mn.us/about/privacy.html and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0aeac3ea23c9&bkl=0&bl=1&pdt=68&sid=5e7e0aeac3ea23c9&pub=mnhealth&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.health.state.mn.us&fp=about%2Fprivacy.html&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318634967&jsl=33&uvs=5e7e0ae08ece8d2b002&skipb=1&callback=addthis.cbs.jsonp__56906736258958040"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/privacy.html",
+            "source": "requested from https://www.health.state.mn.us/about/privacy.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/mnhealth/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 4,
+            "utmn": 1797819145,
+            "utmhn": "www.health.state.mn.us",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "Minnesota Department of Health Website Privacy Policy and Disclaimer",
+            "utmhid": 1630313201,
+            "utmr": "-",
+            "utmp": "/about/privacy.html",
+            "utmht": 1585318634724,
+            "utmac": "UA-20272425-1",
+            "utmcc": "__utma=139985834.1444087878.1585318624.1585318624.1585318624.1;+__utmz=139985834.1585318624.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/privacy.html",
+            "source": "requested from https://www.health.state.mn.us/about/privacy.html and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=4&utmn=1797819145&utmhn=www.health.state.mn.us&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Minnesota%20Department%20of%20Health%20Website%20Privacy%20Policy%20and%20Disclaimer&utmhid=1630313201&utmr=-&utmp=%2Fabout%2Fprivacy.html&utmht=1585318634724&utmac=UA-20272425-1&utmcc=__utma%3D139985834.1444087878.1585318624.1585318624.1585318624.1%3B%2B__utmz%3D139985834.1585318624.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/privacy.html",
+            "source": "requested from https://www.health.state.mn.us/about/privacy.html and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6486.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 2837,
+            "ivh": 812,
+            "dt": 2840,
+            "pdt": 62,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|63|0,lojson|641|200,sh|700|23",
+            "rndr": "render_toolbox|982",
+            "cmenu": null,
+            "ppd": 6,
+            "ppl": 6,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.11.3,googleanalytics-ga.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e7e0ae628cff0ed",
+            "rev": "v8.28.3-wp",
+            "pub": "mnhealth",
+            "dp": "www.health.state.mn.us",
+            "fp": "about/locations/index.html",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/locations/index.html",
+            "source": "requested from https://www.health.state.mn.us/about/locations/index.html and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=2837&ivh=812&dt=2840&pdt=62&ict=&pct=0&perf=widget%7C63%7C0%2Clojson%7C641%7C200%2Csh%7C700%7C23&rndr=render_toolbox%7C982&cmenu=null&ppd=6&ppl=6&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.11.3%2Cgoogleanalytics-ga.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e7e0ae628cff0ed&rev=v8.28.3-wp&pub=mnhealth&dp=www.health.state.mn.us&fp=about%2Flocations%2Findex.html&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11112,
+            "puid": "3bf35e7e-0ae8-4f00-acf7-8199bf13519f",
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11112&puid=3bf35e7e-0ae8-4f00-acf7-8199bf13519f&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 6,
+            "puid": 6405945691306036000,
+            "ssrc": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=6&puid=6405945691306036213&ssrc=1"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "3bf35e7e-0ae8-4f00-acf7-8199bf13519f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1&mm_bnc&mm_bct&UUID=3bf35e7e-0ae8-4f00-acf7-8199bf13519f"
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 16,
+            "puid": 5.077781793126239e+37,
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=16&puid=50777817931262383383779416631522241074&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": "",
+            "google_tc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm=&google_tc="
+      },
+      {
+        "data": {
+          "filter": "||su.addthis.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 11124,
+            "puid": "d926127d-1666-4095-a642-36fdb9559958",
+            "ssrc": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||su.addthis.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://su.addthis.com/red/usync?pid=11124&puid=d926127d-1666-4095-a642-36fdb9559958&ssrc=3"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 420,
+            "dpuuid": "5e7e0ae0d7e4b1fb",
+            "redir": "https://su.addthis.com/red/usync?pid=16&puid=${DD_UUID}&ssrc=3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=420&dpuuid=5e7e0ae0d7e4b1fb&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||w55c.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "st": "addthis",
+            "rurl": "https://su.addthis.com/red/usync?pid=5&puid=_wfivefivec_&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||w55c.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm.w55c.net/ping_match.gif?st=addthis&rurl=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D5%26puid%3D_wfivefivec_%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "datalogix_dmp",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=datalogix_dmp&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10025,
+            "redir": "https://su.addthis.com/red/usync?pid=11112&puid=[MM_UUID]&ssrc=1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10025&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D11112%26puid%3D%5BMM_UUID%5D%26ssrc%3D1"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=420&dpuuid=5e7e0ae0d7e4b1fb&redir=https%3A%2F%2Fsu.addthis.com%2Fred%2Fusync%3Fpid%3D16%26puid%3D%24%7BDD_UUID%7D%26ssrc%3D3"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sid": "5e7e0ae628cff0ed",
+            "uid": "5e7e0ae0d7e4b1fb",
+            "ids": "8795-8788-8796-8822-8797-5470-5846",
+            "rev": "v8.28.3-wp",
+            "delay": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html",
+            "source": "requested from https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/prender?sid=5e7e0ae628cff0ed&uid=5e7e0ae0d7e4b1fb&ids=8795-8788-8796-8822-8797-5470-5846&rev=v8.28.3-wp&delay=0"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 3,
+            "utmn": 1831089571,
+            "utmhn": "www.health.state.mn.us",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "Minnesota Department of Health Addresses and Directions",
+            "utmhid": 1992645902,
+            "utmr": "-",
+            "utmp": "/about/locations/index.html",
+            "utmht": 1585318631483,
+            "utmac": "UA-20272425-1",
+            "utmcc": "__utma=139985834.1444087878.1585318624.1585318624.1585318624.1;+__utmz=139985834.1585318624.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/locations/index.html",
+            "source": "requested from https://www.health.state.mn.us/about/locations/index.html and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=1831089571&utmhn=www.health.state.mn.us&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Minnesota%20Department%20of%20Health%20Addresses%20and%20Directions&utmhid=1992645902&utmr=-&utmp=%2Fabout%2Flocations%2Findex.html&utmht=1585318631483&utmac=UA-20272425-1&utmcc=__utma%3D139985834.1444087878.1585318624.1585318624.1585318624.1%3B%2B__utmz%3D139985834.1585318624.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ae628cff0ed",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 62,
+            "sid": "5e7e0ae628cff0ed",
+            "pub": "mnhealth",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.health.state.mn.us",
+            "fp": "about/locations/index.html",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 1,
+            "vcl": 1,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318631321,
+            "jsl": 33,
+            "uvs": "5e7e0ae08ece8d2b001",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__124006372395773170"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/locations/index.html",
+            "source": "requested from https://www.health.state.mn.us/about/locations/index.html and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ae628cff0ed&bkl=0&bl=1&pdt=62&sid=5e7e0ae628cff0ed&pub=mnhealth&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.health.state.mn.us&fp=about%2Flocations%2Findex.html&fr=&of=0&pd=0&irt=1&vcl=1&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318631321&jsl=33&uvs=5e7e0ae08ece8d2b001&skipb=1&callback=addthis.cbs.jsonp__124006372395773170"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/locations/index.html",
+            "source": "requested from https://www.health.state.mn.us/about/locations/index.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/mnhealth/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/about/locations/index.html",
+            "source": "requested from https://www.health.state.mn.us/about/locations/index.html and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6486.js"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 2,
+            "utmn": 450191166,
+            "utmhn": "www.health.state.mn.us",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "MDH Feedback Form",
+            "utmhid": 278749870,
+            "utmr": "-",
+            "utmp": "/forms/feedback/mail.html",
+            "utmht": 1585318626223,
+            "utmac": "UA-20272425-1",
+            "utmcc": "__utma=139985834.1444087878.1585318624.1585318624.1585318624.1;+__utmz=139985834.1585318624.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/forms/feedback/mail.html",
+            "source": "requested from https://www.health.state.mn.us/forms/feedback/mail.html and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=450191166&utmhn=www.health.state.mn.us&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=MDH%20Feedback%20Form&utmhid=278749870&utmr=-&utmp=%2Fforms%2Ffeedback%2Fmail.html&utmht=1585318626223&utmac=UA-20272425-1&utmcc=__utma%3D139985834.1444087878.1585318624.1585318624.1585318624.1%3B%2B__utmz%3D139985834.1585318624.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/forms/feedback/mail.html",
+            "source": "requested from https://www.health.state.mn.us/forms/feedback/mail.html and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6486.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 0,
+            "ph": 3826,
+            "ivh": 812,
+            "dt": 1633,
+            "pdt": 245,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|245|219,lojson|1125|135,sh|1143|21",
+            "rndr": "render_toolbox|1281",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.11.3,googleanalytics-ga.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 1,
+            "ba": 3,
+            "sid": "5e7e0ae08fbe4114",
+            "rev": "v8.28.3-wp",
+            "pub": "mnhealth",
+            "dp": "www.health.state.mn.us",
+            "fp": "diseases/coronavirus/index.html",
+            "pfm": 0,
+            "icns": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+            "source": "requested from https://www.health.state.mn.us/diseases/coronavirus/index.html and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=0&ph=3826&ivh=812&dt=1633&pdt=245&ict=&pct=0&perf=widget%7C245%7C219%2Clojson%7C1125%7C135%2Csh%7C1143%7C21&rndr=render_toolbox%7C1281&cmenu=null&ppd=0&ppl=0&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.11.3%2Cgoogleanalytics-ga.js&al=men&scr=0&scv=0&apiu=1&ba=3&sid=5e7e0ae08fbe4114&rev=v8.28.3-wp&pub=mnhealth&dp=www.health.state.mn.us&fp=diseases%2Fcoronavirus%2Findex.html&pfm=0&icns="
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ae08fbe4114",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 245,
+            "sid": "5e7e0ae08fbe4114",
+            "pub": "mnhealth",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.health.state.mn.us",
+            "fp": "diseases/coronavirus/index.html",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318624545,
+            "jsl": 33,
+            "uvs": "5e7e0ae08ece8d2b000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__49950383048743820"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+            "source": "requested from https://www.health.state.mn.us/diseases/coronavirus/index.html and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ae08fbe4114&bkl=0&bl=1&pdt=245&sid=5e7e0ae08fbe4114&pub=mnhealth&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.health.state.mn.us&fp=diseases%2Fcoronavirus%2Findex.html&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318624545&jsl=33&uvs=5e7e0ae08ece8d2b000&skipb=1&callback=addthis.cbs.jsonp__49950383048743820"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+            "source": "requested from https://www.health.state.mn.us/diseases/coronavirus/index.html and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/mnhealth/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 1,
+            "utmn": 6028726,
+            "utmhn": "www.health.state.mn.us",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "Coronavirus Disease 2019 (COVID-19) - Minnesota Dept. of Health",
+            "utmhid": 2106366964,
+            "utmr": "-",
+            "utmp": "/diseases/coronavirus/index.html",
+            "utmht": 1585318624367,
+            "utmac": "UA-20272425-1",
+            "utmcc": "__utma=139985834.1444087878.1585318624.1585318624.1585318624.1;+__utmz=139985834.1585318624.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": 269137776,
+            "utmredir": 1,
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+            "source": "requested from https://www.health.state.mn.us/diseases/coronavirus/index.html and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/j/__utm.gif?utmwv=5.7.2&utms=1&utmn=6028726&utmhn=www.health.state.mn.us&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Coronavirus%20Disease%202019%20(COVID-19)%20-%20Minnesota%20Dept.%20of%20Health&utmhid=2106366964&utmr=-&utmp=%2Fdiseases%2Fcoronavirus%2Findex.html&utmht=1585318624367&utmac=UA-20272425-1&utmcc=__utma%3D139985834.1444087878.1585318624.1585318624.1585318624.1%3B%2B__utmz%3D139985834.1585318624.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=269137776&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||siteimproveanalytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.health.state.mn.us/diseases/coronavirus/index.html",
+            "source": "requested from https://www.health.state.mn.us/diseases/coronavirus/index.html and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://siteimproveanalytics.com/js/siteanalyze_6486.js"
+      }
+    ]
+  }
+}

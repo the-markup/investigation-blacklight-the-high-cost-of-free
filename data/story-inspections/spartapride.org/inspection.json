@@ -1,0 +1,3672 @@
+{
+  "title": "vulnerable-groups-sites",
+  "uri_ins": "https://spartapride.org/",
+  "uri_dest": "https://spartapride.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "spartapride.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.138-99.102.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.125.61",
+    "version": {
+      "npm": "0.0.6",
+      "commit": null
+    },
+    "node_version": "v12.14.1"
+  },
+  "start_time": "2020-02-21T16:41:02.413Z",
+  "end_time": "2020-02-21T16:41:21.468Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://spartapride.org/",
+    "https://spartapride.org/rss/",
+    "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+    "https://spartapride.org/open-trans-service-facing-the-fights-ahead/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "spartapride.org"
+      ],
+      "third_party": [
+        "fonts.googleapis.com",
+        "instant.page",
+        "platform.twitter.com",
+        "ajax.googleapis.com",
+        "fonts.gstatic.com",
+        "spartapride.disqus.com",
+        "connect.facebook.net",
+        "syndication.twitter.com",
+        "images.unsplash.com",
+        "cdn.syndication.twimg.com",
+        "pbs.twimg.com",
+        "data",
+        "www.facebook.com",
+        "scontent-iad3-1.xx.fbcdn.net",
+        "c.disquscdn.com",
+        "disqus.com",
+        "a.disquscdn.com",
+        "apis.google.com",
+        "cdn.viglink.com",
+        "accounts.google.com",
+        "ssl.gstatic.com",
+        "glitter.services.disqus.com",
+        "links.services.disqus.com",
+        "x.disq.us",
+        "referrer.disqus.com",
+        "live.rezync.com",
+        "pippio.com",
+        "io.narrative.io",
+        "ib.adnxs.com",
+        "ce.lijit.com",
+        "s.cpx.to",
+        "idsync.rlcdn.com",
+        "ei.rlcdn.com",
+        "cm.g.doubleclick.net",
+        "tag.apxlv.com",
+        "p.adsymptotic.com",
+        "rc.rlcdn.com",
+        "sync.mathtag.com",
+        "match.adsrvr.org",
+        "p.rfihub.com",
+        "pixel.tapad.com",
+        "ads.scorecardresearch.com",
+        "s.amazon-adsystem.com",
+        "tag.cogocast.net",
+        "usermatch.krxd.net",
+        "tags.rd.linksynergy.com",
+        "gpush.cogocast.net",
+        "beacon.krxd.net",
+        "a.rfihub.com",
+        "dpm.demdex.net",
+        "www.youtube.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "yt3.ggpht.com",
+        "s.ytimg.com",
+        "i.ytimg.com",
+        "pm.w55c.net",
+        "tags.bluekai.com",
+        "sync-tm.everesttech.net",
+        "loadm.exelator.com",
+        "match.rundsp.com",
+        "secure.insightexpressai.com",
+        "x.dlx.addthis.com",
+        "d.turn.com",
+        "secure-gl.imrworldwide.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "G_ENABLED_IDPS",
+        "value": "google",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 253402257600,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "9999-12-31T12:00:00.000Z",
+        "expiresDays": 2914582.8,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "zync-uuid",
+        "value": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02",
+        "domain": "rezync.com",
+        "path": "/",
+        "expires": 1897634478.299441,
+        "size": 59,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2030-02-18T08:41:18.299Z",
+        "expiresDays": 3649.67,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ad-privacy",
+        "value": "0",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": 1743525672.478598,
+        "size": 11,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2025-04-01T16:41:12.478Z",
+        "expiresDays": 1866,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "sd-session-id",
+        "value": ".eJwVykELgjAYgOG_Et_Zg6kRCZ2awaBvUhAyL1Jz6IYuczNo4n_Pbu8LzwzVIMf-YaRxkLpxkgGITq1nIZ2hVvY9rQUiSurDJxZ7EanBwBKAldaql6lU_Yeb54q4P_cswh33V4fFPSlPYYi-iS8FDbHIHJJOcX_TpW5bpjud62ybE-qR4Jd5OiGhR1iWH5TCMZ4.ETGZrg.UUMjnCzHUa3zTkrSpDuLeBlQZzo",
+        "domain": "live.rezync.com",
+        "path": "/",
+        "expires": 1739983278.680423,
+        "size": 244,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2025-02-19T16:41:18.680Z",
+        "expiresDays": 1825,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DW",
+        "value": "00000000-0000-000e-9597-201582303278",
+        "domain": "insightexpressai.com",
+        "path": "/",
+        "expires": 1670091682.679527,
+        "size": 38,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-12-03T18:21:22.679Z",
+        "expiresDays": 1016.07,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "DW_Time",
+        "value": "1582303278",
+        "domain": "insightexpressai.com",
+        "path": "/",
+        "expires": 1670091682.679513,
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-12-03T18:21:22.679Z",
+        "expiresDays": 1016.07,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "IgniteCookieSync",
+        "value": "true",
+        "domain": "secure.insightexpressai.com",
+        "path": "/adserver",
+        "expires": 1645444800.67948,
+        "size": 20,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-02-21T12:00:00.679Z",
+        "expiresDays": 730.8,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "PREF",
+        "value": "f4=4000000",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1645375277,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:41:17.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dc_id",
+        "value": "225c5bd6e4fc42ccb720b8212fc529bb||t=1582303272",
+        "domain": "cogocast.net",
+        "path": "/",
+        "expires": 1645315200.600151,
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T00:00:00.600Z",
+        "expiresDays": 729.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UIDR",
+        "value": "1582303272",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": 1644511272.238747,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-10T16:41:12.238Z",
+        "expiresDays": 720,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UID",
+        "value": "1EC18428a17a14a429b544g1582303272",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": 1644511272.238704,
+        "size": 36,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-10T16:41:12.238Z",
+        "expiresDays": 720,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dc_id",
+        "value": "225c5bd6e4fc42ccb720b8212fc529bb||t=1582303272",
+        "domain": "apxlv.com",
+        "path": "/",
+        "expires": 1640995200.618457,
+        "size": 51,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-01-01T00:00:00.618Z",
+        "expiresDays": 679.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "io.narrative.guid.v2",
+        "value": "f7eb3242-54c8-11ea-8adf-0accd915b97b",
+        "domain": "io.narrative.io",
+        "path": "/",
+        "expires": 1629581358.239968,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-08-21T21:29:18.239Z",
+        "expiresDays": 547.2,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "wfivefivec",
+        "value": "7ADwpGK41J5bmC5",
+        "domain": "w55c.net",
+        "path": "/",
+        "expires": 1616344878.637179,
+        "size": 25,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:41:18.637Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid",
+        "value": "cf235e50-0828-4e00-9cdd-36d671815e5f",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258472.438692,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-20T16:41:12.438Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuidc",
+        "value": "WgUHYJls0muHALxWzAfj07dGuLDpGk72WBW+UGnPXQZhwa/Fwi1NC0VzJgGLLPBIuI4hV73huAZfft/54WZERA9Bs3xRqq8zok1EtuoRy0A=",
+        "domain": "mathtag.com",
+        "path": "/",
+        "expires": 1616258472.340213,
+        "size": 113,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-20T16:41:12.340Z",
+        "expiresDays": 393,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "IMRID",
+        "value": "fc161740-54c8-11ea-a7d6-55ee8ee585c6",
+        "domain": "imrworldwide.com",
+        "path": "/",
+        "expires": 1615999278.777292,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:18.777Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SSCVER",
+        "value": "v1",
+        "domain": "imrworldwide.com",
+        "path": "/",
+        "expires": 1615999278.777231,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:18.777Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rud",
+        "value": "H4sIAAAAAAAAAOMSsjQzMLQwNDW0MDA1NDEyMTc1FOIz1PUqyypJ8_XKTCyvypXiNTS1MDI2MDYyNzIxNgAAS2DADzMAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": 1615999278,
+        "size": 98,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:18.000Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "eud",
+        "value": "H4sIAAAAAAAAAONicjUO4jU0tTAyNjA2MjcyMTZ4xYjKnyRslGyYZp5smWyia5hqkaJrYmxhrptkYpioa2CZlGySnGaRaGaZbIXQpGdgNEsYYYiFibklAG-2_MxoAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": 1615999278,
+        "size": 131,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:41:18.000Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDCPM",
+        "value": "CAESFwoIbGl2ZXJhbXASCwja95DN3L2bOBAFEhQKBXRhcGFkEgsIovOPzNy9mzgQBRgBIAEoAjILCNrvk_ryvZs4EAU4AVoIbGl2ZXJhbXBgAg..",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925672.4624,
+        "size": 117,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:12.462Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TDID",
+        "value": "ffb22b19-fd26-4a9c-8514-357f99d65426",
+        "domain": "adsrvr.org",
+        "path": "/",
+        "expires": 1613925672.462357,
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-21T16:41:12.462Z",
+        "expiresDays": 366,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rlas3",
+        "value": "+Ty1Rd5dO9ZmH4LkMH8P8j57X02lTrahqAEd0k7mZLM=",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": 1613839278.919082,
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:18.919Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "everest_g_v2",
+        "value": "g_surferid~XlAILgAAAGL1Alk2",
+        "domain": "everesttech.net",
+        "path": "/",
+        "expires": 1613839278.717321,
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:18.717Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "cpSess",
+        "value": "11e042416822bc0b",
+        "domain": "cpx.to",
+        "path": "/",
+        "expires": 1613839278.457564,
+        "size": 22,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:18.457Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ljt_reader",
+        "value": "eb031291d29776629c24483c",
+        "domain": "lijit.com",
+        "path": "/",
+        "expires": 1613839278.360583,
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:18.360Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ljtrtb_8008",
+        "value": "1cc4b444fcec243792d2fc662c12d468",
+        "domain": "lijit.com",
+        "path": "/",
+        "expires": 1613839278.36057,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:18.360Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ljtrtb",
+        "value": "eJwFwYERABAMA8BdOgGRqzKO0CWc3f1fi1LCplWJi2TqCGx9YCPlDlVsetj786MLSQ%3D%3D",
+        "domain": "lijit.com",
+        "path": "/",
+        "expires": 1613839278.360553,
+        "size": 78,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:18.360Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "disqus_unique",
+        "value": "24d9v3c7c2ipn",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 1613839277,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:17.000Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ugid",
+        "value": "6875ea6993a06a1fca7319aa036325b55274344",
+        "domain": "unsplash.com",
+        "path": "/",
+        "expires": 1613839275.381352,
+        "size": 43,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:15.381Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "icts",
+        "value": "2020-02-21T16:41:12Z",
+        "domain": "linksynergy.com",
+        "path": "/",
+        "expires": 1613839272.377594,
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:12.377Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "rmuid",
+        "value": "845199df-eb45-4959-89e3-1b7731edc094",
+        "domain": "linksynergy.com",
+        "path": "/",
+        "expires": 1613839272.377549,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:12.377Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dsp_app_nexus",
+        "value": "2691355908332169812#1582303272323",
+        "domain": "cpx.to",
+        "path": "/",
+        "expires": 1613839272.35797,
+        "size": 46,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:12.357Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "didts",
+        "value": "1582303271",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1613839271.781176,
+        "size": 15,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:11.781Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "did",
+        "value": "gj10o7GvxgA4Uc8L",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1613839271.781134,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:11.781Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vglnk.PartnerRfsh.p",
+        "value": "\"\"",
+        "domain": "links.services.disqus.com",
+        "path": "/",
+        "expires": 1613839271.664632,
+        "size": 21,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:11.664Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vglnk.Agent.p",
+        "value": "1cc4b444fcec243792d2fc662c12d468",
+        "domain": "links.services.disqus.com",
+        "path": "/",
+        "expires": 1613839271.664591,
+        "size": 45,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-02-20T16:41:11.664Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dsq__",
+        "value": "24djavjr5u38o",
+        "domain": "spartapride.org",
+        "path": "/",
+        "expires": 1613839271,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-02-20T16:41:11.000Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ad-id",
+        "value": "A_iQLvrER0zKmpMZNbYt_mE",
+        "domain": "amazon-adsystem.com",
+        "path": "/",
+        "expires": 1601570472.478546,
+        "size": 28,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-10-01T16:41:12.478Z",
+        "expiresDays": 223,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "NID",
+        "value": "198=wlBoikTLkYwqY5pXHJyVO07XkYtj2ZUnnROFQ8LQF4rQnpRfHuwUb7Om7f2gaRCijSG62eSax--voYpoH11b9JhvPznkhavE2nMPd-Td8_ljtkwfot8NONJZOmgr2jJoLXN_M_jz1XhlyVmwHTjcwm_dvl_nn5JspmCROWhyTx4",
+        "domain": "google.com",
+        "path": "/",
+        "expires": 1598114471.026748,
+        "size": 178,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2020-08-22T16:41:11.026Z",
+        "expiresDays": 183,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "8647425234076703053",
+        "domain": "turn.com",
+        "path": "/",
+        "expires": 1597855278.885329,
+        "size": 22,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.885Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bku",
+        "value": "ylT99YT/DaTjuRyg",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855278.759884,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.759Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkpa",
+        "value": "KJyBpg6vyM9Dxms7iVmqK8wzBW1HoxMifahrXb1OMuVBQt2FTDp45wG++2iMPmSTw7BoRlN2zhiMuoR+Qsqw4GAGySJYxhsJWxyTWyjs08M6xQ+aCqy9z4OSeAmuWo6ao0CCzkGqQAmB/54ht53bYUDuKB7nR4LPl2VUebUp7d5mVQ/8bCT8YUPjrqRubfywYEDJNm4q4n24ohZB941c9FztFQ==",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855278.75987,
+        "size": 224,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.759Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bkdc",
+        "value": "phx",
+        "domain": "bluekai.com",
+        "path": "/",
+        "expires": 1597855278.75983,
+        "size": 7,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.759Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dpm",
+        "value": "35792034872516473342721049140903687562",
+        "domain": "dpm.demdex.net",
+        "path": "/",
+        "expires": 1597855278.577339,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.577Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "demdex",
+        "value": "35792034872516473342721049140903687562",
+        "domain": "demdex.net",
+        "path": "/",
+        "expires": 1597855278.577289,
+        "size": 44,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:18.577Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "value": "m0dN3N7UoZo",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1597855275.53738,
+        "size": 29,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-08-19T16:41:15.537Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_kuid_",
+        "value": "NPXN-F_1",
+        "domain": "krxd.net",
+        "path": "/",
+        "expires": 1597855272.397452,
+        "size": 14,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-08-19T16:41:12.397Z",
+        "expiresDays": 180,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ud",
+        "value": "\"eJxrXxzq6XKLQcHI0NDAzCjJLCUpNSXJ1NQiLTXR0sIs0dzM2MQwKSXZfHFZatGCpaXFQNlDSypySnKaVpfFhzrGuzn6evpErvXNT8rMSVUITkxLLMpcAZYJcw1aZGi4JL8oM31RaPDiopQ0hkUlxaeCd5gEAACpzyxg\"",
+        "domain": "exelator.com",
+        "path": "/",
+        "expires": 1592671278.720786,
+        "size": 168,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-06-20T16:41:18.720Z",
+        "expiresDays": 120,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "EE",
+        "value": "\"211062b6dbedb558fea986a76341bdc7\"",
+        "domain": "exelator.com",
+        "path": "/",
+        "expires": 1592671278.720745,
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-06-20T16:41:18.720Z",
+        "expiresDays": 120,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "RUN_ID",
+        "value": "917428ff166148298c8d470f",
+        "domain": "rundsp.com",
+        "path": "/",
+        "expires": 1590079278.617316,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-05-21T16:41:18.617Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "U",
+        "value": "d582382f93348c60cc813ccca197e132",
+        "domain": "adsymptotic.com",
+        "path": "/",
+        "expires": 1590079278.598979,
+        "size": 33,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-05-21T16:41:18.598Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uuid2",
+        "value": "2691355908332169812",
+        "domain": "adnxs.com",
+        "path": "/",
+        "expires": 1590079278.499651,
+        "size": 24,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-05-21T16:41:18.499Z",
+        "expiresDays": 90,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CKiQwPIFEgUI6AcQABIFCOhHEAASBgiw6gEQABIGCLbqARAAEgYIuuoBEAASBgjA6gEQBg==",
+        "domain": "rlcdn.com",
+        "path": "/",
+        "expires": 1587487278.91915,
+        "size": 76,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.919Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "value": "1!1264-3!1264",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487278.624083,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.624Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TTD_SYNC",
+        "value": "1264",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487278.624069,
+        "size": 18,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.624Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_DID",
+        "value": "f829e8f3-54c8-11ea-99ba-fe742d123c93",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487278.624052,
+        "size": 45,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.624Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TapAd_TS",
+        "value": "1582303272191",
+        "domain": "tapad.com",
+        "path": "/",
+        "expires": 1587487278.624002,
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.624Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pxrc",
+        "value": "CKeQwPIFEgQIBBAHEgUIlCkQBxIFCOUrEAcSBQjmKxAHEgUI5ysQBxIFCOgrEAcSBQjpKxAHEgUI6isQBxIFCOsrEAcSBQjsKxAHEgUI7SsQBxIFCO4rEAcSBQjTQhAAEgUI1UMQABIFCN5OEAASBgjs6wEQAQ==",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1587487278.277302,
+        "size": 164,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:18.277Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "nnls",
+        "value": "",
+        "domain": "pippio.com",
+        "path": "/",
+        "expires": 1587487271.781189,
+        "size": 4,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-04-21T16:41:11.781Z",
+        "expiresDays": 60,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "RUN_SYNC_2",
+        "value": "64",
+        "domain": "rundsp.com",
+        "path": "/",
+        "expires": 1584895278.61736,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-22T16:41:18.617Z",
+        "expiresDays": 30,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "CP1",
+        "value": "1",
+        "domain": "scorecardresearch.com",
+        "path": "/",
+        "expires": 1584895278.581345,
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-22T16:41:18.581Z",
+        "expiresDays": 30,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "gpl",
+        "value": "1||t=1582303272",
+        "domain": "cogocast.net",
+        "path": "/",
+        "expires": 1582329600.258191,
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-22T00:00:00.258Z",
+        "expiresDays": 0.3,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__jid",
+        "value": "24da6j73q81spv",
+        "domain": "disqus.com",
+        "path": "/",
+        "expires": 1582305077,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T17:11:17.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "GPS",
+        "value": "1",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": 1582305075.537397,
+        "size": 4,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:11:15.537Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1582304176.700558,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-02-21T16:56:16.700Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lang",
+        "value": "en",
+        "domain": "cdn.syndication.twimg.com",
+        "path": "/",
+        "expires": -1,
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ruds",
+        "value": "H4sIAAAAAAAAAOMSsjQzMLQwNDW0MDA1NDEyMTc1FOIz1PUqyypJ8_XKTCyvygUAx0TZtCQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 79,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "YSC",
+        "value": "vxADP87WLhE",
+        "domain": "youtube.com",
+        "path": "/",
+        "expires": -1,
+        "size": 14,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "euds",
+        "value": "H4sIAAAAAAAAAAXByQ2AMAwEQAnxohcjX2CbP4Ukm6QQKmfm2F77doWsQMFJZg5yy6Du0oirw7Gy3YVHrlRj09CT9Qf6wgYJOQAAAA",
+        "domain": "rfihub.com",
+        "path": "/",
+        "expires": -1,
+        "size": 106,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://c.disquscdn.com/next/embed/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js": [
+          "click",
+          "mousedown"
+        ],
+        "https://www.facebook.com/rsrc.php/v3/yF/r/Obs59lfEQ33.js?_nc_x=Ij3Wp8lg5Kz": [
+          "click"
+        ],
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "click"
+        ],
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://www.youtube.com/yts/jsbin/player_ias-vflP_XVWV/en_US/base.js": [
+          "mousemove",
+          "scroll",
+          "mouseup",
+          "mousedown"
+        ],
+        "https://spartapride.disqus.com/embed.js": [
+          "click",
+          "scroll",
+          "mousemove"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://spartapride.org/assets/js/plugins.js?v=ce814a906c": [
+          "scroll",
+          "click"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "keypress"
+        ],
+        "https://www.youtube.com/yts/jsbin/player_ias-vflP_XVWV/en_US/base.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://spartapride.org/assets/js/plugins.js?v=ce814a906c": [
+          "keyup"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js": [
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.youtube.com/yts/jsbin/player_ias-vflP_XVWV/en_US/base.js": [
+          "touchend",
+          "touchstart"
+        ],
+        "https://instant.page/1.1.0": [
+          "touchstart"
+        ]
+      }
+    },
+    "data_exfiltration": {},
+    "canvas_fingerprinters": {
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://www.facebook.com/rsrc.php/v3/y1/r/Pl4YHpeWah4.js?_nc_x=Ij3Wp8lg5Kz": [
+          "window.navigator.onLine"
+        ],
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "window.navigator.doNotTrack"
+        ],
+        "https://c.disquscdn.com/next/embed/common.bundle.b9167d06dc7bd01b59d6d6332d6aafa1.js": [
+          "window.navigator.userAgent",
+          "window.navigator.platform"
+        ],
+        "https://ssl.gstatic.com/accounts/o/4082908072-idpiframe.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.JKCQ2Hvuo0E.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=wQE/rs=AGLTcCOl3FsgYnTqVeIFUJJD2j4-pO09lQ/cb=gapi.loaded_0": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js?hash=6ec6c8c3fa9bf72f492765ce709e7cf8": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.facebook.com/rsrc.php/v3/yF/r/Obs59lfEQ33.js?_nc_x=Ij3Wp8lg5Kz": [
+          "window.navigator.userAgent"
+        ],
+        "https://c.disquscdn.com/next/embed/alfalfalfa.0823c767a3bc925f628afd9bed26c958.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.youtube.com/yts/jsbin/player_ias-vflP_XVWV/en_US/base.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.youtube.com/yts/jsbin/www-embed-player-vflHWtOQx/www-embed-player.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.youtube.com/embed/QEbE8NyxXZI": [
+          "window.navigator.userAgent"
+        ],
+        "https://platform.twitter.com/widgets/widget_iframe.7303c29a8108bca4ac5c9ef008ed8164.html?origin=https%3A%2F%2Fspartapride.org": [
+          "window.navigator.userAgent"
+        ],
+        "https://spartapride.disqus.com/embed.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://c.disquscdn.com/next/embed/lounge.bundle.3c28b73070ee14be97ecb734e8aca3b4.js": [
+          "window.screen.colorDepth"
+        ],
+        "https://spartapride.disqus.com/embed.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": 8647425234076703000
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/367408.gif?partner_uid=8647425234076703053"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "Li31vtQ599YaSNOK"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/401696.gif?partner_uid=Li31vtQ599YaSNOK"
+      },
+      {
+        "data": {
+          "filter": "||imrworldwide.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ci": "us-liveramp",
+            "cg": "Xc3008YmdQHbj_VWYP6xaD1Lsaw-f4CEDobxcElMU-7U8GfFc"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||imrworldwide.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://secure-gl.imrworldwide.com/cgi-bin/m?ci=us-liveramp&cg=Xc3008YmdQHbj_VWYP6xaD1Lsaw-f4CEDobxcElMU-7U8GfFc"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": "XlAILgAAAGL1Alk2",
+            "_test": "XlAILgAAAGL1Alk2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/367148.gif?served_by=evergreen&partner_uid=XlAILgAAAGL1Alk2&_test=XlAILgAAAGL1Alk2"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "211062b6dbedb558fea986a76341bdc7"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362708.gif?partner_uid=211062b6dbedb558fea986a76341bdc7"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://idsync.rlcdn.com/367148.gif?served_by=evergreen&partner_uid=${TM_USER_ID}",
+            "_test": "XlAILgAAAGL1Alk2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/ct/upi/pid/w8wqx7f2?redir=https%3A%2F%2Fidsync.rlcdn.com%2F367148.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24%7BTM_USER_ID%7D&_test=XlAILgAAAGL1Alk2"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "OJynIjdGFSCRqMxRRR-IjY6PYA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/394479.gif?partner_uid=OJynIjdGFSCRqMxRRR-IjY6PYA"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=3"
+      },
+      {
+        "data": {
+          "filter": "||exelator.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": 204,
+            "g": 450,
+            "rluid": "5b991ebd19dd2636a7269fcabd19c51b8a2dd19f10d64f50c65ea7cea52bab65f2fc7f7248dfd545",
+            "j": 0,
+            "xl8blockcheck": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||exelator.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://loadm.exelator.com/load/?p=204&g=450&rluid=5b991ebd19dd2636a7269fcabd19c51b8a2dd19f10d64f50c65ea7cea52bab65f2fc7f7248dfd545&j=0&xl8blockcheck=1"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "917428ff166148298c8d470f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/382189.gif?partner_uid=917428ff166148298c8d470f"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "d582382f93348c60cc813ccca197e132"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/394366.gif?partner_uid=d582382f93348c60cc813ccca197e132"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "NPXN-F_1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/379718.gif?partner_uid=NPXN-F_1"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 17057153,
+            "c3": 1,
+            "c6": "45e169a8cbe264c5c0fa474386f41845973058a47fd38a909255002751e45824ffebc811cafadc33",
+            "": null,
+            "cj": 1,
+            "rn": "04571208"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/p?c1=9&c2=17057153&c3=1&c6=45e169a8cbe264c5c0fa474386f41845973058a47fd38a909255002751e45824ffebc811cafadc33&&cj=1&rn=04571208"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "liveramp",
+            "google_hm": "WGMzMDcwS2YwOHR1X29lQUZlT3l5M2NNWUpUcHZ2VU9rbDNmWGlWc0RfV1lFcFU3cw==",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=liveramp&google_hm=WGMzMDcwS2YwOHR1X29lQUZlT3l5M2NNWUpUcHZ2VU9rbDNmWGlWc0RfV1lFcFU3cw==&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||exelator.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p": 204,
+            "g": 450,
+            "rluid": "5b991ebd19dd2636a7269fcabd19c51b8a2dd19f10d64f50c65ea7cea52bab65f2fc7f7248dfd545",
+            "j": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||exelator.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://loadm.exelator.com/load/?p=204&g=450&rluid=5b991ebd19dd2636a7269fcabd19c51b8a2dd19f10d64f50c65ea7cea52bab65f2fc7f7248dfd545&j=0"
+      },
+      {
+        "data": {
+          "filter": "||everesttech.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "redir": "https://idsync.rlcdn.com/367148.gif?served_by=evergreen&partner_uid=${TM_USER_ID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||everesttech.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync-tm.everesttech.net/upi/pid/w8wqx7f2?redir=https%3A%2F%2Fidsync.rlcdn.com%2F367148.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24%7BTM_USER_ID%7D"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 10339,
+            "_psign": "f79776ac7a290c8b1b2a94bd7ad5f0ce",
+            "_puuid": "4444710d51a61f56e52e41de411ee85c53c0e3561fd78949be17d79f31dac0f046fb3967ab0bd795",
+            "_rand": "08519894",
+            "_redirect": "https://idsync.rlcdn.com/394366.gif?partner_uid=${UUID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=10339&_psign=f79776ac7a290c8b1b2a94bd7ad5f0ce&_puuid=4444710d51a61f56e52e41de411ee85c53c0e3561fd78949be17d79f31dac0f046fb3967ab0bd795&_rand=08519894&_redirect=https%3A%2F%2Fidsync.rlcdn.com%2F394366.gif%3Fpartner_uid%3D%24%7BUUID%7D"
+      },
+      {
+        "data": {
+          "filter": "||bluekai.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "phint": "rluid=e3f7a7114acacbe201723256e26a215195d8a27a2f4b6b6e32ab16adc4088f002971936f2f944561",
+            "redir": "https://idsync.rlcdn.com/401696.gif?partner_uid=$BK_UUID_25515"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||bluekai.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.bluekai.com/site/2035?phint=rluid=e3f7a7114acacbe201723256e26a215195d8a27a2f4b6b6e32ab16adc4088f002971936f2f944561&redir=https%3A%2F%2Fidsync.rlcdn.com%2F401696.gif%3Fpartner_uid%3D%24BK_UUID_25515"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "liveramp"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://usermatch.krxd.net/um/v2?partner=liveramp"
+      },
+      {
+        "data": {
+          "filter": "||w55c.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "st": "LIVERAMP",
+            "rurl": "https://idsync.rlcdn.com/360787.gif?served_by=evergreen&partner_uid=_wfivefivec_"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||w55c.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pm.w55c.net/ping_match.gif?st=LIVERAMP&rurl=https%3A%2F%2Fidsync.rlcdn.com%2F360787.gif%3Fserved_by%3Devergreen%26partner_uid%3D_wfivefivec_"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=540&dpuuid=f829e8f3-54c8-11ea-99ba-fe742d123c93&redir=https%3A%2F%2Fpixel.tapad.com%2Fidsync%2Fex%2Freceive%3Fpartner_id%3DADB%26partner_device_id%3D%24%7BDD_UUID%7D%26pt%3Df829e8f3-54c8-11ea-99ba-fe742d123c93%252C"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=5"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 11
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=11"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=2"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 10
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=10"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 4
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=4"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 8
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=8"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 9
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=9"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=6"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=7"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 1,
+            "pdata": "placement=1391"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ei.rlcdn.com/448046.gif?n=1&pdata=placement%3D1391"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 14652657,
+            "cs_xi": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/b?c1=9&c2=14652657&cs_xi=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 39342,
+            "in": 1,
+            "userid": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02",
+            "forward": "https://live.rezync.com/sync?c=4656c20ee35215f78e9273796625d90b&p=260a954059a0ab1986e4ee8c5c88c54c&pid={userid}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=1&userid=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||cpx.to^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "",
+            "pid": 12037,
+            "url": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "adnxs_uid": 2691355908332169700
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default and matched with easyprivacy.txt filter ||cpx.to^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.cpx.to/ca.png?ref=&pid=12037&url=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&adnxs_uid=2691355908332169812"
+      },
+      {
+        "data": {
+          "filter": "||ce.lijit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 8008,
+            "3pid": "1cc4b444fcec243792d2fc662c12d468"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter ||ce.lijit.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ce.lijit.com/merge?pid=8008&3pid=1cc4b444fcec243792d2fc662c12d468"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fspartapride.org%252Fopen-trans-service-facing-the-fights-ahead%252F%26adnxs_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fspartapride.org%252Fopen-trans-service-facing-the-fights-ahead%252F%26adnxs_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "companyId": 19,
+            "id": "disqus_id:c24d9v3c7c2ipn",
+            "ret": "img",
+            "ref": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?companyId=19&id=disqus_id%3Ac24d9v3c7c2ipn&ret=img&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 1391,
+            "ref": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "it": 1,
+            "iv": "c24d9v3c7c2ipn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&it=1&iv=c24d9v3c7c2ipn"
+      },
+      {
+        "data": {
+          "filter": "||referrer.disqus.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abe": 0,
+            "embed_hidden": 0,
+            "load_time": 1140,
+            "event": "init_embed",
+            "thread": 7773981606,
+            "forum": "spartapride",
+            "forum_id": 5274618,
+            "imp": "24da6j73q81spv",
+            "prev_imp": "24d9urp2kdi9f7",
+            "thread_slug": "open_trans_service_facing_the_fights_ahead_99",
+            "user_type": "anon",
+            "referrer": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "theme": "next",
+            "dnt": 0,
+            "tracking_enabled": 1,
+            "experiment": "network_default_hidden",
+            "variant": "fallthrough",
+            "service": "dynamic",
+            "promoted_enabled": false,
+            "max_enabled": false
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&t_d=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&t_t=Open%20Trans%20Service%20-%20Facing%20the%20Fights%20Ahead&s_o=default and matched with easyprivacy.txt filter ||referrer.disqus.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://referrer.disqus.com/juggler/event.gif?abe=0&embed_hidden=0&load_time=1140&event=init_embed&thread=7773981606&forum=spartapride&forum_id=5274618&imp=24da6j73q81spv&prev_imp=24d9urp2kdi9f7&thread_slug=open_trans_service_facing_the_fights_ahead_99&user_type=anon&referrer=https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F&theme=next&dnt=0&tracking_enabled=1&experiment=network_default_hidden&variant=fallthrough&service=dynamic&promoted_enabled=false&max_enabled=false"
+      },
+      {
+        "data": {
+          "filter": "/sync.gif?partner_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "svn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter /sync.gif?partner_"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/sync.gif?partner_id=svn"
+      },
+      {
+        "data": {
+          "filter": "||disqus.com/api/ping",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter ||disqus.com/api/ping"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/ping"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "rn": 9.031741096753638
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=2&rn=9.031741096753638"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "rn": 9.031741096753638
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=1&rn=9.031741096753638"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+              "widget_frame": false,
+              "widget_site_screen_name": "sparta_pride",
+              "widget_creator_screen_name": "arkwinfox",
+              "widget_data_source": "profile:sparta_pride",
+              "query": null,
+              "profile_id": null,
+              "item_ids": [
+                "1218945113042362370",
+                "1208093738834124800",
+                "1200053957357379584"
+              ],
+              "item_details": {
+                "1218945113042362370": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1219104380244447234"
+                },
+                "1208093738834124800": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1208144119132033024"
+                },
+                "1200053957357379584": {
+                  "item_type": 0
+                }
+              },
+              "_category_": "tfw_client_event",
+              "triggered_on": 1582303277257,
+              "dnt": false,
+              "client_version": "4a203525:1580945701206",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "component": "timeline",
+                "element": "initial",
+                "action": "results"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fspartapride.org%2Fopen-trans-service-facing-the-fights-ahead%2F%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22sparta_pride%22%2C%22widget_creator_screen_name%22%3A%22arkwinfox%22%2C%22widget_data_source%22%3A%22profile%3Asparta_pride%22%2C%22query%22%3Anull%2C%22profile_id%22%3Anull%2C%22item_ids%22%3A%5B%221218945113042362370%22%2C%221208093738834124800%22%2C%221200053957357379584%22%5D%2C%22item_details%22%3A%7B%221218945113042362370%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221219104380244447234%22%7D%2C%221208093738834124800%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221208144119132033024%22%7D%2C%221200053957357379584%22%3A%7B%22item_type%22%3A0%7D%7D%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1582303277257%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%224a203525%3A1580945701206%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22component%22%3A%22timeline%22%2C%22element%22%3A%22initial%22%2C%22action%22%3A%22results%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "_category_": "syndicated_impression",
+              "triggered_on": 1582303276059,
+              "dnt": false,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot/syndication?l=%7B%22_category_%22%3A%22syndicated_impression%22%2C%22triggered_on%22%3A1582303276059%2C%22dnt%22%3Afalse%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||instant.page^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/open-trans-service-facing-the-fights-ahead/",
+            "source": "requested from https://spartapride.org/open-trans-service-facing-the-fights-ahead/ and matched with easyprivacy.txt filter ||instant.page^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://instant.page/1.1.0"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": 3.5792034872516473e+37
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362248.gif?partner_uid=35792034872516473342721049140903687562"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cb": "https://tag.cogocast.net/tag/partner/222?pixel_mode=pixel&dc_id=225c5bd6e4fc42ccb720b8212fc529bb&cb=https%3A%2F%2Ftag%2Eapxlv%2Ecom%2Ftag%2Fpartner%2F222%3Fpixel%5Fmode%3Dpixel%26c%5Fi%3D1&c_i=0",
+            "google_hm": "Ilxb1uT8Qsy3ILghL8Upuw==",
+            "google_nid": "cogo_labs",
+            "google_sc": "",
+            "u": "225c5bd6e4fc42ccb720b8212fc529bb"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?cb=https%3A%2F%2Ftag.cogocast.net%2Ftag%2Fpartner%2F222%3Fpixel_mode%3Dpixel%26dc_id%3D225c5bd6e4fc42ccb720b8212fc529bb%26cb%3Dhttps%253A%252F%252Ftag%252Eapxlv%252Ecom%252Ftag%252Fpartner%252F222%253Fpixel%255Fmode%253Dpixel%2526c%255Fi%253D1%26c_i%3D0&google_hm=Ilxb1uT8Qsy3ILghL8Upuw%3D%3D&google_nid=cogo_labs&google_sc=&u=225c5bd6e4fc42ccb720b8212fc529bb"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "et:ibs%7cdata:dpid": 477,
+            "dpuuid": "e03430d44a2f54798532b60ec0274d3d3baf420d089419d84d5305893aee8efdb0da87c991749652",
+            "redir": "https://idsync.rlcdn.com/362248.gif?partner_uid=${DD_UUID}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/demconf.jpg?et:ibs%7cdata:dpid=477&dpuuid=e03430d44a2f54798532b60ec0274d3d3baf420d089419d84d5305893aee8efdb0da87c991749652&redir=https%3A%2F%2Fidsync.rlcdn.com%2F362248.gif%3Fpartner_uid%3D%24%7BDD_UUID%7D"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "google_error": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&google_error=5"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "ffb22b19-fd26-4a9c-8514-357f99d65426"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362588.gif?partner_uid=ffb22b19-fd26-4a9c-8514-357f99d65426"
+      },
+      {
+        "data": {
+          "filter": "||demdex.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||demdex.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://dpm.demdex.net/ibs:dpid=477&dpuuid=e03430d44a2f54798532b60ec0274d3d3baf420d089419d84d5305893aee8efdb0da87c991749652&redir=https%3A%2F%2Fidsync.rlcdn.com%2F362248.gif%3Fpartner_uid%3D%24%7BDD_UUID%7D"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": "cf235e50-0828-4e00-9cdd-36d671815e5f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=cf235e50-0828-4e00-9cdd-36d671815e5f"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_push": "",
+            "google_hm": "OTYwMTgxNTE4MDUxNDI0NzUxhttps://live.rezync.com/sync?c=4656c20ee35215f78e9273796625d90b&p=260a954059a0ab1986e4ee8c5c88c54c&pid={userid}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_push=&google_hm=OTYwMTgxNTE4MDUxNDI0NzUxhttps%3A%2F%2Flive.rezync.com%2Fsync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362358.gif?google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10017,
+            "redir": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10017&redir=https%3A%2F%2Fidsync.rlcdn.com%2F47154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=7"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=2"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "845199df-eb45-4959-89e3-1b7731edc094"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/458249.gif?partner_uid=845199df-eb45-4959-89e3-1b7731edc094"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "epsilon",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=epsilon&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 9
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=9"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 10
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=10"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": "cf235e50-0828-4e00-9cdd-36d671815e5f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=cf235e50-0828-4e00-9cdd-36d671815e5f"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 445,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?pub=39342&in=1&userid=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D",
+            "rfi_ts": 1582303272183,
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://a.rfihub.com/cm?pub=445&rfi_evt=cm&rfi_uri=%2Fcm%3Fpub%3D39342%26in%3D1%26userid%3Dc1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%253A1582303272.02%26forward%3Dhttps%253A%2F%2Flive.rezync.com%2Fsync%253Fc%253D4656c20ee35215f78e9273796625d90b%2526p%253D260a954059a0ab1986e4ee8c5c88c54c%2526pid%253D%257Buserid%257D&rfi_ts=1582303272183&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 710202,
+            "it": 1,
+            "iv": "d582382f93348c60cc813ccca197e132"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=710202&it=1&iv=d582382f93348c60cc813ccca197e132"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "ffb22b19-fd26-4a9c-8514-357f99d65426"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362588.gif?partner_uid=ffb22b19-fd26-4a9c-8514-357f99d65426"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "kuid_status": "new",
+            "partner": "liveramp_identity"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://beacon.krxd.net/usermatch.gif?kuid_status=new&partner=liveramp_identity"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 8
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=8"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 14970,
+            "_psign": "2c0353767854c9b1df51c667631fa2f7",
+            "_puuid": "f7eb3242-54c8-11ea-8adf-0accd915b97b"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=14970&_psign=2c0353767854c9b1df51c667631fa2f7&_puuid=f7eb3242-54c8-11ea-8adf-0accd915b97b"
+      },
+      {
+        "data": {
+          "filter": "||linksynergy.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ns": "lr",
+            "uid3": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||linksynergy.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.rd.linksynergy.com/rcs?ns=lr&uid3="
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 16257,
+            "_psign": "5a9f251662be469b9732c38b03f11952",
+            "_redirect": "https://pippio.com/api/sync?pid=710202&it=1&iv=${UUID}",
+            "_rand": "02439887"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px/?_pid=16257&_psign=5a9f251662be469b9732c38b03f11952&_redirect=https%3A%2F%2Fpippio.com%2Fapi%2Fsync%3Fpid%3D710202%26it%3D1%26iv%3D%24%7BUUID%7D&_rand=02439887"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10017,
+            "redir": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=[MM_UUID]",
+            "mm_bnc": null,
+            "mm_bct": null,
+            "UUID": "cf235e50-0828-4e00-9cdd-36d671815e5f"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10017&redir=https%3A%2F%2Fidsync.rlcdn.com%2F47154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%5BMM_UUID%5D&mm_bnc&mm_bct&UUID=cf235e50-0828-4e00-9cdd-36d671815e5f"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/362358.gif?google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "zeta_interactive",
+            "google_no_sc": null,
+            "google_cm": null,
+            "rfi_evt": "cm",
+            "rfi_uri": "/cm?pub=39342&in=1&userid=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D",
+            "rfi_ts": 1582303272183
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=zeta_interactive&google_no_sc&google_cm&rfi_evt=cm&rfi_uri=%2Fcm%3Fpub%3D39342%26in%3D1%26userid%3Dc1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%253A1582303272.02%26forward%3Dhttps%253A%2F%2Flive.rezync.com%2Fsync%253Fc%253D4656c20ee35215f78e9273796625d90b%2526p%253D260a954059a0ab1986e4ee8c5c88c54c%2526pid%253D%257Buserid%257D&rfi_ts=1582303272183"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 14652657,
+            "cs_xi": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/b2?c1=9&c2=14652657&cs_xi=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "companyId": 69,
+            "id": "drawbridge_id:d582382f93348c60cc813ccca197e132",
+            "red": "https://p.adsymptotic.com/d/px?_pid=14970&_psign=2c0353767854c9b1df51c667631fa2f7&_puuid=${narrative.id.value}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?companyId=69&id=drawbridge_id:d582382f93348c60cc813ccca197e132&red=https%3A%2F%2Fp.adsymptotic.com%2Fd%2Fpx%3F_pid%3D14970%26_psign%3D2c0353767854c9b1df51c667631fa2f7%26_puuid%3D%24%7Bnarrative.id.value%7D"
+      },
+      {
+        "data": {
+          "filter": "||krxd.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner": "liveramp_identity"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://usermatch.krxd.net/um/v2?partner=liveramp_identity"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "epsilon",
+            "google_cm": "",
+            "google_tc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=epsilon&google_cm=&google_tc="
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5324,
+            "it": 1,
+            "iv": "03edf9c8e2ce7ad9119a9e12bee55dd1bb8905b4ab180c0c41520c669d238847791426b5417dce21",
+            "_": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=5324&it=1&iv=03edf9c8e2ce7ad9119a9e12bee55dd1bb8905b4ab180c0c41520c669d238847791426b5417dce21&_=2"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "served_by": "evergreen",
+            "partner_uid": 2691355908332169700
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/52154.gif?served_by=evergreen&partner_uid=2691355908332169812"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 13553,
+            "_psign": "9e62e5c043ecadc9479a0ccac401dd7d",
+            "_expected_cookie": "d582382f93348c60cc813ccca197e132"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=13553&_psign=9e62e5c043ecadc9479a0ccac401dd7d&_expected_cookie=d582382f93348c60cc813ccca197e132"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 2,
+            "m": "CO8KEhkKFQgBEPkHGg5jMjRkOXYzYzdjMmlwbhAAGm4Ip5DA8gUSBAgCEAASBQiUKRAAEgUI5SsQABIFCOYrEAASBQjnKxAAEgUI6CsQABIFCOkrEAASBQjqKxAAEgUI6ysQABIFCOwrEAASBQjtKxAAEgUI7isQABIFCNNCEAASBQjVQxAAEgUI3k4QAEIASgA",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync/ddp?pid=2&m=CO8KEhkKFQgBEPkHGg5jMjRkOXYzYzdjMmlwbhAAGm4Ip5DA8gUSBAgCEAASBQiUKRAAEgUI5SsQABIFCOYrEAASBQjnKxAAEgUI6CsQABIFCOkrEAASBQjqKxAAEgUI6ysQABIFCOwrEAASBQjtKxAAEgUI7isQABIFCNNCEAASBQjVQxAAEgUI3k4QAEIASgA&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 9,
+            "c2": 14652657,
+            "cs_xi": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.scorecardresearch.com/b?c1=9&c2=14652657&cs_xi=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02"
+      },
+      {
+        "data": {
+          "filter": "||rfihub.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pub": 39342,
+            "in": 1,
+            "userid": "c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c:1582303272.02",
+            "forward": "https://live.rezync.com/sync?c=4656c20ee35215f78e9273796625d90b&p=260a954059a0ab1986e4ee8c5c88c54c&pid={userid}"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||rfihub.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.rfihub.com/cm?pub=39342&in=1&userid=c1f7c9c4-1e8d-4387-b41a-09bc4cf8a69c%3A1582303272.02&forward=https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D260a954059a0ab1986e4ee8c5c88c54c%26pid%3D%7Buserid%7D"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US",
+            "source": "requested from https://live.rezync.com/pixel.html?c=4656c20ee35215f78e9273796625d90b&cid=c24d9v3c7c2ipn&pctry=US and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A//live.rezync.com/sync%3Fc%3D4656c20ee35215f78e9273796625d90b%26p%3D093016b0419d19c905c78c859b815219%26pid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fidsync.rlcdn.com%2F52154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "epsilon",
+            "google_cm": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=epsilon&google_cm"
+      },
+      {
+        "data": {
+          "filter": "||mathtag.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "mt_exid": 10017,
+            "redir": "https://idsync.rlcdn.com/47154.gif?served_by=evergreen&partner_uid=[MM_UUID]"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||mathtag.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sync.mathtag.com/sync/img?mt_exid=10017&redir=https%3A%2F%2Fidsync.rlcdn.com%2F47154.gif%3Fserved_by%3Devergreen%26partner_uid%3D%5BMM_UUID%5D"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5324,
+            "_": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=5324&_=2"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "memo": "CKabHBIaChYIARDI-AEaDmMyNGQ5djNjN2MyaXBuEAAaDQiokMDyBRIFCOgHEABCAEoA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/1000.gif?memo=CKabHBIaChYIARDI-AEaDmMyNGQ5djNjN2MyaXBuEAAaDQiokMDyBRIFCOgHEABCAEoA"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 4
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=4"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=3"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 11
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=11"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=6"
+      },
+      {
+        "data": {
+          "filter": "||rc.rlcdn.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 5
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rc.rlcdn.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rc.rlcdn.com/456809.gif?n=5"
+      },
+      {
+        "data": {
+          "filter": "||adsymptotic.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_pid": 13553,
+            "_psign": "9e62e5c043ecadc9479a0ccac401dd7d"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||adsymptotic.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://p.adsymptotic.com/d/px?_pid=13553&_psign=9e62e5c043ecadc9479a0ccac401dd7d"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^$image,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "pippio_dmp",
+            "google_cm": null,
+            "google_no_sc": null,
+            "m": "CO8KEhkKFQgBEPkHGg5jMjRkOXYzYzdjMmlwbhAAGm4Ip5DA8gUSBAgCEAASBQiUKRAAEgUI5SsQABIFCOYrEAASBQjnKxAAEgUI6CsQABIFCOkrEAASBQjqKxAAEgUI6ysQABIFCOwrEAASBQjtKxAAEgUI7isQABIFCNNCEAASBQjVQxAAEgUI3k4QAEIASgA"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=pippio_dmp&google_cm&google_no_sc&m=CO8KEhkKFQgBEPkHGg5jMjRkOXYzYzdjMmlwbhAAGm4Ip5DA8gUSBAgCEAASBQiUKRAAEgUI5SsQABIFCOYrEAASBQjnKxAAEgUI6CsQABIFCOkrEAASBQjqKxAAEgUI6ysQABIFCOwrEAASBQjtKxAAEgUI7isQABIFCNNCEAASBQjVQxAAEgUI3k4QAEIASgA"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "n": 1,
+            "pdata": "placement=1391"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ei.rlcdn.com/448046.gif?n=1&pdata=placement%3D1391"
+      },
+      {
+        "data": {
+          "filter": "||rlcdn.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_uid": "c24d9v3c7c2ipn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn",
+            "source": "requested from https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn and matched with easyprivacy.txt filter ||rlcdn.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://idsync.rlcdn.com/462246.gif?partner_uid=c24d9v3c7c2ipn"
+      },
+      {
+        "data": {
+          "filter": "||cpx.to^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ref": "",
+            "pid": 12037,
+            "url": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "adnxs_uid": 2691355908332169700
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||cpx.to^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s.cpx.to/ca.png?ref=&pid=12037&url=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&adnxs_uid=2691355908332169812"
+      },
+      {
+        "data": {
+          "filter": "||ce.lijit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 8008,
+            "3pid": "1cc4b444fcec243792d2fc662c12d468",
+            "dnr": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||ce.lijit.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ce.lijit.com/merge?pid=8008&3pid=1cc4b444fcec243792d2fc662c12d468&dnr=1"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "%2Fgetuid%3Fhttps%253A%252F%252Fs.cpx.to%252Fca.png%253Fref%253D%2526pid%253D12037%2526url%253Dhttps%25253A%25252F%25252Fspartapride.org%25252Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%25252F%2526adnxs_uid%253D%2524UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/bounce?%2Fgetuid%3Fhttps%253A%252F%252Fs.cpx.to%252Fca.png%253Fref%253D%2526pid%253D12037%2526url%253Dhttps%25253A%25252F%25252Fspartapride.org%25252Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%25252F%2526adnxs_uid%253D%2524UID"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "io.narrative.guid.v2": "f7eb3242-54c8-11ea-8adf-0accd915b97b",
+            "companyId": 19,
+            "id": "disqus_id:c24d9v3c7c2ipn",
+            "ret": "img",
+            "ref": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?io.narrative.guid.v2=f7eb3242-54c8-11ea-8adf-0accd915b97b&companyId=19&id=disqus_id%3Ac24d9v3c7c2ipn&ret=img&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F"
+      },
+      {
+        "data": {
+          "filter": "||ce.lijit.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 8008,
+            "3pid": "1cc4b444fcec243792d2fc662c12d468"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||ce.lijit.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ce.lijit.com/merge?pid=8008&3pid=1cc4b444fcec243792d2fc662c12d468"
+      },
+      {
+        "data": {
+          "filter": "/sync.gif?partner_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partner_id": "svn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter /sync.gif?partner_"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/sync.gif?partner_id=svn"
+      },
+      {
+        "data": {
+          "filter": "||ib.adnxs.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fspartapride.org%252Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%252F%26adnxs_uid%3D%24UID": null
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ib.adnxs.com/getuid?https%3A%2F%2Fs.cpx.to%2Fca.png%3Fref%3D%26pid%3D12037%26url%3Dhttps%253A%252F%252Fspartapride.org%252Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%252F%26adnxs_uid%3D%24UID"
+      },
+      {
+        "data": {
+          "filter": "||io.narrative.io/?$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "companyId": 19,
+            "id": "disqus_id:c24d9v3c7c2ipn",
+            "ret": "img",
+            "ref": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||io.narrative.io/?$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://io.narrative.io/?companyId=19&id=disqus_id%3Ac24d9v3c7c2ipn&ret=img&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F"
+      },
+      {
+        "data": {
+          "filter": "/pippio.",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 1391,
+            "ref": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "it": 1,
+            "iv": "c24d9v3c7c2ipn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter /pippio."
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pippio.com/api/sync?pid=1391&ref=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&it=1&iv=c24d9v3c7c2ipn"
+      },
+      {
+        "data": {
+          "filter": "||referrer.disqus.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "abe": 0,
+            "embed_hidden": 0,
+            "load_time": 1319,
+            "event": "init_embed",
+            "thread": 7768673887,
+            "forum": "spartapride",
+            "forum_id": 5274618,
+            "imp": "24d9urp2kdi9f7",
+            "prev_imp": null,
+            "thread_slug": "sparta_members_to_testify_before_house_armed_services_personnel_subcommittee_on_feb_27th_52",
+            "user_type": "anon",
+            "referrer": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "theme": "next",
+            "dnt": 0,
+            "tracking_enabled": 1,
+            "experiment": "network_default_hidden",
+            "variant": "fallthrough",
+            "service": "dynamic",
+            "promoted_enabled": false,
+            "max_enabled": false
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default",
+            "source": "requested from https://disqus.com/embed/comments/?base=default&f=spartapride&t_u=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&t_d=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&t_t=SPART*A%20Members%20To%20Testify%20Before%20House%20Armed%20Services%20Personnel%20Subcommittee%20on%20Feb%2027th&s_o=default and matched with easyprivacy.txt filter ||referrer.disqus.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://referrer.disqus.com/juggler/event.gif?abe=0&embed_hidden=0&load_time=1319&event=init_embed&thread=7768673887&forum=spartapride&forum_id=5274618&imp=24d9urp2kdi9f7&prev_imp&thread_slug=sparta_members_to_testify_before_house_armed_services_personnel_subcommittee_on_feb_27th_52&user_type=anon&referrer=https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F&theme=next&dnt=0&tracking_enabled=1&experiment=network_default_hidden&variant=fallthrough&service=dynamic&promoted_enabled=false&max_enabled=false"
+      },
+      {
+        "data": {
+          "filter": "||disqus.com/api/ping",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||disqus.com/api/ping"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://links.services.disqus.com/api/ping"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 2,
+            "rn": 9.399158481255693
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=2&rn=9.399158481255693"
+      },
+      {
+        "data": {
+          "filter": "/pixel.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ch": 1,
+            "rn": 9.399158481255693
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.viglink.com/images/pixel.gif?ch=1&rn=9.399158481255693"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+              "widget_frame": false,
+              "widget_site_screen_name": "sparta_pride",
+              "widget_creator_screen_name": "bfram3",
+              "widget_data_source": "profile:sparta_pride",
+              "query": null,
+              "profile_id": null,
+              "item_ids": [
+                "1218945113042362370",
+                "1208093738834124800",
+                "1200053957357379584"
+              ],
+              "item_details": {
+                "1218945113042362370": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1219104380244447234"
+                },
+                "1208093738834124800": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1208144119132033024"
+                },
+                "1200053957357379584": {
+                  "item_type": 0
+                }
+              },
+              "_category_": "tfw_client_event",
+              "triggered_on": 1582303270141,
+              "dnt": false,
+              "client_version": "4a203525:1580945701206",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "component": "timeline",
+                "element": "initial",
+                "action": "results"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fspartapride.org%2Fspart-a-members-to-testify-before-house-armed-services-personnel-subcommittee%2F%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22sparta_pride%22%2C%22widget_creator_screen_name%22%3A%22bfram3%22%2C%22widget_data_source%22%3A%22profile%3Asparta_pride%22%2C%22query%22%3Anull%2C%22profile_id%22%3Anull%2C%22item_ids%22%3A%5B%221218945113042362370%22%2C%221208093738834124800%22%2C%221200053957357379584%22%5D%2C%22item_details%22%3A%7B%221218945113042362370%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221219104380244447234%22%7D%2C%221208093738834124800%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221208144119132033024%22%7D%2C%221200053957357379584%22%3A%7B%22item_type%22%3A0%7D%7D%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1582303270141%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%224a203525%3A1580945701206%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22component%22%3A%22timeline%22%2C%22element%22%3A%22initial%22%2C%22action%22%3A%22results%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "_category_": "syndicated_impression",
+              "triggered_on": 1582303269717,
+              "dnt": false,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot/syndication?l=%7B%22_category_%22%3A%22syndicated_impression%22%2C%22triggered_on%22%3A1582303269717%2C%22dnt%22%3Afalse%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||instant.page^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/",
+            "source": "requested from https://spartapride.org/spart-a-members-to-testify-before-house-armed-services-personnel-subcommittee/ and matched with easyprivacy.txt filter ||instant.page^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://instant.page/1.1.0"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "widget_origin": "https://spartapride.org/",
+              "widget_frame": false,
+              "widget_site_screen_name": "sparta_pride",
+              "widget_data_source": "profile:sparta_pride",
+              "query": null,
+              "profile_id": null,
+              "item_ids": [
+                "1218945113042362370",
+                "1208093738834124800",
+                "1200053957357379584"
+              ],
+              "item_details": {
+                "1218945113042362370": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1219104380244447234"
+                },
+                "1208093738834124800": {
+                  "item_type": 10,
+                  "target_type": 0,
+                  "target_id": "1208144119132033024"
+                },
+                "1200053957357379584": {
+                  "item_type": 0
+                }
+              },
+              "_category_": "tfw_client_event",
+              "triggered_on": 1582303265140,
+              "dnt": false,
+              "client_version": "4a203525:1580945701206",
+              "format_version": 1,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "component": "timeline",
+                "element": "initial",
+                "action": "results"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/",
+            "source": "requested from https://spartapride.org/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fspartapride.org%2F%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22sparta_pride%22%2C%22widget_data_source%22%3A%22profile%3Asparta_pride%22%2C%22query%22%3Anull%2C%22profile_id%22%3Anull%2C%22item_ids%22%3A%5B%221218945113042362370%22%2C%221208093738834124800%22%2C%221200053957357379584%22%5D%2C%22item_details%22%3A%7B%221218945113042362370%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221219104380244447234%22%7D%2C%221208093738834124800%22%3A%7B%22item_type%22%3A10%2C%22target_type%22%3A0%2C%22target_id%22%3A%221208144119132033024%22%7D%2C%221200053957357379584%22%3A%7B%22item_type%22%3A0%7D%7D%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1582303265140%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%224a203525%3A1580945701206%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22component%22%3A%22timeline%22%2C%22element%22%3A%22initial%22%2C%22action%22%3A%22results%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "_category_": "syndicated_impression",
+              "triggered_on": 1582303264561,
+              "dnt": false,
+              "event_namespace": {
+                "client": "tfw",
+                "page": "timeline",
+                "action": "impression"
+              }
+            }
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/",
+            "source": "requested from https://spartapride.org/ and matched with easyprivacy.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot/syndication?l=%7B%22_category_%22%3A%22syndicated_impression%22%2C%22triggered_on%22%3A1582303264561%2C%22dnt%22%3Afalse%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22timeline%22%2C%22action%22%3A%22impression%22%7D%7D"
+      },
+      {
+        "data": {
+          "filter": "||instant.page^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://spartapride.org/",
+            "source": "requested from https://spartapride.org/ and matched with easyprivacy.txt filter ||instant.page^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://instant.page/1.1.0"
+      }
+    ]
+  }
+}

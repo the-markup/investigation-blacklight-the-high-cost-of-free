@@ -1,0 +1,842 @@
+{
+  "title": "state-corona-sites",
+  "uri_ins": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+  "uri_dest": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.cdph.ca.gov",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.42.125",
+    "version": {
+      "npm": "0.0.8",
+      "commit": null
+    },
+    "node_version": "v12.16.1"
+  },
+  "start_time": "2020-03-27T14:16:36.272Z",
+  "end_time": "2020-03-27T14:17:08.114Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+    "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+    "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+    "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.cdph.ca.gov"
+      ],
+      "third_party": [
+        "translate.google.com",
+        "s7.addthis.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "platform.twitter.com",
+        "connect.facebook.net",
+        "translate.googleapis.com",
+        "www.googletagmanager.com",
+        "california.azureedge.net",
+        "z.moatads.com",
+        "v1.addthisedge.com",
+        "m.addthis.com",
+        "www.google-analytics.com",
+        "www.gstatic.com",
+        "www.google.com",
+        "syndication.twitter.com",
+        "graph.facebook.com",
+        "api.instagram.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "_ga",
+        "value": "GA1.2.547230675.1585318603",
+        "domain": "ca.gov",
+        "path": "/",
+        "expires": 1648390623,
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-03-27T14:17:03.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csrftoken",
+        "value": "WcqrAPVYuYzoN8jAtOEnKfExF7qGA9HN",
+        "domain": "instagram.com",
+        "path": "/",
+        "expires": 1616768223.384777,
+        "size": 41,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "expiresUTC": "2021-03-26T14:17:03.384Z",
+        "expiresDays": 364,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1883102902.1585318603",
+        "domain": "ca.gov",
+        "path": "/",
+        "expires": 1585405023,
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-28T14:17:03.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-109056085-1",
+        "value": "1",
+        "domain": "ca.gov",
+        "path": "/",
+        "expires": 1585318662,
+        "size": 20,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:17:42.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS01bbb7e1",
+        "value": "014fd60d342d752bd8ddc7790c06bea61124d33da33f3667fb29321c4eee54a9e2e2ce17eb35f2c01e4e0e6464786e7a4f0d7599ca",
+        "domain": "www.cdph.ca.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "WSS_FullScreenMode",
+        "value": "false",
+        "domain": "www.cdph.ca.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "rur",
+        "value": "FTW",
+        "domain": "instagram.com",
+        "path": "/",
+        "expires": -1,
+        "size": 6,
+        "httpOnly": true,
+        "secure": true,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "TS23748982027",
+        "value": "087ed344cfab2000cd5a84fa475b081f964edb8aaccf0511e6b49c2794944f0cce926db4fbb2d329082df11ec0113000093814ab9a301a802fcb78eaf1dc152dfb5b1806af10ac93e6645b6c0ecd161669682f1078c7d395dacd39d0370daa47",
+        "domain": "www.cdph.ca.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 205,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "keydown"
+        ],
+        "https://www.cdph.ca.gov/Style%20Library/CDPH/js/jquery.min.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "orientationchange"
+        ],
+        "https://www.cdph.ca.gov/Style%20Library/CDPH/js/jquery.min.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://s7.addthis.com/static/layers.ab5cd98fe1b9a38a4a9f.js": [
+          "scroll"
+        ],
+        "https://www.cdph.ca.gov/Style%20Library/CDPH/js/jquery.min.js": [
+          "mouseup",
+          "mousemove",
+          "click"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "click"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "scroll"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-KVN6ZCB": [
+          "click"
+        ],
+        "https://www.cdph.ca.gov/Style%20Library/CDPH/js/jquery.mobile.custom.min.js": [
+          "click"
+        ]
+      },
+      "TOUCH": {
+        "https://www.cdph.ca.gov/Style%20Library/CDPH/js/jquery.min.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "key_logging": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://platform.twitter.com/widgets/widget_iframe.d0f13be8321eb432fba28cfc1c3351b1.html?origin=https%3A%2F%2Fwww.cdph.ca.gov": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://translate.googleapis.com/element/TE_20200210_00/e/js/element/element_main.js": [
+          "window.navigator.appVersion",
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js?hash=b2add3f8479a3aae0a200b9a97c2a618": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdph.ca.gov/_catalogs/masterpage/KIEFER/js/cdph.general.api.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.userAgent"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://connect.facebook.net/en_US/sdk.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdph.ca.gov/WebResource.axd?d=XC76c8jd_I94f1Z85AecrUsNmjrrSXJk0Q_01WcC59uI9S6DOlDmHANoEbE7_MQZXfX-xLLcx97454booXeHm1z9YN-FQZiHxKBKL20fJJQ1&t=637100574046795651": [
+          "window.navigator.appName"
+        ],
+        "https://www.cdph.ca.gov/ScriptResource.axd?d=G1tWcD9ITW8tl9c2zYWjQa1LI_bkDlGvKGXdF6NXgHm1H_7LX9_9YuBJsoGCDZPkVojZog9tuzfI3QVfh9HPmmvrcwYGnVAk2Ytsm60nL6DMwJaiX5sANX1HHDCDt0xbi0Cy_9_rN9nySDlT0RnppKr5tNvCjVyqfDNtY8CyRO65szE9-rF__CV6fSrL68m40&t=ffffffffecf19baa": [
+          "window.navigator.userAgent",
+          "window.navigator.appVersion",
+          "window.navigator.appName"
+        ],
+        "https://www.cdph.ca.gov/_layouts/15/cdph/js/setimagebackground.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdph.ca.gov/_layouts/15/init.js?rev=R500FBwHjH3TO5LeC6KbFQ%3D%3D": [
+          "window.navigator.platform",
+          "window.navigator.appVersion",
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://www.google-analytics.com/analytics.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "session_recorders": {},
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1538707144,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Autism",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 547230675.1585319,
+            "tid": "UA-109056085-1",
+            "_gid": 1883102902.158532,
+            "gtm": "2wg3i0KVN6ZCB",
+            "z": 708599381
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1538707144&t=pageview&_s=1&dl=https%3A%2F%2Fwww.cdph.ca.gov%2FPrograms%2FCCDPHP%2FDEODC%2FEHIB%2FEES%2FPages%2FAutism.aspx&ul=en-us&de=UTF-8&dt=Autism&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=547230675.1585318603&tid=UA-109056085-1&_gid=1883102902.1585318603&gtm=2wg3i0KVN6ZCB&z=708599381"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0adeaf9ab9d0",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 2418,
+            "sid": "5e7e0adeaf9ab9d0",
+            "pub": "ra-5900c384ba88d62d",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.cdph.ca.gov",
+            "fp": "Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "fr": "",
+            "of": 2,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "mk": "Infant Health",
+            "colc": 1585318622948,
+            "jsl": 8321,
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__68382786121374230"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0adeaf9ab9d0&bkl=0&bl=1&pdt=2418&sid=5e7e0adeaf9ab9d0&pub=ra-5900c384ba88d62d&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.cdph.ca.gov&fp=Programs%2FCCDPHP%2FDEODC%2FEHIB%2FEES%2FPages%2FAutism.aspx&fr=&of=2&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&mk=Infant%20Health&colc=1585318622948&jsl=8321&skipb=1&callback=addthis.cbs.jsonp__68382786121374230"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-5900c384ba88d62d/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVN6ZCB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/EHIB/EES/Pages/Autism.aspx and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVN6ZCB"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1076013797,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "HAI Program Home",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 547230675.1585319,
+            "tid": "UA-109056085-1",
+            "_gid": 1883102902.158532,
+            "gtm": "2wg3i0KVN6ZCB",
+            "z": 1839981487
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1076013797&t=pageview&_s=1&dl=https%3A%2F%2Fwww.cdph.ca.gov%2FPrograms%2FCHCQ%2FHAI%2FPages%2FHAIProgramHome.aspx&ul=en-us&de=UTF-8&dt=HAI%20Program%20Home&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=547230675.1585318603&tid=UA-109056085-1&_gid=1883102902.1585318603&gtm=2wg3i0KVN6ZCB&z=1839981487"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ad7e0894afa",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 2105,
+            "sid": "5e7e0ad7e0894afa",
+            "pub": "ra-5900c384ba88d62d",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.cdph.ca.gov",
+            "fp": "Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "fr": "",
+            "of": 2,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318615808,
+            "jsl": 8321,
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__330337382573218760"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ad7e0894afa&bkl=0&bl=1&pdt=2105&sid=5e7e0ad7e0894afa&pub=ra-5900c384ba88d62d&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.cdph.ca.gov&fp=Programs%2FCHCQ%2FHAI%2FPages%2FHAIProgramHome.aspx&fr=&of=2&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318615808&jsl=8321&skipb=1&callback=addthis.cbs.jsonp__330337382573218760"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-5900c384ba88d62d/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVN6ZCB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CHCQ/HAI/Pages/HAIProgramHome.aspx and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVN6ZCB"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 1706365955,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Privacy Policy",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "QACAAEAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 547230675.1585319,
+            "tid": "UA-109056085-1",
+            "_gid": 1883102902.158532,
+            "gtm": "2wg3i0KVN6ZCB",
+            "z": 396495916
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Pages/privacy-policy.aspx and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&aip=1&a=1706365955&t=pageview&_s=1&dl=https%3A%2F%2Fwww.cdph.ca.gov%2FPages%2Fprivacy-policy.aspx&ul=en-us&de=UTF-8&dt=Privacy%20Policy&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QACAAEAB~&jid=&gjid=&cid=547230675.1585318603&tid=UA-109056085-1&_gid=1883102902.1585318603&gtm=2wg3i0KVN6ZCB&z=396495916"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Pages/privacy-policy.aspx and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ad0e2fa9739",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 2673,
+            "sid": "5e7e0ad0e2fa9739",
+            "pub": "ra-5900c384ba88d62d",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.cdph.ca.gov",
+            "fp": "Pages/privacy-policy.aspx",
+            "fr": "",
+            "of": 2,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318608414,
+            "jsl": 8321,
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__56554529421279990"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Pages/privacy-policy.aspx and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ad0e2fa9739&bkl=0&bl=1&pdt=2673&sid=5e7e0ad0e2fa9739&pub=ra-5900c384ba88d62d&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.cdph.ca.gov&fp=Pages%2Fprivacy-policy.aspx&fr=&of=2&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318608414&jsl=8321&skipb=1&callback=addthis.cbs.jsonp__56554529421279990"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Pages/privacy-policy.aspx and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-5900c384ba88d62d/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVN6ZCB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Pages/privacy-policy.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Pages/privacy-policy.aspx and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVN6ZCB"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "aip": 1,
+            "a": 794936319,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "nCoV2019",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "YEBAAEABAAAAAC~",
+            "jid": 211727539,
+            "gjid": 1802832016,
+            "cid": 547230675.1585319,
+            "tid": "UA-109056085-1",
+            "_gid": 1883102902.158532,
+            "_r": 1,
+            "gtm": "2wg3i0KVN6ZCB",
+            "z": 965699631
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&aip=1&a=794936319&t=pageview&_s=1&dl=https%3A%2F%2Fwww.cdph.ca.gov%2FPrograms%2FCID%2FDCDC%2FPages%2FImmunization%2Fncov2019.aspx&ul=en-us&de=UTF-8&dt=nCoV2019&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YEBAAEABAAAAAC~&jid=211727539&gjid=1802832016&cid=547230675.1585318603&tid=UA-109056085-1&_gid=1883102902.1585318603&_r=1&gtm=2wg3i0KVN6ZCB&z=965699631"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e7e0ac91eee9393",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 799,
+            "sid": "5e7e0ac91eee9393",
+            "pub": "ra-5900c384ba88d62d",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "www.cdph.ca.gov",
+            "fp": "Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "fr": "",
+            "of": 1,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1585318601652,
+            "jsl": 8321,
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__0282182117159148760"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e7e0ac91eee9393&bkl=0&bl=1&pdt=799&sid=5e7e0ac91eee9393&pub=ra-5900c384ba88d62d&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=www.cdph.ca.gov&fp=Programs%2FCID%2FDCDC%2FPages%2FImmunization%2Fncov2019.aspx&fr=&of=1&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1585318601652&jsl=8321&skipb=1&callback=addthis.cbs.jsonp__0282182117159148760"
+      },
+      {
+        "data": {
+          "filter": "||addthisedge.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx and matched with easyprivacy.txt filter ||addthisedge.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://v1.addthisedge.com/live/boost/ra-5900c384ba88d62d/_ate.track.config_resp"
+      },
+      {
+        "data": {
+          "filter": "/gtm.js",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-KVN6ZCB"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx",
+            "source": "requested from https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/Immunization/ncov2019.aspx and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVN6ZCB"
+      }
+    ]
+  }
+}

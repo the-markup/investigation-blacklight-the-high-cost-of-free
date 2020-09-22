@@ -1,0 +1,657 @@
+{
+  "title": "vulnerable-groups-sites",
+  "uri_ins": "https://lgbtvacationplanners.com/",
+  "uri_dest": "https://lgbtvacationplanners.com/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "lgbtvacationplanners.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.138-99.102.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.201.5",
+    "version": {
+      "npm": "0.0.6",
+      "commit": null
+    },
+    "node_version": "v12.14.1"
+  },
+  "start_time": "2020-02-21T16:40:15.950Z",
+  "end_time": "2020-02-21T16:40:29.591Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://lgbtvacationplanners.com/",
+    "https://lgbtvacationplanners.com/blog/",
+    "https://lgbtvacationplanners.com/benefits",
+    "https://lgbtvacationplanners.com/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "lgbtvacationplanners.com"
+      ],
+      "third_party": [
+        "maxcdn.bootstrapcdn.com",
+        "fonts.googleapis.com",
+        "blog-cdn.feedspot.com",
+        "lb.benchmarkemail.com",
+        "ajax.googleapis.com",
+        "prod.benchmarkemail.com",
+        "fonts.gstatic.com",
+        "ssl.google-analytics.com",
+        "s7.addthis.com",
+        "z.moatads.com",
+        "m.addthis.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "__utma",
+        "value": "209367055.869102109.1582303220.1582303220.1582303220.1",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1645375227,
+        "size": 60,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-02-20T16:40:27.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvc",
+        "value": "1%7C8",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1616344821,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-21T16:40:21.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "uvc",
+        "value": "1%7C8",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344821,
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:40:21.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "loc",
+        "value": "MjAxNDdOQVVTVkEyMTkwMTAyNTUxMTAwMDBDSA==",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1616344821,
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-21T16:40:21.000Z",
+        "expiresDays": 394,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "vc",
+        "value": "2",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.59083,
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020022116402156900285196790",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.59082,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e5007f501fcb852",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.590808,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "um",
+        "value": "j.'2020022116402156900285196790'",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.590797,
+        "size": 34,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "di2",
+        "value": "aUwS`#&0x#&*g#%Os#%Or#%Km#%Kf#%IX#%IQ#%HV#%F|#%FS#%FR#%FQ#%E~#%/p#%/o#%/n#%$~#$Mr#$M`#$Ll#$L^#$LZ#$Gr#$CT#$7r#$1~#$0|#$+U#$)|#$){#$(w#$(T#$(S#$(R#$(Q#$$c#$$b#$!}##NW##Mz##Md##LU##Iz##Ix##Gr##Ed##Eb##EZ##Bq##Bp##@q##>W##>U##'V###l#!0}#!/p#!$s#!!xPNePNdPNcPNbPDtPC]PC[P<nP8UP7sP7rP7qP7mP7lP7kP2SO1iO1hO1gO(rO(qO(pO(cO(bO'vO'uN+gN+QN'yN#xMLcM?gM?fM>VM>UM>TM>SM>RM>QM7oM7nM7mM7lM7]M7XM-{M-rM-qM+}M+zM*fM'fM'bM&oM&nM&mM&^M&]M&[LFTLEsLErLEqLEpLDkL.wJEXJ&ZJ&YJ&XJ&WJ&VJ&UJ#|J#{J#sJ#rIIYIIXIHcIHbIH[IFcIFbICiI?VI?UI6rI5fI5TI5SI3|I3{I3yI3rI2bI1oI/}I/|I/jI+l$+S83}8-c7>Z7:m77h77g7.k7.b7-~7-}7*o7*k7)|7)m7)d7)c7'h7'g7#t6L]6L[6Kh6Kg6Hu6Hq6Hp6Ho6Hn6Hm6FW6FV6C{6@t6@s5)z5)y5)`5)_5)^5(n5(b5'~4JX4?Z4=a4=^0%w0%v0%q)1i)1b#*/}#*/{#*/R#*.~#*&]#*&Z#)N}#)N{#)Gc#)Ga#)-i#)-g#)-e#)*V#)*T#))~#))|#(8k#(5i#(5Q#(4~#(/]#'FX#'E{#'8f#'&U#'&T#&He#&GQ#&@r#&@q#&@p#&<]",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.590739,
+        "size": 839,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e5007f50001f8bbc8a2655acdc6f6596e892b5b8f4014c79ee6",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1615999221.590686,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-17T16:40:21.590Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bt2",
+        "value": "5e5007f5001xs0002001zs0002",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1604421621.590783,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-11-03T16:40:21.590Z",
+        "expiresDays": 256,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmz",
+        "value": "209367055.1582303220.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1598071227,
+        "size": 76,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-08-22T04:40:27.000Z",
+        "expiresDays": 182.5,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "sourcetracking",
+        "value": "sourceid=0&phrase=%2fcode%2flbformnew.js%3fmFcQnoBFKMTMXoJhh8cej8gJdt4KRNs4SLdVtuhLwdMWJ23jW4ZnMA%253D%253D&refurl=%2f&searchphrase=new%3d1%26token%3dmFcQnoBFKMTMXoJhh8cej8gJdt4KRNs4SLdVtuhLwdMWJ23jW4ZnMA%253D%253D",
+        "domain": "lb.benchmarkemail.com",
+        "path": "/",
+        "expires": 1592667628.048608,
+        "size": 228,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-06-20T15:40:28.048Z",
+        "expiresDays": 119.96,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmb",
+        "value": "209367055.4.10.1582303220",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1582305027,
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:10:27.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__atuvs",
+        "value": "5e5007f55c2a45f9000",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1582305021,
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T17:10:21.000Z",
+        "expiresDays": 0.02,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__utmt",
+        "value": "1",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": 1582303819,
+        "size": 7,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-02-21T16:50:19.000Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ServerID",
+        "value": "1026",
+        "domain": "lb.benchmarkemail.com",
+        "path": "/",
+        "expires": -1,
+        "size": 12,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "value": "wy1u03roetgmvfd1e1dje2n2",
+        "domain": "benchmarkemail.com",
+        "path": "/",
+        "expires": -1,
+        "size": 41,
+        "httpOnly": true,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "__utmc",
+        "value": "209367055",
+        "domain": "lgbtvacationplanners.com",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://lgbtvacationplanners.com/js/efa86d9.js?v2?v2": [
+          "scroll"
+        ],
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js": [
+          "click"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "click",
+          "scroll"
+        ]
+      },
+      "KEYBOARD": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js": [
+          "keydown"
+        ]
+      }
+    },
+    "data_exfiltration": {},
+    "canvas_fingerprinters": {
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://ssl.google-analytics.com/ga.js": [
+          "window.navigator.userAgent",
+          "window.navigator.language",
+          "window.navigator.platform",
+          "window.navigator.appName"
+        ],
+        "https://s7.addthis.com/static/sh.f48a1a04fe8dbf021b4cda1d.html": [
+          "window.navigator.userAgent"
+        ],
+        "https://s7.addthis.com/js/300/addthis_widget.js": [
+          "window.navigator.doNotTrack",
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://ssl.google-analytics.com/ga.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 4,
+            "utmn": 524063782,
+            "utmhn": "lgbtvacationplanners.com",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "LGBT Vacation Planners - Gay Travel, Weddings & Honeymoons",
+            "utmhid": 1474664960,
+            "utmr": "-",
+            "utmp": "/",
+            "utmht": 1582303227191,
+            "utmac": "UA-38137416-38",
+            "utmcc": "__utma=209367055.869102109.1582303220.1582303220.1582303220.1;+__utmz=209367055.1582303220.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/",
+            "source": "requested from https://lgbtvacationplanners.com/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=4&utmn=524063782&utmhn=lgbtvacationplanners.com&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=LGBT%20Vacation%20Planners%20-%20Gay%20Travel%2C%20Weddings%20%26%20Honeymoons&utmhid=1474664960&utmr=-&utmp=%2F&utmht=1582303227191&utmac=UA-38137416-38&utmcc=__utma%3D209367055.869102109.1582303220.1582303220.1582303220.1%3B%2B__utmz%3D209367055.1582303220.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 3,
+            "utmn": 1084626850,
+            "utmhn": "lgbtvacationplanners.com",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "Benefits of an LGBT Certified Travel Agent",
+            "utmhid": 1750078960,
+            "utmr": "-",
+            "utmp": "/benefits",
+            "utmht": 1582303224493,
+            "utmac": "UA-38137416-38",
+            "utmcc": "__utma=209367055.869102109.1582303220.1582303220.1582303220.1;+__utmz=209367055.1582303220.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/benefits",
+            "source": "requested from https://lgbtvacationplanners.com/benefits and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=1084626850&utmhn=lgbtvacationplanners.com&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Benefits%20of%20an%20LGBT%20Certified%20Travel%20Agent&utmhid=1750078960&utmr=-&utmp=%2Fbenefits&utmht=1582303224493&utmac=UA-38137416-38&utmcc=__utma%3D209367055.869102109.1582303220.1582303220.1582303220.1%3B%2B__utmz%3D209367055.1582303220.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sh": 1412,
+            "ph": 2055,
+            "ivh": 812,
+            "dt": 2445,
+            "pdt": 215,
+            "ict": "",
+            "pct": 0,
+            "perf": "widget|215|182,lojson|652|83,sh|657|57",
+            "rndr": "render_toolbox|953",
+            "cmenu": null,
+            "ppd": 0,
+            "ppl": 0,
+            "fbe": "",
+            "xmv": 0,
+            "xms": 0,
+            "xmlc": 0,
+            "jsfw": "jquery,googleanalytics",
+            "jsfwv": "jquery-1.10.2,googleanalytics-ga.js",
+            "al": "men",
+            "scr": 0,
+            "scv": 0,
+            "apiu": 0,
+            "ba": 3,
+            "sid": "5e5007f594defba8",
+            "rev": "v8.28.3-wp",
+            "pub": "",
+            "dp": "lgbtvacationplanners.com",
+            "fp": "blog/",
+            "pfm": 0,
+            "icns": "addthis,facebook,twitter,mailto"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/blog/",
+            "source": "requested from https://lgbtvacationplanners.com/blog/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/100eng.json?sh=1412&ph=2055&ivh=812&dt=2445&pdt=215&ict=&pct=0&perf=widget%7C215%7C182%2Clojson%7C652%7C83%2Csh%7C657%7C57&rndr=render_toolbox%7C953&cmenu=null&ppd=0&ppl=0&fbe=&xmv=0&xms=0&xmlc=0&jsfw=jquery%2Cgoogleanalytics&jsfwv=jquery-1.10.2%2Cgoogleanalytics-ga.js&al=men&scr=0&scv=0&apiu=0&ba=3&sid=5e5007f594defba8&rev=v8.28.3-wp&pub=&dp=lgbtvacationplanners.com&fp=blog%2F&pfm=0&icns=addthis%2Cfacebook%2Ctwitter%2Cmailto"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 2,
+            "utmn": 54577746,
+            "utmhn": "lgbtvacationplanners.com",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "The travel blog for everything LGBT!",
+            "utmhid": 975380718,
+            "utmr": "-",
+            "utmp": "/blog/",
+            "utmht": 1582303221632,
+            "utmac": "UA-38137416-38",
+            "utmcc": "__utma=209367055.869102109.1582303220.1582303220.1582303220.1;+__utmz=209367055.1582303220.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": "",
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/blog/",
+            "source": "requested from https://lgbtvacationplanners.com/blog/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=54577746&utmhn=lgbtvacationplanners.com&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=The%20travel%20blog%20for%20everything%20LGBT!&utmhid=975380718&utmr=-&utmp=%2Fblog%2F&utmht=1582303221632&utmac=UA-38137416-38&utmcc=__utma%3D209367055.869102109.1582303220.1582303220.1582303220.1%3B%2B__utmz%3D209367055.1582303220.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      {
+        "data": {
+          "filter": "||addthis.com/live/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "si": "5e5007f594defba8",
+            "bkl": 0,
+            "bl": 1,
+            "pdt": 215,
+            "sid": "5e5007f594defba8",
+            "pub": "",
+            "rev": "v8.28.3-wp",
+            "ln": "en",
+            "pc": "men",
+            "cb": 0,
+            "ab": "-",
+            "dp": "lgbtvacationplanners.com",
+            "fp": "blog/",
+            "fr": "",
+            "of": 0,
+            "pd": 0,
+            "irt": 0,
+            "vcl": 0,
+            "md": 0,
+            "ct": 1,
+            "tct": 0,
+            "abt": 0,
+            "cdn": 0,
+            "pi": 1,
+            "rb": 0,
+            "gen": 100,
+            "chr": "UTF-8",
+            "colc": 1582303221495,
+            "jsl": 33,
+            "uvs": "5e5007f55c2a45f9000",
+            "skipb": 1,
+            "callback": "addthis.cbs.jsonp__5869503135811480"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/blog/",
+            "source": "requested from https://lgbtvacationplanners.com/blog/ and matched with easyprivacy.txt filter ||addthis.com/live/"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://m.addthis.com/live/red_lojson/300lo.json?si=5e5007f594defba8&bkl=0&bl=1&pdt=215&sid=5e5007f594defba8&pub=&rev=v8.28.3-wp&ln=en&pc=men&cb=0&ab=-&dp=lgbtvacationplanners.com&fp=blog%2F&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=0&gen=100&chr=UTF-8&colc=1582303221495&jsl=33&uvs=5e5007f55c2a45f9000&skipb=1&callback=addthis.cbs.jsonp__5869503135811480"
+      },
+      {
+        "data": {
+          "filter": "/__utm.gif",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "utmwv": "5.7.2",
+            "utms": 1,
+            "utmn": 1170502880,
+            "utmhn": "lgbtvacationplanners.com",
+            "utmcs": "UTF-8",
+            "utmsr": "375x812",
+            "utmvp": "375x812",
+            "utmsc": "24-bit",
+            "utmul": "en-us",
+            "utmje": 0,
+            "utmfl": "-",
+            "utmdt": "LGBT Vacation Planners - Gay Travel, Weddings & Honeymoons",
+            "utmhid": 1860499469,
+            "utmr": "-",
+            "utmp": "/",
+            "utmht": 1582303219989,
+            "utmac": "UA-38137416-38",
+            "utmcc": "__utma=209367055.869102109.1582303220.1582303220.1582303220.1;+__utmz=209367055.1582303220.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+            "utmjid": 1117385255,
+            "utmredir": 1,
+            "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://lgbtvacationplanners.com/",
+            "source": "requested from https://lgbtvacationplanners.com/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ssl.google-analytics.com/j/__utm.gif?utmwv=5.7.2&utms=1&utmn=1170502880&utmhn=lgbtvacationplanners.com&utmcs=UTF-8&utmsr=375x812&utmvp=375x812&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=LGBT%20Vacation%20Planners%20-%20Gay%20Travel%2C%20Weddings%20%26%20Honeymoons&utmhid=1860499469&utmr=-&utmp=%2F&utmht=1582303219989&utmac=UA-38137416-38&utmcc=__utma%3D209367055.869102109.1582303220.1582303220.1582303220.1%3B%2B__utmz%3D209367055.1582303220.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1117385255&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+      }
+    ]
+  }
+}

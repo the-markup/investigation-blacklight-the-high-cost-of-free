@@ -1,0 +1,1806 @@
+{
+  "title": "state-corona-sites",
+  "uri_ins": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+  "uri_dest": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "www.healthy.arkansas.gov",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.152.253",
+    "version": {
+      "npm": "0.0.8",
+      "commit": null
+    },
+    "node_version": "v12.16.1"
+  },
+  "start_time": "2020-03-27T14:16:34.520Z",
+  "end_time": "2020-03-27T14:17:00.977Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+    "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+    "https://www.healthy.arkansas.gov/policies-procedures",
+    "https://www.healthy.arkansas.gov/publications-and-resources"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "www.healthy.arkansas.gov"
+      ],
+      "third_party": [
+        "cdnjs.cloudflare.com",
+        "cdn.datatables.net",
+        "unpkg.com",
+        "fonts.googleapis.com",
+        "translate.google.com",
+        "tools.cdc.gov",
+        "ajax.googleapis.com",
+        "www.googletagmanager.com",
+        "tag.marinsm.com",
+        "translate.googleapis.com",
+        "adem.maps.arcgis.com",
+        "pixel-geo.prfct.co",
+        "www.cdc.gov",
+        "www.google-analytics.com",
+        "js.arcgis.com",
+        "www.gstatic.com",
+        "analytics.twitter.com",
+        "ads.yahoo.com",
+        "us-u.openx.net",
+        "cw.addthis.com",
+        "pixel.rubiconproject.com",
+        "cm.g.doubleclick.net",
+        "data",
+        "pixel.prfct.co",
+        "cdc.112.2o7.net",
+        "utility.arcgisonline.com",
+        "services.arcgisonline.com",
+        "static.arcgis.com",
+        "services.arcgis.com",
+        "server.arcgisonline.com",
+        "www.google.com"
+      ]
+    }
+  },
+  "reports": {
+    "cookies": [
+      {
+        "name": "pa_google_ts",
+        "value": "0",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390617.719277,
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:57.719Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_uid",
+        "value": "pa_84vhJeJV4xh9oac5a",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390617.719242,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:57.719Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1937992860.1585318599",
+        "domain": "arkansas.gov",
+        "path": "/",
+        "expires": 1648390617,
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2022-03-27T14:16:57.000Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_5uPQ0tTRb1s4yzEfb9eyCA==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": 1648390599.494313,
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.494Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_rubicon_ts",
+        "value": "1585318599049",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390599.05878,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.058Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_crosswise_ts",
+        "value": "1585318599040",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390599.058064,
+        "size": 28,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.058Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_openx_ts",
+        "value": "1585318599040",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390599.057362,
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.057Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_yahoo_ts",
+        "value": "1585318599048",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390599.041818,
+        "size": 24,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.041Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "pa_twitter_ts",
+        "value": "1585318599017",
+        "domain": "prfct.co",
+        "path": "/",
+        "expires": 1648390599.036165,
+        "size": 26,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2022-03-27T14:16:39.036Z",
+        "expiresDays": 730,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "na_id",
+        "value": "2020032714163948700009828643",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014599.514286,
+        "size": 33,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:16:39.514Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid",
+        "value": "5e7e0ac745263607",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014599.514274,
+        "size": 19,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:16:39.514Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ouid",
+        "value": "5e7e0ac7000114c8efa6d1cb4b1cedffed738182ffdc4a5ce04d",
+        "domain": "addthis.com",
+        "path": "/",
+        "expires": 1619014599.514235,
+        "size": 56,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-04-21T14:16:39.514Z",
+        "expiresDays": 390,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "B",
+        "value": "7is0311f7s2m7&b=3&s=1j",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876199.496132,
+        "size": 23,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T20:16:39.496Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "A3",
+        "value": "d=AQABBMcKfl4CEI-oLn00fn4-EEfpDAgDcHkFEgEBAQFcf16HXgAAAAAA_SMAAA&S=AQAAAhUvjyau5F5uu9JrROD68iU",
+        "domain": "yahoo.com",
+        "path": "/",
+        "expires": 1616876199.496069,
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T20:16:39.496Z",
+        "expiresDays": 365.25,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "audit",
+        "value": "1|6FD4bsNeUTUdjSOmnp+imqBZZCTngqNSKu1z6fpfVS5tYtamoapxiCtLrfsc5AgP9UyGQYfudKtw0S94mtzOH1tkmt0MXsphJXK4V4T2fu94UtfQ8BkMV93uT1suYyl7xme++yRfVNdNjJA24oLIUD0Q7yb98wkShFLKj1/W9tTc6UO785F0Pw==",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": 1616854599.474882,
+        "size": 191,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:16:39.474Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "khaos",
+        "value": "K8A9RG2A-1E-I441",
+        "domain": "rubiconproject.com",
+        "path": "/",
+        "expires": 1616854599.474852,
+        "size": 21,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2021-03-27T14:16:39.474Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "i",
+        "value": "e8fa7c6c-3a71-4ffe-a5f3-43c66ab3c5cb|1585318599",
+        "domain": "openx.net",
+        "path": "/",
+        "expires": 1616854599.434661,
+        "size": 48,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2021-03-27T14:16:39.434Z",
+        "expiresDays": 365,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.2097853668.1585318599",
+        "domain": "arkansas.gov",
+        "path": "/",
+        "expires": 1585405017,
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-28T14:16:57.000Z",
+        "expiresDays": 1,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": 1585319499.476409,
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "expiresUTC": "2020-03-27T14:31:39.476Z",
+        "expiresDays": 0.01,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_gat_gtag_UA_106893965_1",
+        "value": "1",
+        "domain": "arkansas.gov",
+        "path": "/",
+        "expires": 1585318659,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:17:39.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gat_gtag_UA_161471745_1",
+        "value": "1",
+        "domain": "arkansas.gov",
+        "path": "/",
+        "expires": 1585318659,
+        "size": 25,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "expiresUTC": "2020-03-27T14:17:39.000Z",
+        "expiresDays": 0,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "TS0141e0de",
+        "value": "012409b3535da83e961e94612f08a9712addb15b81274c2b8113b40ac7a78987623b32c327abd6a4845681341f33e7cd6056dba70c",
+        "domain": "tools.cdc.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 116,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "googtrans",
+        "value": "/en/it",
+        "domain": "www.healthy.arkansas.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "googtrans",
+        "value": "/en/it",
+        "domain": "arkansas.gov",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "behaviour_event_listeners": {
+      "SENSOR": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js": [
+          "orientationchange"
+        ],
+        "https://js.arcgis.com/3.31/init.js": [
+          "orientationchange"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/jquery/3.3.1/jquery.min.js": [
+          "orientationchange"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/jquery/1.12.4/jquery.js": [
+          "orientationchange"
+        ],
+        "https://tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js": [
+          "orientationchange"
+        ]
+      },
+      "MOUSE": {
+        "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js": [
+          "scroll",
+          "click"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/static/js/2.99c1da39.chunk.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove",
+          "click"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/jquery/3.3.1/jquery.min.js": [
+          "click"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-common.js": [
+          "click"
+        ]
+      },
+      "KEYBOARD": {
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/static/js/2.99c1da39.chunk.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/jquery/3.3.1/jquery.min.js": [
+          "keyup",
+          "keydown"
+        ],
+        "https://js.arcgis.com/3.31/init.js": [
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/static/js/2.99c1da39.chunk.js": [
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
+    "key_logging": {},
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {
+        "https://js.arcgis.com/3.31/init.js": {
+          "Boone": 1,
+          "Stone": null,
+          "Fulton": null,
+          "Izard": null,
+          "Sharp": null,
+          "Craighead": null,
+          "Poinsett": null,
+          "Cleburne": null,
+          "Van Buren": null,
+          "Johnson": null,
+          "Pope": null,
+          "Newton": null,
+          "Conway": null,
+          "Faulkner": null,
+          "White": null,
+          "Woodruff": null,
+          "Cross": null,
+          "Crittenden": null,
+          "St. Francis": null,
+          "Hot Spring": null,
+          "Lee": null,
+          "Monroe": null,
+          "Grant": null,
+          "Arkansas": null,
+          "Lincoln": null,
+          "Cleveland": null,
+          "Dallas": null,
+          "Clark": null,
+          "Nevada": null,
+          "Ouachita": null,
+          "Calhoun": null,
+          "Bradley": null,
+          "Drew": null,
+          "Hempstead": null,
+          "Pike": null,
+          "Montgomery": null,
+          "Yell": null,
+          "Logan": null,
+          "Scott": null,
+          "Franklin": null,
+          "Saline": null,
+          "Garland": null,
+          "Sevier": null,
+          "Polk": null,
+          "Sebastian": null,
+          "Madison": null,
+          "Carroll": null,
+          "Benton": null,
+          "Chicot": null,
+          "Ashley": null,
+          "Union": null,
+          "Columbia": null,
+          "Lafayette": null,
+          "Miller": null,
+          "Little River": null,
+          "Crawford": null,
+          "Washington": null,
+          "Jefferson": null,
+          "Perry": null,
+          "Marion": null,
+          "Baxter": null,
+          "Lawrence": null,
+          "Randolph": null,
+          "Clay": null,
+          "Greene": null,
+          "Mississippi": null,
+          "Jackson": null,
+          "Independence": null,
+          "Searcy": null,
+          "Phillips": null,
+          "Desha": null,
+          "Prairie": null,
+          "Lonoke": null,
+          "Pulaski": null,
+          "Howard": null,
+          "Missing County Info": null
+        }
+      }
+    },
+    "fingerprintable_api_calls": {
+      "NAVIGATOR": {
+        "https://translate.googleapis.com/element/TE_20200210_00/e/js/element/element_main.js": [
+          "window.navigator.appVersion",
+          "window.navigator.userAgent"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "window.navigator.language",
+          "window.navigator.userAgent"
+        ],
+        "https://tag.marinsm.com/serve/55de7d425ec39080a0000086.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://unpkg.com/leaflet@1.4.0/dist/leaflet.js": [
+          "window.navigator.userAgent",
+          "window.navigator.platform"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/static/js/2.99c1da39.chunk.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-common.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdc.gov/JScript/metrics/adobe/analytics_cdcsynd.js": [
+          "window.navigator.userAgent",
+          "window.navigator.appName"
+        ],
+        "https://www.cdc.gov/TemplatePackage/4.0/assets/js/app.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/bootstrap/4.1.3/js/bootstrap.bundle.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://www.cdc.gov/TemplatePackage/contrib/libs/jquery/1.12.4/jquery.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://js.arcgis.com/3.31/init.js": [
+          "window.navigator.cookieEnabled",
+          "window.navigator.userAgent",
+          "window.navigator.appVersion",
+          "window.navigator.languages"
+        ],
+        "https://js.arcgis.com/3.31/dojox/gfx/svg.js": [
+          "window.navigator.userAgent"
+        ],
+        "https://tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js": [
+          "window.navigator.userAgent"
+        ]
+      },
+      "SCREEN": {
+        "https://www.google-analytics.com/analytics.js": [
+          "window.screen.colorDepth"
+        ]
+      }
+    },
+    "session_recorders": {},
+    "web_beacons": [
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cb?partnerId=goo&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 156546066,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Resources and Publications Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-161471745-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 635303080
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=156546066&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fpublications-and-resources&ul=en-us&de=UTF-8&dt=Resources%20and%20Publications%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-161471745-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=635303080"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 156546066,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Resources and Publications Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-106893965-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 2062924152
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=156546066&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fpublications-and-resources&ul=en-us&de=UTF-8&dt=Resources%20and%20Publications%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-106893965-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=2062924152"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "nowspots_bidder",
+            "google_hm": "cGFfODR2aEplSlY0eGg5b2FjNWE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=nowspots_bidder&google_hm=cGFfODR2aEplSlY0eGg5b2FjNWE"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=goo"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a_id": 50209,
+            "source": "js_tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/tagjs?a_id=50209&source=js_tag"
+      },
+      {
+        "data": {
+          "filter": "||marinsm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||marinsm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.marinsm.com/serve/55de7d425ec39080a0000086.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-161471745-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-161471745-1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-106893965-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/publications-and-resources",
+            "source": "requested from https://www.healthy.arkansas.gov/publications-and-resources and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-106893965-1"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cb?partnerId=goo&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "nowspots_bidder",
+            "google_hm": "cGFfODR2aEplSlY0eGg5b2FjNWE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=nowspots_bidder&google_hm=cGFfODR2aEplSlY0eGg5b2FjNWE"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=goo"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 2082688012,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/policies-procedures",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Policies & Procedures Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-161471745-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 396697875
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=2082688012&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fpolicies-procedures&ul=en-us&de=UTF-8&dt=Policies%20%26%20Procedures%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-161471745-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=396697875"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 2082688012,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/policies-procedures",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Policies & Procedures Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-106893965-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 1449623247
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=2082688012&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fpolicies-procedures&ul=en-us&de=UTF-8&dt=Policies%20%26%20Procedures%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-106893965-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=1449623247"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a_id": 50209,
+            "source": "js_tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/tagjs?a_id=50209&source=js_tag"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||marinsm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||marinsm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.marinsm.com/serve/55de7d425ec39080a0000086.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-161471745-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-161471745-1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-106893965-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/policies-procedures",
+            "source": "requested from https://www.healthy.arkansas.gov/policies-procedures and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-106893965-1"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cb?partnerId=goo&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "nowspots_bidder",
+            "google_hm": "cGFfODR2aEplSlY0eGg5b2FjNWE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=nowspots_bidder&google_hm=cGFfODR2aEplSlY0eGg5b2FjNWE"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 719040451,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Alpha-Gal (Allergy) Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-161471745-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 1126260016
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=719040451&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Falpha-gal-allergy&ul=en-us&de=UTF-8&dt=Alpha-Gal%20(Allergy)%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-161471745-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=1126260016"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 719040451,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "Alpha-Gal (Allergy) Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "AACAAUAB~",
+            "jid": "",
+            "gjid": "",
+            "cid": 1937992860.158532,
+            "tid": "UA-106893965-1",
+            "_gid": 2097853668.158532,
+            "gtm": "2ou3i0",
+            "z": 1495480361
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j81&a=719040451&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Falpha-gal-allergy&ul=en-us&de=UTF-8&dt=Alpha-Gal%20(Allergy)%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=AACAAUAB~&jid=&gjid=&cid=1937992860.1585318599&tid=UA-106893965-1&_gid=2097853668.1585318599&gtm=2ou3i0&z=1495480361"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=goo"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a_id": 50209,
+            "source": "js_tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/tagjs?a_id=50209&source=js_tag"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||marinsm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||marinsm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.marinsm.com/serve/55de7d425ec39080a0000086.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-161471745-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-161471745-1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-106893965-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/alpha-gal-allergy and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-106893965-1"
+      },
+      {
+        "data": {
+          "filter": "||2o7.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "pe": "lnk_o",
+            "pev2": "widget-loaded",
+            "c33": "widget-loaded",
+            "pageName": "cdcMaps",
+            "c17": "www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html",
+            "c16": "www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html",
+            "c3": "www.cdc.gov",
+            "c27": "Widget Framework",
+            "server": "www.cdc.gov",
+            "reportsuite": "cdcsynd",
+            "c8": "Widget / Microsite",
+            "c32": "widget-165",
+            "c47": "https://www.cdc.gov/coronavirus/2019-ncov/map-cases-us.json",
+            "interactionMapPriority": "mediumUp",
+            "AQE": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html?chost=www.cdc.gov&cpath=/TemplatePackage/contrib/widgets/tp-syndication/index.html&csearch=chost%3Dwww.healthy.arkansas.gov%26cpath%3D%2Fprograms-services%2Ftopics%2Fnovel-coronavirus%26csearch%3D%26chash%3D%26ctitle%3DCOVID-19%2520Arkansas%2520Department%2520of%2520Health%26wn%3DsyndicationIframe%26wf%3D%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2F%26wid%3DsyndicationIframe1%26mMode%3Dwidget%26mPage%3D%26mChannel%3D%26class%3Drid_5994015d_403277%26apiembedsrc%3D%2F%2Ftools.cdc.gov%2Fapi%2Fembed%2Fhtml%2Fjs%2Fembed-2.0.3.js%26apiroot%3D%2F%2Ftools.cdc.gov%2Fapi%26cssclasses%3Dsyndicate%2C!no-syndicate%26iframe%3Dtrue%26iframeembedsrc%3D%2F%2Ftools.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-widget-external-loader.js%26mediaid%3D403277%26mediatype%3Dhtml%26ns%3Dcdc%26nw%3Dtrue%26oe%3Dutf-8%26of%3Dxhtml%26stripanchors%3Dfalse%26stripcomments%3Dtrue%26stripimages%3Dfalse%26stripscripts%3Dtrue%26stripstyles%3Dtrue&chash=&ctitle=CDC%20Content%20Syndication%20iFrame&wn=cdcMaps&wf=/TemplatePackage/contrib/widgets/cdcMaps/build/&wid=cdcMaps1&mMode=widget&mPage=&mChannel=&class=mb-3&host=www.cdc.gov&theme=theme-cyan&configUrl=/coronavirus/2019-ncov/map-cases-us.json",
+            "source": "requested from https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html?chost=www.cdc.gov&cpath=/TemplatePackage/contrib/widgets/tp-syndication/index.html&csearch=chost%3Dwww.healthy.arkansas.gov%26cpath%3D%2Fprograms-services%2Ftopics%2Fnovel-coronavirus%26csearch%3D%26chash%3D%26ctitle%3DCOVID-19%2520Arkansas%2520Department%2520of%2520Health%26wn%3DsyndicationIframe%26wf%3D%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2F%26wid%3DsyndicationIframe1%26mMode%3Dwidget%26mPage%3D%26mChannel%3D%26class%3Drid_5994015d_403277%26apiembedsrc%3D%2F%2Ftools.cdc.gov%2Fapi%2Fembed%2Fhtml%2Fjs%2Fembed-2.0.3.js%26apiroot%3D%2F%2Ftools.cdc.gov%2Fapi%26cssclasses%3Dsyndicate%2C!no-syndicate%26iframe%3Dtrue%26iframeembedsrc%3D%2F%2Ftools.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-widget-external-loader.js%26mediaid%3D403277%26mediatype%3Dhtml%26ns%3Dcdc%26nw%3Dtrue%26oe%3Dutf-8%26of%3Dxhtml%26stripanchors%3Dfalse%26stripcomments%3Dtrue%26stripimages%3Dfalse%26stripscripts%3Dtrue%26stripstyles%3Dtrue&chash=&ctitle=CDC%20Content%20Syndication%20iFrame&wn=cdcMaps&wf=/TemplatePackage/contrib/widgets/cdcMaps/build/&wid=cdcMaps1&mMode=widget&mPage=&mChannel=&class=mb-3&host=www.cdc.gov&theme=theme-cyan&configUrl=/coronavirus/2019-ncov/map-cases-us.json and matched with easyprivacy.txt filter ||2o7.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdc.112.2o7.net/b/ss/cdcsynd/1/H.21/6183edb0-fdd2-ece1-7f6e-c75bef21d5c4?AQB=1&pe=lnk_o&pev2=widget-loaded&c33=widget-loaded&pageName=cdcMaps&c17=www.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2Findex.html&c16=www.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2FcdcMaps%2Fbuild%2Findex.html&c3=www.cdc.gov&c27=Widget%20Framework&server=www.cdc.gov&reportsuite=cdcsynd&c8=Widget%20%2F%20Microsite&c32=widget-165&c47=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fmap-cases-us.json&interactionMapPriority=mediumUp&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||2o7.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "pageName": "cdcMaps",
+            "c17": "www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html",
+            "c16": "www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html",
+            "c3": "www.cdc.gov",
+            "c27": "Widget Framework",
+            "server": "www.cdc.gov",
+            "reportsuite": "cdcsynd",
+            "c8": "Widget / Microsite",
+            "c32": "widget-165",
+            "c47": "https://www.cdc.gov/coronavirus/2019-ncov/map-cases-us.json",
+            "interactionMapPriority": "mediumUp",
+            "AQE": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html?chost=www.cdc.gov&cpath=/TemplatePackage/contrib/widgets/tp-syndication/index.html&csearch=chost%3Dwww.healthy.arkansas.gov%26cpath%3D%2Fprograms-services%2Ftopics%2Fnovel-coronavirus%26csearch%3D%26chash%3D%26ctitle%3DCOVID-19%2520Arkansas%2520Department%2520of%2520Health%26wn%3DsyndicationIframe%26wf%3D%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2F%26wid%3DsyndicationIframe1%26mMode%3Dwidget%26mPage%3D%26mChannel%3D%26class%3Drid_5994015d_403277%26apiembedsrc%3D%2F%2Ftools.cdc.gov%2Fapi%2Fembed%2Fhtml%2Fjs%2Fembed-2.0.3.js%26apiroot%3D%2F%2Ftools.cdc.gov%2Fapi%26cssclasses%3Dsyndicate%2C!no-syndicate%26iframe%3Dtrue%26iframeembedsrc%3D%2F%2Ftools.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-widget-external-loader.js%26mediaid%3D403277%26mediatype%3Dhtml%26ns%3Dcdc%26nw%3Dtrue%26oe%3Dutf-8%26of%3Dxhtml%26stripanchors%3Dfalse%26stripcomments%3Dtrue%26stripimages%3Dfalse%26stripscripts%3Dtrue%26stripstyles%3Dtrue&chash=&ctitle=CDC%20Content%20Syndication%20iFrame&wn=cdcMaps&wf=/TemplatePackage/contrib/widgets/cdcMaps/build/&wid=cdcMaps1&mMode=widget&mPage=&mChannel=&class=mb-3&host=www.cdc.gov&theme=theme-cyan&configUrl=/coronavirus/2019-ncov/map-cases-us.json",
+            "source": "requested from https://www.cdc.gov/TemplatePackage/contrib/widgets/cdcMaps/build/index.html?chost=www.cdc.gov&cpath=/TemplatePackage/contrib/widgets/tp-syndication/index.html&csearch=chost%3Dwww.healthy.arkansas.gov%26cpath%3D%2Fprograms-services%2Ftopics%2Fnovel-coronavirus%26csearch%3D%26chash%3D%26ctitle%3DCOVID-19%2520Arkansas%2520Department%2520of%2520Health%26wn%3DsyndicationIframe%26wf%3D%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2F%26wid%3DsyndicationIframe1%26mMode%3Dwidget%26mPage%3D%26mChannel%3D%26class%3Drid_5994015d_403277%26apiembedsrc%3D%2F%2Ftools.cdc.gov%2Fapi%2Fembed%2Fhtml%2Fjs%2Fembed-2.0.3.js%26apiroot%3D%2F%2Ftools.cdc.gov%2Fapi%26cssclasses%3Dsyndicate%2C!no-syndicate%26iframe%3Dtrue%26iframeembedsrc%3D%2F%2Ftools.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-widget-external-loader.js%26mediaid%3D403277%26mediatype%3Dhtml%26ns%3Dcdc%26nw%3Dtrue%26oe%3Dutf-8%26of%3Dxhtml%26stripanchors%3Dfalse%26stripcomments%3Dtrue%26stripimages%3Dfalse%26stripscripts%3Dtrue%26stripstyles%3Dtrue&chash=&ctitle=CDC%20Content%20Syndication%20iFrame&wn=cdcMaps&wf=/TemplatePackage/contrib/widgets/cdcMaps/build/&wid=cdcMaps1&mMode=widget&mPage=&mChannel=&class=mb-3&host=www.cdc.gov&theme=theme-cyan&configUrl=/coronavirus/2019-ncov/map-cases-us.json and matched with easyprivacy.txt filter ||2o7.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdc.112.2o7.net/b/ss/cdcsynd/1/H.21/806d0d7b-fd45-e43d-d313-724de185ae68?AQB=1&pageName=cdcMaps&c17=www.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2Ftp-syndication%2Findex.html&c16=www.cdc.gov%2FTemplatePackage%2Fcontrib%2Fwidgets%2FcdcMaps%2Fbuild%2Findex.html&c3=www.cdc.gov&c27=Widget%20Framework&server=www.cdc.gov&reportsuite=cdcsynd&c8=Widget%20%2F%20Microsite&c32=widget-165&c47=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fmap-cases-us.json&interactionMapPriority=mediumUp&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||2o7.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "AQB": 1,
+            "pccr": true,
+            "cl": "session",
+            "c1": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+            "c2": "COVID-19 Arkansas Department of Health",
+            "c6": 403277,
+            "c11": "HTML",
+            "c3": "www.healthy.arkansas.gov",
+            "ch": "https://www.cdc.gov/coronavirus",
+            "pageName": "2019 Novel Coronavirus (COVID19)",
+            "g": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+            "c16": "www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "uid": "0277c71f-6c99-938e-d500-e855a64588f6",
+            "AQE": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html?chost=www.healthy.arkansas.gov&cpath=/programs-services/topics/novel-coronavirus&csearch=&chash=&ctitle=COVID-19%20Arkansas%20Department%20of%20Health&wn=syndicationIframe&wf=/TemplatePackage/contrib/widgets/tp-syndication/&wid=syndicationIframe1&mMode=widget&mPage=&mChannel=&class=rid_5994015d_403277&apiembedsrc=//tools.cdc.gov/api/embed/html/js/embed-2.0.3.js&apiroot=//tools.cdc.gov/api&cssclasses=syndicate,!no-syndicate&iframe=true&iframeembedsrc=//tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js&mediaid=403277&mediatype=html&ns=cdc&nw=true&oe=utf-8&of=xhtml&stripanchors=false&stripcomments=true&stripimages=false&stripscripts=true&stripstyles=true",
+            "source": "requested from https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html?chost=www.healthy.arkansas.gov&cpath=/programs-services/topics/novel-coronavirus&csearch=&chash=&ctitle=COVID-19%20Arkansas%20Department%20of%20Health&wn=syndicationIframe&wf=/TemplatePackage/contrib/widgets/tp-syndication/&wid=syndicationIframe1&mMode=widget&mPage=&mChannel=&class=rid_5994015d_403277&apiembedsrc=//tools.cdc.gov/api/embed/html/js/embed-2.0.3.js&apiroot=//tools.cdc.gov/api&cssclasses=syndicate,!no-syndicate&iframe=true&iframeembedsrc=//tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js&mediaid=403277&mediatype=html&ns=cdc&nw=true&oe=utf-8&of=xhtml&stripanchors=false&stripcomments=true&stripimages=false&stripscripts=true&stripstyles=true and matched with easyprivacy.txt filter ||2o7.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdc.112.2o7.net/b/ss/cdcsynd/1/JS-2.0.0/0?AQB=1&pccr=true&cl=session&c1=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Findex.html&c2=COVID-19%20Arkansas%20Department%20of%20Health&c6=403277&c11=HTML&c3=www.healthy.arkansas.gov&ch=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus&pageName=2019%20Novel%20Coronavirus%20(COVID19)&g=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Findex.html&c16=www.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Fnovel-coronavirus&uid=0277c71f-6c99-938e-d500-e855a64588f6&AQE=1"
+      },
+      {
+        "data": {
+          "filter": "||2o7.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cl": "session",
+            "c1": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+            "c2": "COVID-19 Arkansas Department of Health",
+            "c6": 403277,
+            "c11": "HTML",
+            "c3": "www.healthy.arkansas.gov",
+            "ch": "https://www.cdc.gov/coronavirus",
+            "pageName": "2019 Novel Coronavirus (COVID19)",
+            "g": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+            "c16": "www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "uid": "0277c71f-6c99-938e-d500-e855a64588f6"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html?chost=www.healthy.arkansas.gov&cpath=/programs-services/topics/novel-coronavirus&csearch=&chash=&ctitle=COVID-19%20Arkansas%20Department%20of%20Health&wn=syndicationIframe&wf=/TemplatePackage/contrib/widgets/tp-syndication/&wid=syndicationIframe1&mMode=widget&mPage=&mChannel=&class=rid_5994015d_403277&apiembedsrc=//tools.cdc.gov/api/embed/html/js/embed-2.0.3.js&apiroot=//tools.cdc.gov/api&cssclasses=syndicate,!no-syndicate&iframe=true&iframeembedsrc=//tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js&mediaid=403277&mediatype=html&ns=cdc&nw=true&oe=utf-8&of=xhtml&stripanchors=false&stripcomments=true&stripimages=false&stripscripts=true&stripstyles=true",
+            "source": "requested from https://www.cdc.gov/TemplatePackage/contrib/widgets/tp-syndication/index.html?chost=www.healthy.arkansas.gov&cpath=/programs-services/topics/novel-coronavirus&csearch=&chash=&ctitle=COVID-19%20Arkansas%20Department%20of%20Health&wn=syndicationIframe&wf=/TemplatePackage/contrib/widgets/tp-syndication/&wid=syndicationIframe1&mMode=widget&mPage=&mChannel=&class=rid_5994015d_403277&apiembedsrc=//tools.cdc.gov/api/embed/html/js/embed-2.0.3.js&apiroot=//tools.cdc.gov/api&cssclasses=syndicate,!no-syndicate&iframe=true&iframeembedsrc=//tools.cdc.gov/TemplatePackage/contrib/widgets/tp-widget-external-loader.js&mediaid=403277&mediatype=html&ns=cdc&nw=true&oe=utf-8&of=xhtml&stripanchors=false&stripcomments=true&stripimages=false&stripscripts=true&stripstyles=true and matched with easyprivacy.txt filter ||2o7.net^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdc.112.2o7.net/b/ss/cdcsynd/1/JS-2.0.0/0?cl=session&c1=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Findex.html&c2=COVID-19%20Arkansas%20Department%20of%20Health&c6=403277&c11=HTML&c3=www.healthy.arkansas.gov&ch=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus&pageName=2019%20Novel%20Coronavirus%20(COVID19)&g=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Findex.html&c16=www.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Fnovel-coronavirus&uid=0277c71f-6c99-938e-d500-e855a64588f6"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo",
+            "google_error": 3
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cb?partnerId=goo&google_error=3"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "crw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel.prfct.co/cb?partnerId=crw"
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "nowspots_bidder",
+            "google_hm": "cGFfODR2aEplSlY0eGg5b2FjNWE",
+            "google_tc": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=nowspots_bidder&google_hm=cGFfODR2aEplSlY0eGg5b2FjNWE&google_tc="
+      },
+      {
+        "data": {
+          "filter": "||cm.g.doubleclick.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "google_nid": "nowspots_bidder",
+            "google_hm": "cGFfODR2aEplSlY0eGg5b2FjNWE"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||cm.g.doubleclick.net^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cm.g.doubleclick.net/pixel?google_nid=nowspots_bidder&google_hm=cGFfODR2aEplSlY0eGg5b2FjNWE"
+      },
+      {
+        "data": {
+          "filter": "/t.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 37,
+            "pidt": 0,
+            "pdid": "pa_84vhJeJV4xh9oac5a",
+            "cu": "https://pixel.prfct.co/cb?partnerId=crw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter /t.gif?"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cw.addthis.com/t.gif?pid=37&pidt=0&pdid=pa_84vhJeJV4xh9oac5a&cu=https%3A%2F%2Fpixel.prfct.co%2Fcb%3FpartnerId%3Dcrw"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "p_id": 48571,
+            "p_user_id": "pa_84vhJeJV4xh9oac5a"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||analytics.twitter.com^"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?p_id=48571&p_user_id=pa_84vhJeJV4xh9oac5a"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1771175373,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "COVID-19 Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IEDAAUABAAAAAC~",
+            "jid": 563661362,
+            "gjid": 1521666045,
+            "cid": 1937992860.158532,
+            "tid": "UA-161471745-1",
+            "_gid": 2097853668.158532,
+            "_r": 1,
+            "gtm": "2ou3i0",
+            "z": 227047542
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&a=1771175373&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Fnovel-coronavirus&ul=en-us&de=UTF-8&dt=COVID-19%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IEDAAUABAAAAAC~&jid=563661362&gjid=1521666045&cid=1937992860.1585318599&tid=UA-161471745-1&_gid=2097853668.1585318599&_r=1&gtm=2ou3i0&z=227047542"
+      },
+      {
+        "data": {
+          "filter": "/collect?*&cid=",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "v": 1,
+            "_v": "j81",
+            "a": 1771175373,
+            "t": "pageview",
+            "_s": 1,
+            "dl": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "ul": "en-us",
+            "de": "UTF-8",
+            "dt": "COVID-19 Arkansas Department of Health",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "vp": "375x812",
+            "je": 0,
+            "_u": "IEBAAUABAAAAAC~",
+            "jid": 475174918,
+            "gjid": 1170925408,
+            "cid": 1937992860.158532,
+            "tid": "UA-106893965-1",
+            "_gid": 2097853668.158532,
+            "_r": 1,
+            "gtm": "2ou3i0",
+            "z": 1671387610
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j81&a=1771175373&t=pageview&_s=1&dl=https%3A%2F%2Fwww.healthy.arkansas.gov%2Fprograms-services%2Ftopics%2Fnovel-coronavirus&ul=en-us&de=UTF-8&dt=COVID-19%20Arkansas%20Department%20of%20Health&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=IEBAAUABAAAAAC~&jid=475174918&gjid=1170925408&cid=1937992860.1585318599&tid=UA-106893965-1&_gid=2097853668.1585318599&_r=1&gtm=2ou3i0&z=1671387610"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "goo"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=goo"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "rbcn"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=rbcn"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "opx"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=opx"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "yah"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=yah"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "crw"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=crw"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "partnerId": "twtr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/cs/?partnerId=twtr"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "check_cookie": 1,
+            "a_id": 50209,
+            "source": "js_tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/tagjs?check_cookie=1&a_id=50209&source=js_tag"
+      },
+      {
+        "data": {
+          "filter": "||google-analytics.com/analytics.js",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||prfct.co^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "a_id": 50209,
+            "source": "js_tag"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||prfct.co^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pixel-geo.prfct.co/tagjs?a_id=50209&source=js_tag"
+      },
+      {
+        "data": {
+          "filter": "||marinsm.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": null
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||marinsm.com^$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tag.marinsm.com/serve/55de7d425ec39080a0000086.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-161471745-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-161471745-1"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com/gtag/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "UA-106893965-1"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus",
+            "source": "requested from https://www.healthy.arkansas.gov/programs-services/topics/novel-coronavirus and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=UA-106893965-1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "tranco-50k-for-release-2.0.0",
+  "uri_ins": "http://aei.org",
+  "uri_dest": "http://aei.org/",
+  "uri_redirects": [],
+  "secure_connection": {},
+  "host": "aei.org",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "emulateDevice": "iPhone X",
+    "numPages": 3
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/79.0.3945.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "4.14.165-102.205.amzn2.x86_64"
+    }
+  },
+  "script": {
+    "host": "169.254.50.21",
+    "version": {
+      "npm": "2.0.0",
+      "commit": null
+    },
+    "node_version": "v12.16.3"
+  },
+  "start_time": "2020-06-02T00:39:10.353Z",
+  "end_time": "2020-06-02T00:39:11.602Z",
+  "deviceEmulated": {
+    "name": "iPhone X",
+    "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1",
+    "viewport": {
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true,
+      "isLandscape": false
+    }
+  },
+  "browsing_history": [
+    "http://aei.org/"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "aei.org"
+      ],
+      "third_party": [
+        "hcaptcha.com",
+        "assets.hcaptcha.com",
+        "cdn.ravenjs.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "KEYBOARD": {
+        "https://cdn.ravenjs.com/3.24.2/raven.min.js": [
+          "keypress"
+        ]
+      },
+      "MOUSE": {
+        "https://cdn.ravenjs.com/3.24.2/raven.min.js": [
+          "click"
+        ],
+        "https://assets.hcaptcha.com/captcha/v1/32b4a85/hcaptcha.min.js": [
+          "scroll"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {},
+      "fingerprinters": [],
+      "styles": {},
+      "texts": {}
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "__cfduid",
+        "value": "d93abef4e4ecf39a983de93d03ce171e21591058350",
+        "domain": "aei.org",
+        "path": "/",
+        "expires": "2020-07-02T00:39:10.555Z",
+        "size": 51,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "type": "http",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}
